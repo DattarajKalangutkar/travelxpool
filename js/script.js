@@ -92,7 +92,6 @@ var swiper = new Swiper(".blogs-slider", {
 });
 
 var swiper = new Swiper(".dailypost1", {
-    loop:true, 
     grabCursor:true,
     spaceBetween: 10,
     navigation: {
