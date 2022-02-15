@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Nishka Tutorials</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .colborder {
+            padding: 10px;
+        }
+
+        .items {
+            padding: 10px;
+            vertical-align: middle;
+            width: 100%;
+            height: 100%;
+            display: table;
+            text-align: center;
+            background-color: #ccc;
+        }
+
+        .footercase {
+            background-color: #343a40;
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.3/examples/jumbotron/jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Nishka Tutorials</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://www.nishkatuts.com/">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.nishkatuts.com/contactus/contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Class 12</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="http://www.nishkatuts.com/class12/psychology/psychology.html">Psychology</a>
+                        <a class="dropdown-item" href="http://www.nishkatuts.com/class12/chemistry/chemistry.html">Chemistry</a>
+                        <a class="dropdown-item" href="http://www.nishkatuts.com/class12/politicalscience/politicalscience.html">Political Science</a>
+                        <a class="dropdown-item" href="http://www.nishkatuts.com/class12/sociology/sociology.html">Sociology</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main">
+        <div class="container">
+            <div style="padding:20px;">
+                <h1>Contact Us</h1>
+                <p>Your feedback is very important to us! Let us know your comment, feedback, errors, typo mistake etc using
+                    the form given below.
+                </p>
+            </div>
+            <div id="successmsg" style="display:none;padding:0px 10px 10px 10px;">
+                <p>Thanks for you feedback.Your message is posted successfully !</p>
+            </div>
+            <div id="errormsg" style="display:none;padding:0px 10px 10px 10px;">
+                <p style='color:red'>Please enter mandatory details!</p>
+            </div>
+            <!-- Example row of columns -->
+            <div id="myform">
+                <form class="form-horizontal" id="formsub" name="formsub" method="post" onsubmit="return validate();">
+                    <iframe src='' name='frmload' style='display:none' id='frmload'></iframe>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Name:</label>
+                        <div class="col-sm-4">
+                            <input type="name" class="form-control" id="name" placeholder="Enter your name" name="name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Email:</label>
+                        <div class="col-sm-4">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="comment">Your Comment:
+                            <span style='color:red'>*</span>
+                        </label>
+                        <div class="col-sm-4">
+                            <textarea class="form-control" id="comment" rows="8" name="comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-4">
+                            <button id="btnsubmit" class="btn btn-default">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        <!-- /container -->
+    </main>
+    <hr>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> www.nishkatuts.com. All rights reseved. Developed by Nishka Tutorials</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        function validate() {
+            var err = "";
+            $("#successmsg").hide();
+            $("#errormsg").hide();
+            var _comment = $.trim($("#comment").val());
+            if (_comment == "") {
+                err += " Comments is a mandatory field";
+                $("#errormsg").show();
+            }
+            if (err.length > 0) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        document.getElementById('frmload').onload = function frameload() {
+            ///console.log("coming here");
+            //var fid = document.getElementById('frmload');
+            // if (fid.contentWindow.document.body.innerHTML != "") {
+            $("#successmsg").show();
+            resetform();
+            // }
+        };
+
+        function resetform() {
+            $("#name").val("");
+            $("#email").val("");
+            $("#comment").val("");
+        }
+
+        $("input").focus(function () {
+            $("#errormsg").hide();
+            $("#successmsg").hide();
+        });
+
+        $("#btnsubmit").click(function () {
+            var test = validate();
+            if (test) {
+                document.getElementById('formsub').target = 'frmload';
+                document.getElementById('formsub').action = 'https://codingningas.000webhostapp.com/feedback/submit_page.php';
+                document.getElementById('formsub').submit();
+            }
+        });
+    </script>
+</body>
+
+</html>
