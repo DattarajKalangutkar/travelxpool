@@ -251,3 +251,19 @@
 
 </body>
 </html>
+
+<script type="text/javascript">
+    var apiUrl = 'api/';
+    getcategory();
+    function getcategory()
+    {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                console.log(this.responseText);
+            }
+        };
+        xhttp.open("GET", apiUrl+"category.json", true);
+        xhttp.send();
+    }
+</script>
