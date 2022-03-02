@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Travel to explore">
+    <meta name="description" content="">
     <meta name="keywords" content="Famous,Most,Visited,Starlight,Ritz Classic,Miramar,Galgibaga,Betalbatim,Rajbagh,Morjim,Arambol,Agonda,Majorda,Butterfly,Benaulim,Baga,Paloem,Vagator,Candolim,Colva,Cab de Rama,Calangute,Cola,foods,Travel,place,explore,beaches,resturents,sea,goa,best places,temple,churches,temples,mosque,india,north Goa,south goa">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -105,63 +105,7 @@
 <section class="packages" id="packages">
     <h1 class="heading">Search for</h1>
 	<p class="subheadling">Following are some category to explore. We have suggested best places to visit in each category.</p>
-    <div class="box-container">
-        <div class="box">
-            <div class="image">
-                <img src="images/beaches/calangute_beach_goa.png" alt="calangute_beach_goa" width="363" height="230">
-            </div>
-            <div class="content">
-                <h3>beaches</h3>
-                <p>Goa is know for its sand, sun and sea. check it out the best beaces in goa.</p>
-                <a href="beaches.html" class="btn">explore now</a>
-            </div>
-        </div>
-		
-		<div class="box">
-            <div class="image">
-                <img src="images/restaurants/starlight.jpg" alt="" width="363" height="230">
-            </div>
-            <div class="content">
-                <h3>Resturant</h3>
-                <p>Goa cuisine is world famous for the its foods and drinks. explore the best resturents around. </p>
-                <a href="restaurants.html" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/historic_places/Tambdi_Surla.jpg" alt="" width="363" height="230">
-            </div>
-            <div class="content">
-                <h3>Historic places</h3>
-                <p>Strength of Goa is in the spritual places. Goa is famous for its temples and churches.</p>
-                <a href="historicplaces.html" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/waterfalls/dudhsagar.jpg" alt="" width="363" height="230">
-            </div>
-            <div class="content">
-                <h3>waterfall</h3>
-                <p>Beauty of goa is in its nature. Explore the amazing waterfall of Goan beauty</p>
-                <a href="waterfalls.html" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/hidden_places/lakeNetravalli.jpg" alt="" width="363" height="230">
-            </div>
-            <div class="content">
-                <h3>hidden places</h3>
-                <p>Goa is small states but lots of unexplored places.</p>
-                <a href="hiddenplaces.html" class="btn">explore now</a>
-            </div>
-        </div>
-
-    </div>
+    <div class="box-container" id="categoryData"></div>
 </section>
 <!-- packages section ends -->
 
@@ -235,9 +179,6 @@
     </div>
 </section>
 <!-- shop section ends -->
-
-
-
 <!-- footer section starts  -->
 <section class="footer">
     <div class="box-container">
@@ -251,20 +192,21 @@
 
 </body>
 </html>
-
+<script src="api/category.json" type="text/javascript"></script>
 <script type="text/javascript">
-    // var apiUrl = 'https://www.travelxpool.com/api/';
-    // getcategory();
-    // function getcategory()
-    // {
-    //     var xhttp = new XMLHttpRequest();
-    //     xhttp.onreadystatechange = function() {
-    //         if (this.readyState == 4 && this.status == 200) {
-                
-    //         }
-    //     };
-    //     xhttp.open("GET", apiUrl+"category.json", true);
-    //     xhttp.setRequestHeader("Content-type", "application/json");
-    //     xhttp.send();
-    // }
+    document.getElementsByTagName('meta')["description"].content = "My new page description!!";
+    var categoryData = JSON.parse(data);
+    var str = '';
+    for(let i=0;i<categoryData.length;i++)
+    {
+        str += '<div class="box">';
+        str += '<div class="image">';
+        str += '<img src="'+categoryData[i].images+'" alt="calangute_beach_goa" width="363" height="230">';
+        str += '</div><div class="content">';
+        str += '<h3>'+categoryData[i].name+'</h3>';
+        str += '<p>'+categoryData[i].desc+'</p>';
+        str += '<a href="'+categoryData[i].url+'" class="btn">explore now</a>';
+        str += '</div></div>';
+    }
+    document.getElementById('categoryData').innerHTML = str;                  
 </script>
