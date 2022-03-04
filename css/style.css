@@ -13,6 +13,11 @@
     transition: .2s linear;
 }
 
+.whiterow{
+    display: block;
+    margin-bottom: -2px;
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;

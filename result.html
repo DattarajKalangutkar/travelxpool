@@ -210,7 +210,6 @@
             responseText = responseText.replace("election_const_rhs_" + state_name.replace('-', '_') + "(", '');
             responseText = responseText.substring(0, responseText.length - 1);
             var constituencyData = JSON.parse(responseText);
-            console.log("Divya",constituencyData);
             for (let j in constituencyData) 
             {
                if (constituencyData[j].color != "" && constituencyData[j].cons_id != "") {
