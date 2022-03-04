@@ -480,12 +480,23 @@ section {
 }
 
 .packages .box-container .box .goaresult {
-    height: 35rem;
+    height: 30rem;
     overflow: hidden;
     padding: 2rem;
     padding-bottom: 0;
     border-radius: .5rem;
+    display: flex;
 }
+
+.packages .box-container .box .goaresult .overall_seat{
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.packages .box-container .box:hover .overall_seat {
+    color: #fff;
+}
+
 
 .packages .box-container .box .image img {
     height: 100%;
