@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Calangute Beach",
+    "desc": "Calangute beach is one of most famous place in goa to visit. Lots  of  famous resturent and pubs are present here.",
+    "images": ["images/beaches/calangute_beach_goa.png"],
+    "location":"https://www.google.com/maps/dir//calangute+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfea0148f4ed2b:0xcb592fad5d257d17?sa=X&ved=2ahUKEwiH-OnpmYH2AhXASWwGHTGcB9IQ9Rd6BAgzEAQ",
+    "status": "1"
+  },
+  {
+    "id": "2",
+    "name": "Resturant",
+    "desc": "Goa cuisine is world famous for the its foods and drinks. explore the best resturents around.",
+    "images": "images/restaurants/starlight.jpg",
+    "url":"restaurants.html",
+    "status": "1"
+  },
+  {
+    "id": "3",
+    "name": "Historic places",
+    "desc": "Strength of Goa is in the spritual places. Goa is famous for its temples and churches.",
+    "images": "images/historic_places/Tambdi_Surla.jpg",
+    "url":"historicplaces.html",
+    "status": "1"
+  },
+  {
+    "id": "4",
+    "name": "Waterfall",
+    "desc": "Beauty of goa is in its nature. Explore the amazing waterfall of Goan beauty",
+    "images": "images/waterfalls/dudhsagar.jpg",
+    "url":"waterfalls.html",
+    "status": "1"
+  },
+  {
+    "id": "5",
+    "name": "hidden places",
+    "desc": "Goa is small states but lots of unexplored places.",
+    "images": "images/hidden_places/lakeNetravalli.jpg",
+    "url":"hiddenplaces.html",
+    "status": "1"
+  }
+]
