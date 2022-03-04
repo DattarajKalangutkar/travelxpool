@@ -493,6 +493,15 @@ section {
     color: #10221b;
 }
 
+.packages .box-container .box .goaresult .state_name{
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.packages .box-container .box:hover .state_name {
+    color: #fff;
+}
+
 .packages .box-container .box:hover .overall_seat {
     color: #fff;
 }
