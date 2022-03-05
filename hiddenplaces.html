@@ -54,87 +54,43 @@
 <section class="packages" id="packages">
     <h1 class="heading">Hidden Places</h1>
     <p class="subheadling">Goan beauty is beyond just beaches. There are many  hidden places presents in Goa which yet unknown to many people. Check it out some amazing hidden places.</p>
-    <div class="box-container">
-        <div class="box">
-            <div class="swiper dailypost1 image">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <img src="images/hidden_places/arvalemcaves.jpg" alt="arvalemcaves" width="363" height="230">
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <h3>Arvalem Caves</h3>
-                <p>The Arvalem Caves or the “Pandava Caves” located in the Sanqulim Goa, these caves are dated from 6th century. This are ancient rock caves.</p>
-                <a href="https://www.google.com/maps/dir//Arvalem+Caves/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbd4e173520a1:0xdcbc7f802ffbdbfc?sa=X&ved=2ahUKEwjgr7vM3YP2AhVrslYBHXl0CT8Q9Rd6BAgpEAM" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="swiper dailypost1 image">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <img src="images/hidden_places/lakeNetravalli.jpg" alt="The Bubbling Lake of Netravalli" width="363" height="230">
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <h3>The Bubbling Lake of Netravalli</h3>
-                <p>This is a serene place with small stepped pond in Sanguem. If you clap your hands near the pond, the water surface in the pond starts bubbling. </p>
-                <a href="https://www.google.com/maps/dir//The+Bubbling+Lake+of+Netravali/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe5667f92e6f91:0x28b7d5932b00af36?sa=X&ved=2ahUKEwj1xLfV3YP2AhV1rlYBHdjUAsMQ9Rd6BAgcEAM" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="swiper dailypost1 image">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <img src="images/hidden_places/salimalisanctury.jpg" alt="salimalisanctury" width="363" height="230">
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <h3>Dr. Salim Ali Bird Sanctuary</h3>
-                <p>This Sanctuary is present in beautiful island of Chorao. You can spot a lot of migration birds here during early winter. Best place to visit this place is in the morning.</p>
-                <a href="https://www.google.com/maps/dir//Dr.+Salim+Ali+Bird+Sanctuary/@15.5130358,73.8003749,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbfbf753f264d61:0xd327e1caf3767979!2m2!1d73.8704154!2d15.5130468" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="swiper dailypost1 image">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <img src="images/hidden_places/rivonacave.jpg" alt="rivonacave" width="363" height="230">
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <h3>Rivona Cave Goa</h3>
-                <p> </p>
-                <a href="https://www.google.com/maps/dir//Rivona+Caves+Goa/@15.164894,74.0413057,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbe53779d74e467:0xde347c4decf78cbb!2m2!1d74.1113462!2d15.1649048" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="swiper dailypost1 image">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <img src="images/hidden_places/kerispiceplantation.jpg" alt="kerispiceplantation" width="363" height="230">
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <h3>Keri Spice Plantation</h3>
-                <p> </p>
-                <a href="https://www.google.com/maps/dir//Keri+Spice+Plantation/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbab93667b5d1:0x63aaf2d1eae29021?sa=X&ved=2ahUKEwjrrOGR3oP2AhXzlFYBHZA4C_EQ9Rd6BAgkEAQ" class="btn">explore now</a>
-            </div>
-        </div>
-    </div>
+    <div class="box-container" id="hiddenplacesData"></div>
 </section>
 <!-- packages section ends -->
+</body>
+</html>
 
+<script src="api/hiddenPlaces.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var hiddenplacesData = data;
+    hiddenplacesData.sort(function(a, b){if(a.name < b.name) { return -1; }if(a.name > b.name) { return 1; }return 0;});
+    var str = '';
+    for(let i=0;i<hiddenplacesData.length;i++)
+    {
+        if(hiddenplacesData[i].status == '1')
+        {
+            str += '<div class="box">';
+            if(hiddenplacesData[i].images.length > 0)
+            {
+                str += '<div class="swiper dailypost1 image">';
+                str += '<div class="swiper-wrapper">';
+                for(let j=0;j<hiddenplacesData[i].images.length;j++)
+                {
+                    str +='<div class="swiper-slide slide">';
+                    str +='<img src="'+hiddenplacesData[i].images[j]+'" alt="'+hiddenplacesData[i].name+'" title="'+hiddenplacesData[i].name+'" width="363" height="230">';
+                    str +='</div>';
+                }
+                str += '</div></div>';
+            }
+            str += '<div class="content">';
+            str += '<h3>'+hiddenplacesData[i].name+'</h3>';
+            str += '<p>'+hiddenplacesData[i].desc+'</p>';
+            str += '<a href="'+hiddenplacesData[i].location+'" class="btn" title="Explore Now">explore now</a>';
+            str += '</div></div>';
+        } 
+    }
+    document.getElementById('hiddenplacesData').innerHTML = str;                  
+</script>
 <script src="js/swiper.js"></script>
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-</body>
-</html>

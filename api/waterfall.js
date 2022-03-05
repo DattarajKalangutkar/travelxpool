@@ -10,47 +10,38 @@ var data = [
   },
   {
     "id": "2",
-    "name": "Baga Beach",
+    "name": "Kuskem Waterfall",
     "taluka":"Bardez",
-    "desc": "Baga Beach is another famous beach of goa, attached along with calangute beach many people visit here in large number.",
-    "images": ["images/beaches/baga_beach.png"],
-    "location":"https://www.google.com/maps/dir//Baga+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfea1cd8a1deff:0xba7066c0ee35c1e0?sa=X&ved=2ahUKEwjYxYT_3IP2AhXTrlYBHWcDC0AQ9Rd6BAgyEAQ",
+    "desc": "Sutiuated in the south goa. it is the one of the beautiful waterfall with gushing waters flowing past a green forest are so cool and clean that you might want to bathe in them",
+    "images": ["images/waterfalls/kuskem.jpg"],
+    "location":"https://www.google.com/maps/dir//Kuskem+Waterfall/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe59c7a1ffd5a1:0x36ffd5dc4fb284dc?sa=X&ved=2ahUKEwjXjOqI4IP2AhW4zDgGHR_IB40Q9Rd6BAgHEAM",
     "status": "1"
   },
   {
     "id": "3",
-    "name": "Paloem Beach",
+    "name": "Arvalem Waterfalls",
     "taluka":"Bardez",
-    "desc": "Paloem Beach is suituated at south goa is known for its clam surrounding. Many people visit here to enjoy water sports",
-    "images": ["images/beaches/paloem_beach.png"],
-    "location":"https://www.google.com/maps/dir//Palolem+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4551d05b02bb:0x1e1bc67d4b0fbbf5?sa=X&ved=2ahUKEwiZy92J3YP2AhUDklYBHRxdBJ0Q9Rd6BAg2EAQ",
+    "desc": "One of the famous and most visited water fall in goa. Sutiuated near sanqulim city of goa",
+    "images": ["images/waterfalls/harvalem.jpg"],
+    "location":"https://www.google.com/maps/dir//Arvalem+Waterfalls/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbd4c54c04655:0x623633fe068aab4b?sa=X&ved=2ahUKEwiL3KWW4IP2AhVaxzgGHf2hAEcQ9Rd6BAgOEAM",
     "status": "1"
   },
   {
     "id": "4",
-    "name": "Cab De Ram Beach",
+    "name": "Tambdi Surla Waterfall",
     "taluka":"Bardez",
-    "desc": "Cab De Ram Beach is suituated in south goa. its one of the quiet place to visit. you can also visit Cab de Ram fort present near beach",
-    "images": ["images/beaches/cab_de_ram.png"],
-    "location":"https://www.google.com/maps/dir//cabo+de+rama+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4bfd44daf1e5:0x6678f36253fe7b44?sa=X&ved=2ahUKEwj3xIiX3YP2AhXes1YBHYb2DD8Q9Rd6BAgsEAQ",
+    "desc": "Another captivating waterfall in Goa situated within the Bhagwan Mahavir Sanctuary, the Tambdi Surla Waterfall is the perfect place to enjoy Goa’s wonderful monsoons.",
+    "images": ["images/waterfalls/tambdisurla.jpg"],
+    "location":"https://www.google.com/maps/dir//Tambdi+Surla+Waterfall/@15.421868,74.1962086,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbf088abfdfa505:0xbea61dfa873fbc3!2m2!1d74.2662491!2d15.421879",
     "status": "1"
   },
   {
     "id": "5",
-    "name": "Cola Beach",
+    "name": "Netravali Waterfall",
     "taluka":"Bardez",
-    "desc": "Cola Beach is one of the underrated and clean beach of goa.",
-    "images": ["images/beaches/cola_beach.png"],
-    "location":"https://www.google.com/maps/dir//Cola+Beach+Road,+Cola,+Goa/@15.0579197,73.9629595,15z/data=!3m1!4b1!4m10!4m9!1m1!4e2!1m5!1m1!1s0x3bbe4ee33e70345b:0x5c4bf66c7098b942!2m2!1d73.9717143!2d15.0579199!3e0",
-    "status": "1"
-  },
-  {
-    "id": "6",
-    "name": "Candolim Beach",
-    "taluka":"Bardez",
-    "desc": "Candolim Beach is famous for its resturent and pubs.",
-    "images": ["images/beaches/candolim-beach.jpg"],
-    "location":"https://www.google.com/maps/dir/15.493586,73.8301434/Candolim+Beach+Rd,+Candolim,+Goa+403515/@15.5125015,73.7666871,13z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x3bbfc193f5f837bb:0x75b2929e91152780!2m2!1d73.7652214!2d15.5183307!3e0",
+    "desc": "Another waterfall in Goa that is a jewel in its crown, the Netravali Waterfall is tucked away inside the Netravali Wildlife Sanctuary. This waterfall comprises two falls–the Savari and the Mainap.",
+    "images": ["images/waterfalls/netravali.jpg"],
+    "location":"https://www.google.com/maps/dir//Netravali+Waterfall/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbef86db74560f5:0xc0d9f1fae04ca3e5?sa=X&ved=2ahUKEwib3I-34IP2AhXuxzgGHflpCTgQ9Rd6BAgLEAM",
     "status": "1"
   },
 ];
