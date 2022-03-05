@@ -466,6 +466,10 @@ section {
     color: #fff;
 }
 
+.packages .box-container .box:hover .content .constitnameclass {
+    color: #445c53;
+}
+
 .packages .box-container .box:hover .btn {
     border-color: #fff;
 }
