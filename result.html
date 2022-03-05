@@ -70,6 +70,30 @@
     </div>
 </section>
 
+<section class="packages">
+    <h1 class="heading">Constituencies</h1>
+    <div id="refreshPage"></div>
+    <div class="box-container">
+        <div class="box">
+            <div class="content">
+                <table style="width:100%;font-size: 2.5rem;">
+                    <thead>
+                        <tr>
+                            <th>Constituencies</th>
+                            <th>2022</th>
+                            <th>2017</th>
+                            <th>2012</th>
+                        </tr>
+                    </thead>
+                    <tbody id="constitable">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- packages section ends -->
 <script src="js/jquery.js"></script>
@@ -221,13 +245,19 @@
             responseText = responseText.replace("election_const_rhs_" + state_name.replace('-', '_') + "(", '');
             responseText = responseText.substring(0, responseText.length - 1);
             var constituencyData = JSON.parse(responseText);
+            var constit = '';
             for (let j in constituencyData) 
             {
                if (constituencyData[j].color != "" && constituencyData[j].cons_id != "") {
                   $("#" + constituencyData[j].cons_id.toUpperCase()).attr('style', "fill:" + constituencyData[j].color);
                   $("#" + constituencyData[j].cons_id.toUpperCase()).attr('title', constituencyData[j].ABBR);
                }
+
+               constit += '<tr><td class="constitnameclass" style="background-color:#c9ded6;">'+constituencyData[j].cname+'</td><td class="" style="background-color:'+constituencyData[j].color+'">'+constituencyData[j].ABBR+'</td><td style="background-color:'+constituencyData[j].party_color_2017+'">'+constituencyData[j].WINNER_2017+'</td><td style="background-color:'+constituencyData[j].party_color_2012+'">'+constituencyData[j].WINNER_2012+'</td></tr><tr><td class="whiterow"></td></tr>';
             }
+
+            $("#constitable").html(constit);
+
          });
       }
 
@@ -303,6 +333,6 @@
       }
       auto_update_result();
       //candidate_slide_init();
-      setInterval(auto_update_result, 30000);
+      //setInterval(auto_update_result, 30000);
    });
 </script>
