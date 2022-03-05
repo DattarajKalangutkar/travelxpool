@@ -475,7 +475,7 @@ section {
 }
 
 .packages .box-container .box:hover .btn:hover {
-    background: #fff;
+    background: #ccc;
     color: #10221b;
 }
 
