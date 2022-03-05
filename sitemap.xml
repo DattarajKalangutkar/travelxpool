@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset smlns="http://www.stemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://wwww.travelxpool.com/</loc>
+		<lastmod>23-02-2022</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://wwww.travelxpool.com/beaches.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://wwww.travelxpool.com/hiddenplaces.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://wwww.travelxpool.com/historicplaces.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://wwww.travelxpool.com/index.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://wwww.travelxpool.com/restaurants.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://wwww.travelxpool.com/result.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://wwww.travelxpool.com/waterfalls.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+</urlset>
