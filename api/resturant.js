@@ -89,4 +89,22 @@ var data = [
     "location":"https://www.google.com/maps/dir/15.493586,73.8301434/Florentine+Goa/@15.5228509,73.7758151,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc1d7ee03501d:0x249217ff579833f1!2m2!1d73.7834929!2d15.5464707",
     "status": "1"
   },
+  {
+    "id": "11",
+    "name": "Copperleaf",
+    "taluka":"Bardez",
+    "desc": "Copperleaf is a family bar and restaurants famous for its food.Located at Panjim and Porvorim",
+    "images": ["images/restaurants/copperleaf.jpg"],
+    "location":"https://www.google.com/maps/dir/15.493586,73.8301434/Copperleaf/@15.5162523,73.8136521,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc022a91fe69f:0x6884c44fa19ae2ac!2m2!1d73.8184801!2d15.5388808",
+    "status": "1"
+  },
+  {
+    "id": "12",
+    "name": "Kuttikar Bar and Restaurant",
+    "taluka":"Bardez",
+    "desc": "Kuttikar is a family bar and restaurants famous for its sea food.Located near Old goa",
+    "images": ["images/restaurants/Kuttikar1.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5538051,73.7647483/Kuttikar+Bar+and+Restaurant/@15.5226199,73.7630194,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfbee2d3e0af2b:0x61396dc10524d75a!2m2!1d73.8912207!2d15.4975101",
+    "status": "1"
+  },
 ];
