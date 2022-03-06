@@ -54,51 +54,10 @@
 <section class="packages" id="packages">
     <h1 class="heading">Restaurants</h1>
     <p class="subheadling">Goa cuisine is world famous for the its foods and drinks. explore the best resturents around. Following are some of the best restaurants in goa. </p>
-    <div class="box-container">
-        <div class="box">
-            <div class="swiper dailypost1 image">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <img src="images/restaurants/starlight.jpg" alt="starlight" width="363" height="230">
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <h3>Starlight</h3>
-                <p>Starlight is one of most famous restaurants in south goa at Assolna village. This restaurants is famous for the seafood.</p>
-                <a href="https://www.google.com/maps/dir//star+light+assolna/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4cc6c78ba1dd:0x8b8ff44b279e2ba5?sa=X&ved=2ahUKEwi824ek34P2AhUisFYBHZDwAZkQ9Rd6BAgsEAQ" class="btn">explore now</a>
-            </div>
-        </div>
+    <div class="box-container" id="resturantData">
 
-        <div class="box">
-            <div class="swiper dailypost1 image">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <img src="images/restaurants/ritz.jpg" alt="ritz" width="363" height="230">
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <h3>Ritz Classic Panjim</h3>
-                <p>Ritz Classic Panjim is another famous restaurants of goa. It is one of the famous family restaurants in goa.</p>
-                <a href="https://www.google.com/maps/dir//Ritz+Classic+Panjim/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc0892b7aac1b:0x711b75fe40723402?sa=X&ved=2ahUKEwia9uyu34P2AhXeqFYBHWaTCdIQ9Rd6BAgqEAQ" class="btn">explore now</a>
-            </div>
-        </div>
 
-        <div class="box">
-            <div class="swiper dailypost1 image">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <img src="images/restaurants/antique_mardol.jpg" alt="antique_mardol" width="363" height="230">
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <h3>Antique Mardol</h3>
-                <p>Antique Mardol is family restaurants at verna, south goa. It is known for its antique goan foods</p>
-                <a href="https://www.google.com/maps/dir//Antique+Mardol/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfba95ec5acf29:0xb7da30fff471218b?sa=X&ved=2ahUKEwiyi9-934P2AhWYxzgGHdp9BcIQ9Rd6BAgNEAQ" class="btn">explore now</a>
-            </div>
-        </div>
+
 
         <div class="box">
             <div class="swiper dailypost1 image">
@@ -237,9 +196,39 @@
     </div>
 </section>
 <!-- packages section ends -->
-
+</body>
+</html>
+<script src="api/resturant.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var resturantData = data;
+    resturantData.sort(function(a, b){if(a.name < b.name) { return -1; }if(a.name > b.name) { return 1; }return 0;});
+    var str = '';
+    for(let i=0;i<resturantData.length;i++)
+    {
+        if(resturantData[i].status == '1')
+        {
+            str += '<div class="box">';
+            if(resturantData[i].images.length > 0)
+            {
+                str += '<div class="swiper dailypost1 image">';
+                str += '<div class="swiper-wrapper">';
+                for(let j=0;j<resturantData[i].images.length;j++)
+                {
+                    str +='<div class="swiper-slide slide">';
+                    str +='<img src="'+resturantData[i].images[j]+'" alt="'+resturantData[i].name+'" title="'+resturantData[i].name+'" width="363" height="230">';
+                    str +='</div>';
+                }
+                str += '</div></div>';
+            }
+            str += '<div class="content">';
+            str += '<h3>'+resturantData[i].name+'</h3>';
+            str += '<p>'+resturantData[i].desc+'</p>';
+            str += '<a href="'+resturantData[i].location+'" class="btn" title="Explore Now">explore now</a>';
+            str += '</div></div>';
+        } 
+    }
+    document.getElementById('resturantData').innerHTML = str;                  
+</script>
 <script src="js/swiper.js"></script>
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-</body>
-</html>
