@@ -14,7 +14,7 @@
 }
 
 .constitnameclass{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .whiterow{
@@ -543,6 +543,112 @@ section {
     font-size: 2rem;
     color: #219150;
 }
+
+
+
+.exitpoll {
+    background: #eee;
+}
+
+.exitpoll .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+}
+
+.exitpoll .box-container .box {
+    text-align: center;
+    background: #fff;
+    border: .2rem solid #10221b;
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
+
+.exitpoll .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+}
+
+.exitpoll .box-container .box .goaresult {
+    height: 30rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+    display: flex;
+}
+
+
+.exitpoll .totalSeat{
+    font-size: 2.5rem;
+    margin: 0px 30px;
+    padding: 2rem 0;
+}
+
+.exitpoll table {
+    color: #ffffff;
+}
+
+.exitpoll .box-container .box .goaresult .overall_seat{
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.exitpoll .box-container .box .goaresult .state_name{
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.exitpoll .box-container .box:hover .state_name {
+    color: #fff;
+}
+
+.exitpoll .box-container .box:hover .overall_seat {
+    color: #fff;
+}
+
+
+.exitpoll .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.exitpoll .box-container .box .content {
+    padding: 2rem;
+}
+
+.exitpoll .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.exitpoll .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.exitpoll .box-container .box .content .price {
+    font-size: 2rem;
+    color: #219150;
+}
+
+
+
+
+
+
+
 
 .services {
     background: #eee;
