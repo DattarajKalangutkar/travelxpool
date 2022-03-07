@@ -86,7 +86,7 @@
 
                 for(let i=0;i<responseData.length;i++)
                 {
-                    str += '<div class="swiper-slide slide"><div class="pollinfo"><h3 class="totalSeat">Agency:'+responseData[i].agency_name+'</h3><h3 class="totalSeat">Total Seat:'+responseData[i].total_seats+'</h3></div>';
+                    str += '<div class="swiper-slide slide">';
                     var headstr = '<tr>';
                     var bodystr = '<tr>';
                     for(let k=0;k<responseData[i].parties.length;k++)
@@ -96,7 +96,7 @@
                     }
                     headstr += '</tr>';
                     bodystr += '</tr>';
-                    str += '<table cellpadding="0" cellspacing="0" style="width:100%;font-size: 2.5rem;"><thead>'+headstr+'</thead><tbody>'+bodystr+'</tbody></table>';
+                    str += '<table cellpadding="0" cellspacing="0" style="width:100%;font-size: 2.5rem;"><thead>'+headstr+'</thead><tbody>'+bodystr+'</tbody></table><div class="pollinfo"><h3 class="totalSeat">Agency:'+responseData[i].agency_name+'</h3><h3 class="totalSeat">Total Seat:'+responseData[i].total_seats+'</h3></div>';
                     str += '</div>';
                 }
                 $("#goaData").html(str);
