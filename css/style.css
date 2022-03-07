@@ -591,6 +591,13 @@ section {
     padding: 2rem 0;
 }
 
+.exitpoll .pollinfo{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .exitpoll table {
     color: #ffffff;
 }
