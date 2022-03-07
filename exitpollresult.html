@@ -62,6 +62,58 @@
     </div>
 </section>
 
+<!-- packages section starts  -->
+<section class="exitpoll" id="packages">
+    <h1 class="heading">Manipur Exit Poll Result</h1>
+    <div id="refreshPage"></div>
+    <div class="box-container">
+        <div class="box">
+            <div class="swiper dailypost1 image">
+                <div class="swiper-wrapper" id="manipurData"> </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- packages section starts  -->
+<section class="exitpoll" id="packages">
+    <h1 class="heading">Punjab Exit Poll Result</h1>
+    <div id="refreshPage"></div>
+    <div class="box-container">
+        <div class="box">
+            <div class="swiper dailypost1 image">
+                <div class="swiper-wrapper" id="punjabData"> </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- packages section starts  -->
+<section class="exitpoll" id="packages">
+    <h1 class="heading">Uttar Pradesh Exit Poll Result</h1>
+    <div id="refreshPage"></div>
+    <div class="box-container">
+        <div class="box">
+            <div class="swiper dailypost1 image">
+                <div class="swiper-wrapper" id="uttar-pradeshData"> </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- packages section starts  -->
+<section class="exitpoll" id="packages">
+    <h1 class="heading">Uttarakhand Exit Poll Result</h1>
+    <div id="refreshPage"></div>
+    <div class="box-container">
+        <div class="box">
+            <div class="swiper dailypost1 image">
+                <div class="swiper-wrapper" id="uttarakhandData"> </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- packages section ends -->
 <script src="js/jquery.js"></script>
@@ -80,26 +132,33 @@
                dataType: 'json',
                type: 'GET',
                success: function(result) {}
-           }).complete(function(result) {
-                var responseData = result.responseJSON.goa_exit_poll;
-                var str = '';
+           }).complete(function(result) 
+           {
+                var fullstate = result.responseJSON;
+                var states = ['uttar-pradesh','punjab','uttarakhand','manipur','goa'];
 
-                for(let i=0;i<responseData.length;i++)
+                for(let j=0;j<states.length;j++)
                 {
-                    str += '<div class="swiper-slide slide">';
-                    var headstr = '<tr>';
-                    var bodystr = '<tr>';
-                    for(let k=0;k<responseData[i].parties.length;k++)
+                    var responseData = fullstate[states[j]+"_exit_poll"];
+                    var str = '';
+                    for(let i=0;i<responseData.length;i++)
                     {
-                        headstr += '<th style="background-color:'+responseData[i].parties[k].colour+'">'+responseData[i].parties[k].name+'</th>';
-                        bodystr += '<td style="background-color:'+responseData[i].parties[k].colour+'">'+responseData[i].parties[k].seats+'</td>';
+                        str += '<div class="swiper-slide slide">';
+                        var headstr = '<tr>';
+                        var bodystr = '<tr>';
+                        for(let k=0;k<responseData[i].parties.length;k++)
+                        {
+                            headstr += '<th style="background-color:'+responseData[i].parties[k].colour+'">'+responseData[i].parties[k].name+'</th>';
+                            bodystr += '<td style="background-color:'+responseData[i].parties[k].colour+'">'+responseData[i].parties[k].seats+'</td>';
+                        }
+                        headstr += '</tr>';
+                        bodystr += '</tr>';
+                        str += '<table cellpadding="0" cellspacing="0" style="width:100%;font-size: 2.5rem;"><thead>'+headstr+'</thead><tbody>'+bodystr+'</tbody></table><div class="pollinfo"><h3 class="totalSeat">Agency:'+responseData[i].agency_name+'</h3><h3 class="totalSeat">Total Seat:'+responseData[i].total_seats+'</h3></div>';
+                        str += '</div>';
                     }
-                    headstr += '</tr>';
-                    bodystr += '</tr>';
-                    str += '<table cellpadding="0" cellspacing="0" style="width:100%;font-size: 2.5rem;"><thead>'+headstr+'</thead><tbody>'+bodystr+'</tbody></table><div class="pollinfo"><h3 class="totalSeat">Agency:'+responseData[i].agency_name+'</h3><h3 class="totalSeat">Total Seat:'+responseData[i].total_seats+'</h3></div>';
-                    str += '</div>';
+                    $("#"+states[j]+"Data").html(str);
                 }
-                $("#goaData").html(str);
+                
 
                 swiper = new Swiper(".dailypost1", {
                     grabCursor: !0,
