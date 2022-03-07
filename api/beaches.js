@@ -165,9 +165,36 @@ var data = [
     "id": "19",
     "name": "Querim goa",
     "taluka":"Bardez",
-    "desc": "",
+    "desc": "Querim beach is at the top of the Goan coastline with a long stretch of sand with a few rocky outcrops. Tiracol river is adjuent with view of Tiracol fort from beach.",
     "images": ["images/beaches/querim.webp"],
     "location":"https://www.google.com/maps/dir//Querim+Beach,+Goa+403519/@15.7191981,73.6200009,12z/data=!3m1!4b1!4m10!4m9!1m1!4e2!1m5!1m1!1s0x3bbfefd0fe59eae3:0x6dd731d47421fc03!2m2!1d73.6900414!2d15.7192093!3e0",
     "status": "1"
+  },
+  {
+    "id": "20",
+    "name": "Kalacha Beach",
+    "taluka":"Pernem",
+    "desc": "Kalacha beach is one of the clam beaches of goa. combo of sea and lake, good place to chill out.",
+    "images": ["images/beaches/kalachabeach1.jpg"],
+    "location":"https://www.google.com/maps/dir//kalacha+beach/@15.69777,73.627158,12z/data=!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbfefb5bb6442db:0x2c9dc34ea4fc4d3e!2m2!1d73.6971985!2d15.6977812",
+    "status": "1"
+  },
+  {
+    "id": "21",
+    "name": "Russian Beach",
+    "taluka":"Pernem",
+    "desc": "Russian beach in goa??. Visit and findout",
+    "images": ["images/beaches/kalachabeach1.jpg"],
+    "location":"https://www.google.com/maps/dir//russian+beach+goa/@15.6736489,73.6372565,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbfeff6717d653d:0x2d3e54f783272716!2m2!1d73.707297!2d15.67366",
+    "status": "1"
+  },
+  {
+    "id": "22",
+    "name": "Mandrem Beach",
+    "taluka":"Pernem",
+    "desc": "Mandrem beach is suituated at north goa in Pernem taluka, with backdrop of mountain, one can view sunset from it.",
+    "images": ["images/beaches/mandrem1.jpg"],
+    "location":"https://www.google.com/maps/place/Mandrem+Beach/@15.6659515,73.7057198,14z/data=!4m13!1m7!3m6!1s0x3bbfee9a64960627:0x728e355b9ea77639!2sMandrem,+Goa+403519!3b1!8m2!3d15.6631077!4d73.7419017!3m4!1s0x3bbfeee85d4085d1:0xee6c10d759574ec0!8m2!3d15.6696522!4d73.7095472",
+	"status": "1"
   },
 ];
