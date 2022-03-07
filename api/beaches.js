@@ -161,4 +161,13 @@ var data = [
     "location":"https://www.google.com/maps/dir//Rajbagh+Beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe5ace64f6f98d:0xff93653757ee6b71?sa=X&ved=2ahUKEwiE3IrnppD2AhWyIaYKHenGAiEQ9Rd6BAgtEAQ",
     "status": "1"
   },
+  {
+    "id": "19",
+    "name": "Querim goa",
+    "taluka":"Bardez",
+    "desc": "",
+    "images": ["images/beaches/querim.webp"],
+    "location":"https://www.google.com/maps/dir//Querim+Beach,+Goa+403519/@15.7191981,73.6200009,12z/data=!3m1!4b1!4m10!4m9!1m1!4e2!1m5!1m1!1s0x3bbfefd0fe59eae3:0x6dd731d47421fc03!2m2!1d73.6900414!2d15.7192093!3e0",
+    "status": "1"
+  },
 ];
