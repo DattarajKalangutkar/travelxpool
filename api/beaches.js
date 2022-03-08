@@ -197,4 +197,94 @@ var data = [
     "location":"https://www.google.com/maps/place/Mandrem+Beach/@15.6659515,73.7057198,14z/data=!4m13!1m7!3m6!1s0x3bbfee9a64960627:0x728e355b9ea77639!2sMandrem,+Goa+403519!3b1!8m2!3d15.6631077!4d73.7419017!3m4!1s0x3bbfeee85d4085d1:0xee6c10d759574ec0!8m2!3d15.6696522!4d73.7095472",
 	"status": "1"
   },
+  {
+    "id": "23",
+    "name": "Uddo Beach",
+    "taluka":"Bardez",
+    "desc": "Uddo beach is suituated at brink of chapora river with a view of chapora fort.",
+    "images": ["images/beaches/uddo1.jpg"],
+    "location":"https://www.google.com/maps/place/Uddo+Beach/@15.6208175,73.7498994,15z/data=!4m12!1m6!3m5!1s0x0:0x48cfa1885446bfd5!2sUddo+Beach!8m2!3d15.6208175!4d73.7498994!3m4!1s0x3bbfebe24ce29acd:0x48cfa1885446bfd5!8m2!3d15.6208175!4d73.7498994",
+	"status": "1"
+  },
+  {
+    "id": "24",
+    "name": "Ashvem Beach",
+    "taluka":"Bardez",
+    "desc": "Ashvem beach is suituated beside the Morjim beach. Famous for its foreign tourist visits.",
+    "images": ["images/beaches/ashvem-beach.jpg"],
+    "location":"https://www.google.com/maps/place/Ashvem+Beach/@15.6572569,73.7095492,14z/data=!4m13!1m7!3m6!1s0x3bbfeec5b47272c7:0xb6157c2d9e7a5497!2sAshvem+Beach!3b1!8m2!3d15.6437966!4d73.7174025!3m4!1s0x3bbfeec5b47272c7:0xb6157c2d9e7a5497!8m2!3d15.6437966!4d73.7174025",
+	"status": "1"
+  },
+  {
+    "id": "25",
+    "name": "Ozran Beach",
+    "taluka":"Bardez",
+    "desc": "Ozran beach is small rocky beach sutiuated behind the chopora fort.",
+    "images": ["images/beaches/Ozran_Beach.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5461869,73.7891063/ozran+beach/@15.571324,73.7318591,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfe97736d32cbb:0xaefd8da5591e26d!2m2!1d73.7344677!2d15.593719",
+	"status": "1"
+  },
+  {
+    "id": "26",
+    "name": "Anjuna Beach",
+    "taluka":"Bardez",
+    "desc": "Anjuna beach is amongst the famious beaches of goa.",
+    "images": ["images/beaches/anjuna-beach.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5461869,73.7891063/anjuna+beach/@15.5684011,73.7308656,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfe98f11ab0199:0xd777cc02c2ccffa1!2m2!1d73.7409781!2d15.5733497",
+	"status": "1"
+  },
+  {
+    "id": "27",
+    "name": "Sinquerim Beach",
+    "taluka":"Bardez",
+    "desc": "Sinquerim beach is suituated between candolim and aguas fort. Hotel Taj is in backdrop accompanied by aguad fort.",
+    "images": ["images/beaches/Sinquerim1.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5461869,73.7891063/sinquerim+beach/@15.5227081,73.7526265,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc19e42aa939f:0xae0fab172a7880ed!2m2!1d73.7674666!2d15.4991464",
+	"status": "1"
+  },
+  {
+    "id": "28",
+    "name": "Quegdevelim Beach",
+    "taluka":"Bardez",
+    "desc": "Quegdevelim beach is one of the unknown beaches of goa. Have a visit, if you like to explore unknown.",
+    "images": ["images/beaches/quegdevlim-beach-verem.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5461869,73.7891063/quegdevelim+beach/@15.5210532,73.7828956,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc0f09fb72229:0x616c07b132f3c7e0!2m2!1d73.806726!2d15.4959536",
+	"status": "1"
+  },
+  {
+    "id": "29",
+    "name": "Caranzalem Beach",
+    "taluka":"Bardez",
+    "desc": "Caranzalem beach is adjacent to Miramar beach. Many local people visit in the evening for walk and play the beach football.",
+    "images": ["images/beaches/Caranzalem-Beach.jpg"],
+    "location":"https://www.google.com/maps/dir//caranzalem+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc0d055f17ed1:0xf14ac9394b871eb9?sa=X&ved=2ahUKEwjskKnwibf2AhWHBKYKHRmaDqwQ9Rd6BAgyEAQ",
+	"status": "1"
+  },
+  {
+    "id": "30",
+    "name": "Vainguinim Beach",
+    "taluka":"Bardez",
+    "desc": "Vainguinim beach is one of the small and less visited beach of goa.",
+    "images": ["images/beaches/Vainguinim_Beach.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5461869,73.7891063/vainguinim+beach/@15.5008371,73.7853202,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc73466e80f53:0x689a39afd4c64974!2m2!1d73.8134175!2d15.4555962",
+	"status": "1"
+  },
+   {
+    "id": "31",
+    "name": "Odxel Beach",
+    "taluka":"Bardez",
+    "desc": "Odxel beach is one of the small beach with rocky tarrien and less visited beach of goa.",
+    "images": ["images/beaches/odxel.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5461869,73.7891063/odxel+beach/@15.5001316,73.7923601,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc74e021e3477:0xb00846a679b488c9!2m2!1d73.829868!2d15.4537162",
+	"status": "1"
+  },
+  {
+    "id": "32",
+    "name": "Cacra Beach",
+    "taluka":"Bardez",
+    "desc": "Cacra beach is less known beach of goa.",
+    "images": ["images/beaches/cacra_beach.jpg"],
+    "location":"https://www.google.com/maps/dir//cacra+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc7572260ec17:0x9b9b827b6fcb4744?sa=X&ved=2ahUKEwiZlofCj7f2AhUUxYsBHVEOAawQ9Rd6BAgxEAQ",
+	"status": "1"
+  },
 ];
