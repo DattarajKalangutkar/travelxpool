@@ -173,3 +173,18 @@
       auto_update_result();
    });
 </script>
+<script type="text/javascript">
+    let navbar = document.querySelector(".header .navbar");
+    (document.querySelector("#menu-btn").onclick = () => {
+        navbar.classList.add("active");
+    }),
+    (document.querySelector("#nav-close").onclick = () => {
+        navbar.classList.remove("active");
+    }),
+    (window.onscroll = () => {
+        navbar.classList.remove("active"), 0 < window.scrollY ? document.querySelector(".header").classList.add("active") : document.querySelector(".header").classList.remove("active");
+    }),
+    (window.onload = () => {
+        0 < window.scrollY ? document.querySelector(".header").classList.add("active") : document.querySelector(".header").classList.remove("active");
+    });
+</script>
