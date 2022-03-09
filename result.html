@@ -140,7 +140,7 @@
                        // }
 
                        for (var a = 0; a < result.party.length; a++) {
-                           party_li += '<tr><td style="width:50%;" class="" id="' + state_name + '_alliance_party_' + a + '"></td><td style="width:50%;" class="" id="' + state_name + '_alliance_wonlead_' + a + '"></td></tr><tr><td class="whiterow"></td></tr>';
+                           party_li += '<tr><td class="" id="' + state_name + '_alliance_party_' + a + '"></td><td class="" id="' + state_name + '_alliance_wonlead_' + a + '"></td></tr><tr><td class="whiterow"></td></tr>';
                        }
                        //$('#mapsvg').attr('src','http://images.moneycontrol.com//mcnews/images/election-2020/kerala-assembly-map.svg');
                        $('.party_table').html(party_li);
@@ -148,7 +148,7 @@
                        for (var a = 0; a < result.party.length; a++) 
                        {
                             total_can = (result.party[a].total_candidate != '') ? result.party[a].total_candidate : '0';
-                           $("#" + state_name + "_alliance_party_" + a).html(result.party[a].name+" | Total Candidate:"+total_can+"");
+                           $("#" + state_name + "_alliance_party_" + a).html(result.party[a].name);
                            $("#" + state_name + "_alliance_wonlead_" + a).html(result.party[a].wonlead);
                            $("#" + state_name + "_alliance_party_" + a).css('background-color', result.party[a].color);
                            $("#" + state_name + "_alliance_wonlead_" + a).css('background-color', result.party[a].color);
