@@ -287,4 +287,31 @@ var data = [
     "location":"https://www.google.com/maps/dir//cacra+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc7572260ec17:0x9b9b827b6fcb4744?sa=X&ved=2ahUKEwiZlofCj7f2AhUUxYsBHVEOAawQ9Rd6BAgxEAQ",
 	"status": "1"
   },
+  {
+    "id": "33",
+    "name": "Bambolim Beach",
+    "taluka":"Tiswadi",
+    "desc": "Bambolim beach is very less visited beach of goa.",
+    "images": ["images/beaches/bambolim_beach1.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5385856,73.760768/bambolim+beach/@15.4954197,73.7436049,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfb8a5877ae1bd:0xc4d8e336d4b9f98!2m2!1d73.8487063!2d15.4521897",
+	"status": "1"
+  },
+  {
+    "id": "34",
+    "name": "Siridao Beach",
+    "taluka":"Tiswadi",
+    "desc": "Siridao beach is very less visited and very quiet beach of goa.",
+    "images": ["images/beaches/Siridao_beach.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5385856,73.760768/Siridao,+Goa/@15.493626,73.7436049,12z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x3bbfb8bb9c29d7c9:0x9a894cc7c2f47876!2m2!1d73.8639594!2d15.4407215!3e0",
+	"status": "1"
+  },
+  {
+    "id": "35",
+    "name": "Siridao Rock Beach",
+    "taluka":"Tiswadi",
+    "desc": "Siridao Rock beach is a combination of rock and sand.",
+    "images": ["images/beaches/siridao_rock_beach.jpg"],
+    "location":"https://www.google.com/maps/dir/15.5385856,73.760768/siridao+rock+beach+goa/@15.5132679,73.7452435,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfb95c462f2db7:0x35b2abf9b3acd3f3!2m2!1d73.8606813!2d15.435788",
+	"status": "1"
+  },
 ];
