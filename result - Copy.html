@@ -149,15 +149,19 @@
                        $('.partyname_number_ul').html(legends_li);
                        for (var a = 0; a < result.party.length; a++) 
                        {
-                            total_can = (result.party[a].total_candidate != '') ? result.party[a].total_candidate : '0';
-                           $("#" + state_name + "_alliance_party_" + a).html(result.party[a].name+" | Total Candidate:"+total_can+"");
-                           $("#" + state_name + "_alliance_wonlead_" + a).html(result.party[a].wonlead);
-                           $("#" + state_name + "_alliance_party_" + a).css('background-color', result.party[a].color);
-                           $("#" + state_name + "_alliance_wonlead_" + a).css('background-color', result.party[a].color);
-                           $("#" + state_name + "_alliance_legend_party_" + a).css('background-color', result.party[a].color);
-                           
+                           $("#" + state_name + "_alliance_party_" + a).html(result.party[a].name);
+                           $("#" + state_name + "_alliance_wonlead_" + a).html(result.alliance[a].wonlead);
+                           $("#" + state_name + "_alliance_party_" + a).css('background-color', result.alliance[a].color);
+                           $("#" + state_name + "_alliance_wonlead_" + a).css('background-color', result.alliance[a].color);
+                           $("#" + state_name + "_alliance_legend_party_" + a).css('background-color', result.alliance[a].color);
+                           var str = [result.alliance[a].ALLIANCE_NAME_LANG1, result.alliance[a].wonlead, result.alliance[a].color, result.alliance[a].ALLIANCE_NAME_LANG1];
+                           pieData.push(str);
                        }
-                       
+                       if (parseInt(result.total_seats.seats) - parseInt(result.total_seats.wonlead) != 0) {
+                           var leftseats = parseInt(result.total_seats.seats) - parseInt(result.total_seats.wonlead);
+                           var str = ['TBA', leftseats, 'grey', 'TBA'];
+                           pieData.push(str);
+                       }
 
                        var display_name = state_name;
                        if (display_name == "uttar-pradesh") {
