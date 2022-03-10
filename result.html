@@ -66,7 +66,15 @@
                 <div class="overall_seat"></div>
             </div>
             <div class="content">
-                <table class="party_table"></table>
+                <table class="party_tables">
+                    <thead>
+                        <tr>
+                            <th>Parties</th>
+                            <th>Win</th>
+                        </tr>
+                    </thead>
+                    <tbody class="party_table"></tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -136,7 +144,7 @@
                        responseText = responseText.substring(0, responseText.length - 1);
                        var result = JSON.parse(responseText);
                        var pieData = [];
-                       var party_li, legends_li = '';
+                       var party_li, legends_li = '<tr><td style="color:#ffffff;width:90%;font-size: 2rem;" class="">Parties</td><td style="color:#ffffff;width:10%;font-size: 2rem;">Win</td></tr><tr><td class="whiterow"></td></tr>';
                        // for (var a = 0; a < result.alliance.length; a++) {
                        //     party_li += '<tr><td class="" id="' + state_name + '_alliance_party_' + a + '"></td><td class="" id="' + state_name + '_alliance_wonlead_' + a + '"></td></tr><tr><td class="whiterow"></td></tr>';
                        // }
