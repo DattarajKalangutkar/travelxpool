@@ -259,7 +259,7 @@
                   $("#" + constituencyData[j].cons_id.toUpperCase()).attr('title', constituencyData[j].ABBR);
                }
 
-               constit += '<tr><td class="constitnameclass" style="background-color:#c9ded6;">'+constituencyData[j].cname+'</td><td class="" style="background-color:'+constituencyData[j].color+'">'+((constituencyData[j].ABBR !='') ? constituencyData[j].ABBR+"("+constituencyData[j].CANDI_STATUS+")":'-')+'</td></tr><tr><td class="whiterow"></td></tr>';
+               constit += '<tr><td class="constitnameclass" style="background-color:#c9ded6;">'+constituencyData[j].cname+'('+constituencyData[j].CONS_NAME_MARATHI+')</td><td class="" style="background-color:'+constituencyData[j].color+'">'+((constituencyData[j].ABBR !='') ? constituencyData[j].ABBR+"("+constituencyData[j].CANDI_STATUS+")":'-')+'</td></tr><tr><td class="whiterow"></td></tr>';
             }
 
             $("#constitable").html(constit);
