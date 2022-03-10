@@ -91,8 +91,8 @@
                         <tr>
                             <th>Constituencies</th>
                             <th>2022</th>
-                            <th>2017</th>
-                            <th>2012</th>
+                            <!-- <th>2017</th>
+                            <th>2012</th> -->
                         </tr>
                     </thead>
                     <tbody id="constitable"></tbody>
@@ -259,7 +259,7 @@
                   $("#" + constituencyData[j].cons_id.toUpperCase()).attr('title', constituencyData[j].ABBR);
                }
 
-               constit += '<tr><td class="constitnameclass" style="background-color:#c9ded6;">'+constituencyData[j].cname+'</td><td class="" style="background-color:'+constituencyData[j].color+'">'+((constituencyData[j].ABBR !='') ? constituencyData[j].ABBR:'-')+'</td><td style="background-color:'+constituencyData[j].party_color_2017+'">'+constituencyData[j].WINNER_2017+'</td><td style="background-color:'+constituencyData[j].party_color_2012+'">'+constituencyData[j].WINNER_2012+'</td></tr><tr><td class="whiterow"></td></tr>';
+               constit += '<tr><td class="constitnameclass" style="background-color:#c9ded6;">'+constituencyData[j].cname+'</td><td class="" style="background-color:'+constituencyData[j].color+'">'+((constituencyData[j].ABBR !='') ? constituencyData[j].ABBR+"("+constituencyData[j].CANDI_STATUS+")":'-')+'</td><td style="background-color:'+constituencyData[j].party_color_2017+'">'+constituencyData[j].WINNER_2017+'</td><td style="background-color:'+constituencyData[j].party_color_2012+'">'+constituencyData[j].WINNER_2012+'</td></tr><tr><td class="whiterow"></td></tr>';
             }
 
             $("#constitable").html(constit);
