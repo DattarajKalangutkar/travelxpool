@@ -162,6 +162,7 @@
                            $("#" + state_name + "_alliance_party_" + a).html(result.party[a].dname+"("+result.party[a].name+")");
                            $("#" + state_name + "_alliance_won_" + a).html(result.party[a].won);
                            $("#" + state_name + "_alliance_wonlead_" + a).html(result.party[a].wonlead);
+                           $("#" + state_name + "_alliance_won_" + a).css('background-color', result.party[a].color);
                            $("#" + state_name + "_alliance_party_" + a).css('background-color', result.party[a].color);
                            $("#" + state_name + "_alliance_wonlead_" + a).css('background-color', result.party[a].color);
                            $("#" + state_name + "_alliance_legend_party_" + a).css('background-color', result.party[a].color);
