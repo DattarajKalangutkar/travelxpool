@@ -56,6 +56,16 @@ section {
     padding: 1rem 3rem;
 }
 
+.btnicon {
+    margin-top: 1rem;
+    display: inline-block;
+    color: #10221b;
+    cursor: pointer;
+    background: 0;
+    font-size: 4rem;
+    padding: 1rem 2rem;
+}
+
 .btn:hover {
     background: #10221b;
     color: #fff;
@@ -367,6 +377,53 @@ section {
     line-height: 2;
 }
 
+.nearby .slide .image {
+    position: relative;
+    overflow: hidden;
+    height: 30rem;
+    width: 100%
+}
+
+.nearby .slide .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nearby .slide .image .icons a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background: #10221b;
+    color: #fff;
+    margin: 0 .2rem;
+}
+
+.nearby .slide .image .icons a:hover {
+    background: #219150;
+}
+
+.nearby .slide .content {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nearby .slide .content h3 {
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.nearby .slide .content p {
+    font-size: 1.4rem;
+    color: #10221b;
+}
+
+
+
+
 .shop .slide {
     border: .2rem solid #10221b;
 }
@@ -425,6 +482,11 @@ section {
     color: #10221b;
 }
 
+.shop .slide .content p {
+    font-size: 1.4rem;
+    color: #10221b;
+}
+
 .shop .slide .content .price {
     padding: 1rem 0;
     padding-top: .5rem;
@@ -435,6 +497,37 @@ section {
 .shop .slide .content .stars i {
     font-size: 1.7rem;
     color: #10221b;
+}
+
+.detailView{
+   background: #eee; 
+}
+
+.detailView .box-container {
+    display: -ms-grid;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.detailView .box-container .infoicon{
+    text-align: center;
+}
+
+.detailView .box-container .info{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0rem;
+}
+
+.detailView .box-container .info .subinfo{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1px;
+}
+
+.detailView .box-container .infoicon .btnicon i:hover{
+    color: #219150;;
 }
 
 .packages {
