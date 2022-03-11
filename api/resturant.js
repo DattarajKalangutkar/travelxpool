@@ -1,4 +1,4 @@
-var data = [
+var resturantdata = [
   {
     "id": "1",
     "name": "Starlight",

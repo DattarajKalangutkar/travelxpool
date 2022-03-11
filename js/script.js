@@ -20,7 +20,6 @@ var swiper = new Swiper(".home-slider", {
     }
 }),
 swiper = new Swiper(".product-slider", {
-    loop: !0,
     grabCursor: !0,
     spaceBetween: 20,
     navigation: {
@@ -74,6 +73,28 @@ swiper = new Swiper(".nearbyPlaceSlider", {
     loop: !0,
     grabCursor: !0,
     spaceBetween: 10,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        640: {
+            slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 3
+        },
+        1024: {
+            slidesPerView: 4
+        }
+    },
+}),
+swiper = new Swiper(".detailView_slider", {
+    grabCursor: !0,
+    spaceBetween: 20,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"

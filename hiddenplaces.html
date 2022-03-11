@@ -62,7 +62,8 @@
 
 <script src="api/hiddenPlaces.js" type="text/javascript"></script>
 <script type="text/javascript">
-    var hiddenplacesData = data;
+    var hiddenplacesData = hiddendata;
+    var type = "hidden";
     hiddenplacesData.sort(function(a, b){if(a.name < b.name) { return -1; }if(a.name > b.name) { return 1; }return 0;});
     var str = '';
     for(let i=0;i<hiddenplacesData.length;i++)
@@ -74,7 +75,7 @@
             {
                 str += '<div class="swiper dailypost1 image">';
                 str += '<div class="swiper-wrapper">';
-                for(let j=0;j<hiddenplacesData[i].images.length;j++)
+                for(let j=0;j<1;j++)
                 {
                     str +='<div class="swiper-slide slide">';
                     str +='<img src="'+hiddenplacesData[i].images[j]+'" alt="'+hiddenplacesData[i].name+'" title="'+hiddenplacesData[i].name+'" width="363" height="230">';
@@ -85,7 +86,7 @@
             str += '<div class="content">';
             str += '<h3>'+hiddenplacesData[i].name+'</h3>';
             str += '<p>'+hiddenplacesData[i].desc+'</p>';
-            str += '<a href="'+hiddenplacesData[i].location+'" class="btn" title="Explore Now">explore now</a>';
+            str += '<a href="detailpage.html?type='+type+'&id='+hiddenplacesData[i].id+'" class="btn" title="Explore Now">explore now</a>';
             str += '</div></div>';
         } 
     }

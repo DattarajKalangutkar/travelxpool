@@ -1,4 +1,4 @@
-var data = [
+var historicdata = [
   {
     "id": "1",
     "name": "Tambdi Surla Temple",

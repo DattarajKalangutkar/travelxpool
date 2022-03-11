@@ -1,4 +1,4 @@
-var data = [
+var waterfalldata = [
   {
     "id": "1",
     "name": "Dudhsagar Waterfall",
