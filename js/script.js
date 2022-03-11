@@ -110,7 +110,7 @@ swiper = new Swiper(".detailView_slider", {
             slidesPerView: 3
         },
         1024: {
-            slidesPerView: 4
+            slidesPerView: 3
         }
     },
 });

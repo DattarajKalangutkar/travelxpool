@@ -31,7 +31,7 @@ var beachesdata = [
     "name": "Cab De Ram Beach",
     "taluka":"Bardez",
     "desc": "Cab De Ram Beach is suituated in south goa. its one of the quiet place to visit. you can also visit Cab de Ram fort present near beach",
-    "images": ["images/beaches/cab_de_ram.png"],
+    "images": ["images/beaches/cab_de_ram.png","images/beaches/cabderam.jpg"],
     "location":"https://www.google.com/maps/dir//cabo+de+rama+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4bfd44daf1e5:0x6678f36253fe7b44?sa=X&ved=2ahUKEwj3xIiX3YP2AhXes1YBHYb2DD8Q9Rd6BAgsEAQ",
     "status": "1"
   },
