@@ -389,7 +389,7 @@ section {
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .nearby .slide .image .icons a {
