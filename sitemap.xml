@@ -2,7 +2,7 @@
 <urlset smlns="http://www.stemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://wwww.travelxpool.com/</loc>
-		<lastmod>23-02-2022</lastmod>
+		<lastmod>11-03-2022</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
@@ -31,6 +31,10 @@
 	</url>
 	<url>
 		<loc>https://wwww.travelxpool.com/waterfalls.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>https://wwww.travelxpool.com/detailpage.html/</loc>
 		<changefreq>daily</changefreq>
 	</url>
 </urlset>
