@@ -69,9 +69,10 @@
         </div>
         <p class="subheadling" id="detaildesc"></p> 
         <div class="infoicon">
-            <a href="#" class="btnicon" id="detailwhatsapp" title="whatsapp" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
             <a href="#" class="btnicon" id="detaillocation" title="location" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
             <a href="#" class="btnicon" id="detailfacebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="btnicon" id="detailwhatsapp" title="whatsapp" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="#" class="btnicon" id="detailtwitter" title="Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         </div>
     </div>
 </section>
@@ -117,6 +118,7 @@
     document.getElementById("detaillocation").href = detaildata[0].location;
     document.getElementById("detailwhatsapp").href = "https://api.whatsapp.com/send?text="+url;
     document.getElementById("detailfacebook").href = "https://www.facebook.com/sharer/sharer.php?u="+url;
+    document.getElementById("detailtwitter").href = "https://twitter.com/intent/tweet?text="+detaildata[0].name+"&url="+url;
     var detailimageData = detaildata[0].images;
     var str = '';
     for(let i=0;i<detailimageData.length;i++)
