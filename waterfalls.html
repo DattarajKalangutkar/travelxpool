@@ -85,9 +85,8 @@
             str += '<div class="content">';
             str += '<h3>'+waterallData[i].name+'</h3>';
             str += '<p>'+waterallData[i].desc+'</p>';
-            str += '<a href="detailpage.html?type='+type+'&id='+waterallData[i].id+'" class="btn" title="Check Now">Check Now</a>';
+            str += '<a href="detailpage.html?type='+type+'_'+waterallData[i].id+'" class="btn" title="Check Now">Check Now</a>';
             str += '</div></div>';
-            console.log(str);
         }
     }
     document.getElementById('waterallData').innerHTML = str;                  

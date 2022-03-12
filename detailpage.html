@@ -95,8 +95,9 @@
 <script src="api/resturant.js" type="text/javascript"></script>
 <script type="text/javascript">
     var url = new URL(window.location.href);
-    var type = url.searchParams.get("type");
-    var id = url.searchParams.get("id");
+    var url_data = url.searchParams.get("type").split('_');
+    var type = url_data[0];
+    var id = url_data[1];
 
     if(type == 'beaches')
         detaildata = getdetaildata(beachesdata,id);
