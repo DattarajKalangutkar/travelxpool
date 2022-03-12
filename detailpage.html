@@ -115,7 +115,7 @@
     //document.getElementById('detailplace').innerHTML = "Place : "+detaildata[0].taluka; 
     document.getElementById('detailcat').innerHTML = "Category : "+type.charAt(0).toUpperCase()+type.slice(1); 
     document.getElementById("detaillocation").href = detaildata[0].location;
-    document.getElementById("detailwhatsapp").href = "https://api.whatsapp.com/send?url="+url;
+    document.getElementById("detailwhatsapp").href = "https://api.whatsapp.com/send?text="+url;
     document.getElementById("detailfacebook").href = "https://www.facebook.com/sharer/sharer.php?u="+url;
     var detailimageData = detaildata[0].images;
     var str = '';
