@@ -124,6 +124,16 @@
     else if(type == 'resturant')
         detaildata = getdetaildata(resturantdata,id);
 
+    if(type == 'historic')
+    {
+        type = "historicplaces";
+    }
+
+    if(type == 'hidden')
+    {
+        type = "hiddenplaces";
+    }
+
     document.getElementById('detailtitle').innerHTML = detaildata[0].name; 
     document.getElementById('detaildesc').innerHTML = detaildata[0].desc; 
     //document.getElementById('detailplace').innerHTML = "Place : "+detaildata[0].taluka; 
