@@ -1132,12 +1132,11 @@ section {
     }
 
     .breadcrum{
-       padding: 2rem 1rem; 
+       padding: 2rem 2rem; 
     }
 
     .breadcrum .content{
         padding: 7rem 0rem 3rem 0rem;
-        font-size: 0.2rem;
     }
 }
 
