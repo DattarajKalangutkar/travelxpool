@@ -64,7 +64,7 @@ var resturantdata = [
   },
   {
     "id": "8",
-    "name": "Purple Martini At Sunset Point, Goa",
+    "name": "Purple Martini",
     "taluka":"Bardez",
     "desc": "Purple Martini is a bar and resturent at Anjuna Beach, famous for its sunset view seating.",
     "images": ["images/restaurants/Purple_Martini.jpg"],
