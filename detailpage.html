@@ -40,6 +40,7 @@
     </div>
 </header>
 <!-- header section ends -->
+
 <!-- search form  -->
 <div class="search-form">
     <div id="close-search" class="fas fa-times"></div>
@@ -47,6 +48,16 @@
         <input type="search" name="" placeholder="search here..." id="search-box">
         <label for="search-box" class="fas fa-search"></label>
     </form>
+</div>
+
+<div class="breadcrum">
+    <div class="content">
+        <a href="https://www.travelxpool.com/index.html" title="home">Home</a> 
+        <div class="arrow">>></div> 
+        <a href="#" id="catgoryid">Beaches</a> 
+        <div class="arrow">>></div> 
+        <a href="#" id="valueid">Baga beach</a>
+    </div>
 </div>
 
 
@@ -95,10 +106,12 @@
 <script src="api/hiddenPlaces.js" type="text/javascript"></script>
 <script src="api/resturant.js" type="text/javascript"></script>
 <script type="text/javascript">
+    var siteUrl = "https://www.travelxpool.com/";
     var url = new URL(window.location.href);
     var url_data = url.searchParams.get("type").split('_');
     var type = url_data[0];
     var id = url_data[1];
+
 
     if(type == 'beaches')
         detaildata = getdetaildata(beachesdata,id);
@@ -130,6 +143,12 @@
         str += '</div>';
     }
     document.getElementById('detailImages').innerHTML = str;  
+
+    //breadcrum function
+    document.getElementById("catgoryid").href = siteUrl+type+".html";
+    document.getElementById("valueid").href = url;
+    document.getElementById("catgoryid").innerHTML = type;
+    document.getElementById("valueid").innerHTML = detaildata[0].name;
 
     function getdetaildata(data,id)
     {
