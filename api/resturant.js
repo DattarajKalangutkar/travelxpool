@@ -22,7 +22,7 @@ var resturantdata = [
     "name": "Antique Mardol",
     "taluka":"Bardez",
     "desc": "Antique Mardol is family restaurants at verna, south goa. It is known for its antique goan foods",
-    "images": ["images/restaurants/royal_treat_restaurants.jfif"],
+    "images": ["images/restaurants/antique_mardol.jpg"],
     "location":"https://www.google.com/maps/dir//Royal+Treat+Marcela/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbdb56f247b59:0xa15567f27f788b46?sa=X&ved=2ahUKEwi84ZzK34P2AhXR4jgGHXBOB1gQ9Rd6BAgPEAQ",
     "status": "1"
   },
@@ -31,7 +31,7 @@ var resturantdata = [
     "name": "Royal Treat Marcela",
     "taluka":"Bardez",
     "desc": "Royal Treat is a family restaurants at marcela, Goa. It is one of the underated but famous restaurants amongs local.",
-    "images": ["images/waterfalls/tambdisurla.jpg"],
+    "images": ["images/restaurants/royal_treat_restaurants.jfif"],
     "location":"https://www.google.com/maps/dir//Tambdi+Surla+Waterfall/@15.421868,74.1962086,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbf088abfdfa505:0xbea61dfa873fbc3!2m2!1d74.2662491!2d15.421879",
     "status": "1"
   },
