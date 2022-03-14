@@ -53,8 +53,7 @@ var hiddendata = [
       "images/hidden_places/kator.jpg",
       "images/hidden_places/kator_1.jpg",
       "images/hidden_places/kator_2.jpg",
-      // "images/hidden_places/kator_4.jpeg",
-      // "images/hidden_places/kator_5.jpeg"
+      "images/hidden_places/kator_3.jpg"
     ],
     "location":"https://www.google.com/maps/dir//JQ2H%2B449+Kator,+Bouta+Waddo,+Assagao,+Goa+403519/@15.6003798,73.7777284,93m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3bbfebb1286224c5:0x7791a3d4582a6166!2m2!1d73.7778723!2d15.6002924",
     "status": "1"
