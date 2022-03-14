@@ -51,7 +51,7 @@ var hiddendata = [
     "desc": "The Place name is called as kator by Goan People. Its is a beautiful place to click selfies,photos and also for making reels.People visit this place as a evening trek.",
     "images": [
       "images/hidden_places/kator.jpg",
-      "images/hidden_places/kator_1.jpg",
+      //"images/hidden_places/kator_1.jpg",
       // "images/hidden_places/kator_3.jpeg",
       // "images/hidden_places/kator_4.jpeg",
       // "images/hidden_places/kator_5.jpeg"
