@@ -314,4 +314,31 @@ var beachesdata = [
     "location":"https://www.google.com/maps/dir/15.5385856,73.760768/siridao+rock+beach+goa/@15.5132679,73.7452435,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfb95c462f2db7:0x35b2abf9b3acd3f3!2m2!1d73.8606813!2d15.435788",
 	"status": "1"
   },
+  {
+    "id": "36",
+    "name": "Agassaim Beach",
+    "taluka":"",
+    "desc": "",
+    "images": ["images/beaches/agassaim.jpg"],
+    "location":"https://www.google.com/maps/dir/15.0516732,73.994756/agassaim+beach/@15.223807,73.8267464,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfb9023eb956f9:0xf6b059ad00a933f9!2m2!1d73.8907204!2d15.4253793",
+	"status": "1"
+  },
+  {
+    "id": "37",
+    "name": "Vaddem Beach",
+    "taluka":"",
+    "desc": "Vaddem Beach is in south goa",
+    "images": ["images/beaches/vaddem-beach.jpg"],
+    "location":"https://www.google.com/maps/dir/15.4009723,73.8128308/vaddem+beach/@15.4009818,73.8118824,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc79a859f13e9:0xdabf603dbc149956!2m2!1d73.8277388!2d15.4031689",
+	"status": "1"
+  },
+  {
+    "id": "38",
+    "name": "Grandmother's Hole Beach",
+    "taluka":"",
+    "desc": "Grandmother's Hole Beach is in south goa",
+    "images": ["images/beaches/hole_beach.jpg"],
+    "location":"https://www.google.com/maps/dir//grandmother's+hole+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc656d5abc533:0x8a7a72bda71afd61?sa=X&ved=2ahUKEwi-4qPcmcb2AhVSG6YKHV2UBpQQ9Rd6BAgnEAQ",
+	"status": "1"
+  },
 ];
