@@ -383,6 +383,7 @@ section {
 }
 
 .about .image img {
+    height: auto;
     width: 100%;
     -webkit-box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
     box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
