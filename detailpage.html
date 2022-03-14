@@ -136,7 +136,7 @@
 
     document.getElementById('detailtitle').innerHTML = detaildata[0].name; 
     document.getElementById('detaildesc').innerHTML = detaildata[0].desc; 
-    //document.getElementById('detailplace').innerHTML = "Place : "+detaildata[0].taluka; 
+    document.getElementById('detailplace').innerHTML = "Place : "+detaildata[0].taluka; 
     document.getElementById('detailcat').innerHTML = "Category : "+type.charAt(0).toUpperCase()+type.slice(1); 
     document.getElementById("detaillocation").href = detaildata[0].location;
     document.getElementById("detailwhatsapp").href = "https://api.whatsapp.com/send?text="+url;
