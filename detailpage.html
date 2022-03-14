@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Xpool</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="" />
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/swiper.css" />
@@ -161,6 +166,9 @@
     document.getElementById("valueid").innerHTML = detaildata[0].name;
 
     document.title = detaildata[0].name+" | TravelXPool";
+    document.querySelector('meta[name=og\\:image]').setAttribute("content",detailimageData[0]);
+
+    document.querySelector('meta[name=og:url]').setAttribute("content",url);
 
 
     function getdetaildata(data,id)
