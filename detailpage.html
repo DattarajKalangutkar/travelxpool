@@ -160,6 +160,9 @@
     document.getElementById("catgoryid").innerHTML = type;
     document.getElementById("valueid").innerHTML = detaildata[0].name;
 
+    document.title = detaildata[0].name+" | TravelXPool";
+
+
     function getdetaildata(data,id)
     {
         return data.filter(obj => {return obj.id === id});

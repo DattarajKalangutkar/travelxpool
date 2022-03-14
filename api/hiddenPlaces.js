@@ -44,4 +44,13 @@ var hiddendata = [
     "location":"https://www.google.com/maps/dir//Keri+Spice+Plantation/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbab93667b5d1:0x63aaf2d1eae29021?sa=X&ved=2ahUKEwjrrOGR3oP2AhXzlFYBHZA4C_EQ9Rd6BAgkEAQ",
     "status": "1"
   },
+  {
+    "id": "6",
+    "name": "Keri Spice Plantation",
+    "taluka":"Bardez",
+    "desc": "",
+    "images": ["images/hidden_places/kerispiceplantation.jpg"],
+    "location":"https://www.google.com/maps/dir//Keri+Spice+Plantation/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbab93667b5d1:0x63aaf2d1eae29021?sa=X&ved=2ahUKEwjrrOGR3oP2AhXzlFYBHZA4C_EQ9Rd6BAgkEAQ",
+    "status": "1"
+  },
 ];
