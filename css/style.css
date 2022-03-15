@@ -1123,6 +1123,230 @@ section {
     color: #219150;
 }
 
+
+/* IPL 2022 */
+
+.ipl {
+    background: #eee;
+}
+
+.ipl .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+}
+
+.ipl .box-container .box {
+    text-align: center;
+    background: #fff;
+    border: .2rem solid #10221b;
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
+
+/*.ipl .box-container .box:hover {
+    background: #10221b;
+}
+
+.ipl .box-container .box:hover .content>* {
+    color: #fff;
+}
+
+.ipl .box-container .box:hover .content .constitnameclass {
+    color: #445c53;
+}
+
+.ipl .box-container .box:hover .btn {
+    border-color: #fff;
+}
+
+.ipl .box-container .box:hover .btn:hover {
+    background: #ccc;
+    color: #10221b;
+}*/
+
+.ipl .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+}
+
+.ipl .box-container .box .goaresult {
+    height: 30rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+    display: flex;
+}
+
+.ipl .box-container .box .goaresult .overall_seat{
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.ipl .box-container .box .goaresult .state_name{
+    font-size: 2rem;
+    color: #10221b;
+}
+
+
+.ipl .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.ipl .box-container .box .content {
+    padding: 2rem;
+}
+
+.ipl .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.ipl .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.ipl .box-container .box .content .price {
+    font-size: 2rem;
+    color: #219150;
+}
+
+
+.ipl .box-container .box .content .scoretable{
+    width: 100%;
+    padding: 1px;
+    margin: 2rem 0rem;
+}
+
+.ipl .box-container .box .content .scoretable .tablerow
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+    padding: 2px;
+    border: 1px solid #eee;
+    box-shadow: 0px 5px 8px #00000029;
+}
+
+.ipl .box-container .box .content .scoretable .tablerow .tablecol:first-child{
+    width: 60%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.ipl .box-container .box .content .scoretable .tablerow .tablecol:last-child{
+    font-weight: 700;
+}
+
+.ipl .live{
+    background: #ED2128 0% 0% no-repeat padding-box;
+}
+
+.ipl .live h3{
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 1rem;
+}
+
+.ipl .scoreboard{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 30px;
+    box-shadow: 0px 5px 8px #00000029;
+}
+
+.ipl .eachBlock{
+    border: 1px solid #000;
+    border-radius: 30px;
+    box-shadow: 0px 5px 8px #00000029;
+    margin: 10px 0px;
+}
+
+
+.ipl .eachBlock .matchdates{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #db2121;
+    margin-top: -17px;
+    margin-bottom: 11px;
+}
+
+
+.ipl .scoreboardmatch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+
+
+
+
+
+.ipl .scoreboardmatch .firstteam,.secondteam{
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+
+.ipl .scoreboard .firstteam,.secondteam{
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.ipl .winscore{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #db2121;
+}
+
+
+.ipl .box-container .box .content .scoretable .tableroworage
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+    padding: 2rem;
+    border: 1px solid #eee;
+    box-shadow: 0px 5px 8px #00000029;
+}
+
+.ipl .box-container .box .content .scoretable .tableroworage .tablecol:first-child{
+    width: 40%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
 @media(max-width:1200px) {
     .header {
         padding: 2rem;
