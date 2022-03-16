@@ -1339,7 +1339,7 @@ section {
 }
 
 .ipl .box-container .box .content .scoretable .tableroworage .tablecol:first-child{
-    width: 40%;
+    width: 30%;
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
