@@ -397,11 +397,11 @@ var beachesdata = [
   },
   {
     "id": "45",
-    "name": "Daynite Beach",
+    "name": "Hollant Beach",
     "taluka":"Vasco",
-    "desc": "Daynite Beach is one of the clean beach. It is with aline with cansaulim and velsao beach.",
-    "images": ["images/beaches/Daynite_beach.jpg"],
-    "location":"https://www.google.com/maps/place/Daynite+Beach/@15.3661276,73.8725212,16z/data=!4m13!1m7!3m6!1s0x3bbfc7c87191f9d7:0x6d28ff1fb9e47cb7!2sBaina+Beach!3b1!8m2!3d15.3915832!4d73.8068001!3m4!1s0x3bbfb78cf210b12b:0x2ffa109928f03f9d!8m2!3d15.3675145!4d73.8754791",
+    "desc": "Hollant Beach is one of the less known beach.",
+    "images": ["images/beaches/Hollant_beach.jpg"],
+    "location":"https://www.google.com/maps/place/Hollant+Beach/@15.3560189,73.8752062,14z/data=!4m19!1m13!4m12!1m4!2m2!1d73.8066048!2d15.4918382!4e1!1m6!1m2!1s0x3bbfb78cf210b12b:0x2ffa109928f03f9d!2sDaynite+Beach,+Zuari+Rd,+Adarsh+Nagar,+Vasco+da+Gama,+Goa+403712!2m2!1d73.8754791!2d15.3675145!3m4!1s0x3bbfb7f5a1a40065:0xc9a29b740c2570ca!8m2!3d15.3698706!4d73.8619691",
 	"status": "1"
   },
   {
@@ -672,7 +672,7 @@ var beachesdata = [
     "desc": "Dabel Beach is suituated at the south goa. It is less visited beach.",
     "images": ["images/beaches/Dabel_beach.jpg"],
     "location":"https://www.google.com/maps/place/Dabel+Beach/@14.9079699,74.0657888,17z/data=!4m19!1m13!4m12!1m3!2m2!1d73.9313125!2d15.1584689!1m6!1m2!1s0x3bbe4c85fb6ad0d3:0xe3f59e046f7346a6!2sMobor+Beach,+Goa!2m2!1d73.9462689!2d15.1573147!3e0!3m4!1s0x3bbe5dd46aeb2d15:0x5bdba2d2958ee93f!8m2!3d14.9092534!4d74.0683755",
-	"status": "1"
+	"status": "0"
   },
   {
     "id": "76",
@@ -694,15 +694,6 @@ var beachesdata = [
   },
   {
     "id": "78",
-    "name": "Tilmati Beach",
-    "taluka":"",
-    "desc": "Tilmati Beach is suituated at the south goa. and is rearly visited .",
-    "images": ["images/beaches/Tilmati_Beach.jpg"],
-    "location":"https://www.google.com/maps/place/Tilmati+Beach/@14.902379,74.0801096,16z/data=!4m5!3m4!1s0x3bbe5c5a4f0544e1:0xda738c6e3967180d!8m2!3d14.8999955!4d74.0915474",
-	"status": "1"
-  },
-  {
-    "id": "79",
     "name": "Tilmati Beach",
     "taluka":"",
     "desc": "Tilmati Beach is suituated at the south goa. and is rearly visited .",
