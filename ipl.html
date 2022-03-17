@@ -268,7 +268,8 @@
 </html>
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function()
+    {
         $.ajax({
             url: "https://xmlns.cricketnext.com/cktnxt/scorecard/standings/standing_4623.txt",
             dataType: 'json',
@@ -345,6 +346,20 @@
             }
             $("#purpletable").html(orange_str);
         });
+
+        function getLiveScore()
+        {
+            $.ajax({
+                url: "https://cloudapi.in.com/global/getRedisData.php?app=IBNLIVE&key=CRICKETNEXT:mostcomingmatches",
+                dataType: 'json',
+                type: 'GET',
+                success: function(result) {}
+            }).complete(function(result) {
+                console.log(result);
+            });
+        }
+
+        getLiveScore();
     });
 </script>
 
