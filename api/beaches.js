@@ -3,7 +3,7 @@ var beachesdata = [
     "id": "1",
     "name": "Calangute Beach",
     "taluka":"",
-    "desc": "Calangute beach is one of most famous place in goa to visit. Lots  of  famous resturent and pubs are present here.",
+    "desc": "Calangute beach is one of most famous place in goa to visit. Lots of famous resturent and pubs are present here.",
     "images": ["images/beaches/calangute_beach_goa.png"],
     "location":"https://www.google.com/maps/dir//calangute+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfea0148f4ed2b:0xcb592fad5d257d17?sa=X&ved=2ahUKEwiH-OnpmYH2AhXASWwGHTGcB9IQ9Rd6BAgzEAQ",
     "status": "1"
