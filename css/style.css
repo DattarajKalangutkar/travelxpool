@@ -1346,6 +1346,57 @@ section {
 }
 
 
+.ipl .squads
+{
+    display: flex;
+}
+
+.ipl .eachsquad{
+    width: 12%;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin: 0px 2px;
+    cursor: pointer;
+    border: 1px solid;
+    background: #eee;
+}
+
+.ipl .eachsquad.active{
+    background: #4ebb1c;
+    color: #000;
+}
+
+.ipl .profilecard{
+    margin-top: 30px;
+    padding: 20px;
+    background: #eee;
+}
+
+.ipl .profilecard .team{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.ipl .profilecard .playerImg{
+    padding: 25px;
+}
+
+.ipl .profilecard h6{
+    font-size: 2rem;
+}
+
+.ipl .profilecard .playerStyle{
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 12px !important;
+    line-height: 0px !important;
+}
+
+
+.ipl .playerid.active{
+    display: none;
+}
+
 
 @media(max-width:1200px) {
     .header {
