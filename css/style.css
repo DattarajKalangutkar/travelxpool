@@ -8,7 +8,6 @@
     outline: 0;
     border: 0;
     text-decoration: none;
-    text-transform: capitalize;
     -webkit-transition: .2s linear;
     transition: .2s linear;
 }
@@ -333,7 +332,7 @@ section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
     gap: 1.5rem;
 }
 
@@ -352,6 +351,10 @@ section {
 .category .box-container .box h3 {
     font-size: 2rem;
     color: #219150;
+    padding: 4rem 0rem;
+    border-radius: 50%;
+    border: 1px solid;
+    background: #eee;
 }
 
 .category .box-container .box p {
@@ -1392,10 +1395,60 @@ section {
     line-height: 0px !important;
 }
 
-
-.ipl .playerid.active{
+.ipl .playerid .activeTab{
     display: none;
 }
+
+
+/* State Taluka Css */
+.taluka {
+    background: #eee;
+}
+
+.taluka .box-container {
+    display: -ms-grid;
+}
+
+.taluka .box-container .box {
+    display: flex;
+}
+
+.taluka .box-container .box .lhs_section{
+    width: 70%;
+}
+
+.taluka .box-container .box  .lhs_section p {
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.taluka .box-container .box .lhs_section .talukatable{
+    font-size: 1.5rem;
+    color: #10221b;
+    line-height: 1.8;
+}
+
+.taluka .box-container .box .lhs_section .talukatable .title{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.taluka .box-container .box .rhs_section{
+    width: 30%;
+}
+
+.taluka .box-container .box .rhs_section .talukaList{
+    padding: 1rem 4rem;
+}
+
+.taluka .box-container .box .rhs_section .talukaList a{
+    width: 100%;
+}
+
+
+
 
 
 @media(max-width:1200px) {
@@ -1415,6 +1468,30 @@ section {
     }
     .detailView .box-container .info .subinfo {
         font-size: 1.2rem;
+    }
+
+    .category .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    }
+
+    .category .box-container .box h3 {
+        font-size: 2rem;
+        color: #219150;
+        padding: 4rem;
+        border-radius: 10%;
+        background: #eee;
+    }
+
+    .taluka .box-container .box {
+        display: block;
+    }
+
+    .taluka .box-container .box .lhs_section{
+        width: 100%;
+    }
+
+    .taluka .box-container .box .rhs_section{
+        width: 100%;
     }
 }
 
