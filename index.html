@@ -112,7 +112,7 @@
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div> -->
 
-<section class="category">
+<!-- <section class="category">
     <h1 class="heading">Taluka in North Goa</h1>
     <p class="subheadling">Check out the information, places, and other stuff present in the north side of Goa</p>
     <div class="box-container" id="northTaluka"></div>
@@ -121,7 +121,7 @@
     <h1 class="heading">Taluka in South Goa</h1>
     <p class="subheadling">Check out the information, places, and other stuff present in the south side of Goa</p>
     <div class="box-container" id="southTaluka"></div>
-</section>
+</section> -->
 <!-- packages section starts  -->
 <section class="packages" id="packages">
     <h1 class="heading">Search for</h1>
@@ -233,23 +233,23 @@
     document.getElementById('categoryData').innerHTML = str;  
 
 
-    var str = '';
-    for(let i=0;i<northTaluka.length;i++)
-    {
-        str += '<div class="box">';
-        str += '<h3>'+northTaluka[i].name+'</h3>';
-        str += '<a href="'+northTaluka[i].url+'" class="btn" title="Read More">Read More</a>';
-        str += '</div></div>';
-    }
-    document.getElementById('northTaluka').innerHTML = str;
+    // var str = '';
+    // for(let i=0;i<northTaluka.length;i++)
+    // {
+    //     str += '<div class="box">';
+    //     str += '<h3>'+northTaluka[i].name+'</h3>';
+    //     str += '<a href="'+northTaluka[i].url+'" class="btn" title="Read More">Read More</a>';
+    //     str += '</div></div>';
+    // }
+    // document.getElementById('northTaluka').innerHTML = str;
 
-    var str = '';
-    for(let i=0;i<southTaluka.length;i++)
-    {
-        str += '<div class="box">';
-        str += '<h3>'+southTaluka[i].name+'</h3>';
-        str += '<a href="'+northTaluka[i].url+'" class="btn" title="Read More">Read More</a>';
-        str += '</div></div>';
-    }
-    document.getElementById('southTaluka').innerHTML = str;               
+    // var str = '';
+    // for(let i=0;i<southTaluka.length;i++)
+    // {
+    //     str += '<div class="box">';
+    //     str += '<h3>'+southTaluka[i].name+'</h3>';
+    //     str += '<a href="'+northTaluka[i].url+'" class="btn" title="Read More">Read More</a>';
+    //     str += '</div></div>';
+    // }
+    // document.getElementById('southTaluka').innerHTML = str;               
 </script>

@@ -287,139 +287,165 @@
     var swiperplayer;
     $(document).ready(function()
     {
+
         $.ajax({
-            url: "https://xmlns.cricketnext.com/cktnxt/scorecard/standings/standing_4623.txt",
+            url: "http://cloudapi.in.com/global/getRedisData.php?app=IBNLIVE&key=CRICKETNEXT:mostrecentmatches",
             dataType: 'json',
             type: 'GET',
             success: function(result) {}
         }).complete(function(result) {
-            let teams = result.responseJSON.standings.stage1;
-            let stading_str = '<div class="tablerow"><div class="tablecol">TEAMS</div><div class="tablecol">MAT</div><div class="tablecol">WON</div><div class="tablecol">LOST</div><div class="tablecol">PTS</div></div>';
-            for(let i=0;i<teams.team.length;i++)
-            {
-                stading_str += '<div class="tablerow"><div class="tablecol">';
-                stading_str += teams.team[i].name;
-                stading_str += '</div><div class="tablecol">';
-                stading_str += teams.team[i].p;
-                stading_str += '</div><div class="tablecol">';
-                stading_str += teams.team[i].w;
-                stading_str += '</div><div class="tablecol">';
-                stading_str += teams.team[i].l;
-                stading_str += '</div><div class="tablecol">';
-                stading_str += teams.team[i].pts;
-                stading_str += '</div></div>';
-            }
-            $("#standingtable").html(stading_str);
+            console.log(result);
+            // let teams = result.responseJSON.standings.stage1;
+            // let stading_str = '<div class="tablerow"><div class="tablecol">TEAMS</div><div class="tablecol">MAT</div><div class="tablecol">WON</div><div class="tablecol">LOST</div><div class="tablecol">PTS</div></div>';
+            // for(let i=0;i<teams.team.length;i++)
+            // {
+            //     stading_str += '<div class="tablerow"><div class="tablecol">';
+            //     stading_str += teams.team[i].name;
+            //     stading_str += '</div><div class="tablecol">';
+            //     stading_str += teams.team[i].p;
+            //     stading_str += '</div><div class="tablecol">';
+            //     stading_str += teams.team[i].w;
+            //     stading_str += '</div><div class="tablecol">';
+            //     stading_str += teams.team[i].l;
+            //     stading_str += '</div><div class="tablecol">';
+            //     stading_str += teams.team[i].pts;
+            //     stading_str += '</div></div>';
+            // }
+            // $("#standingtable").html(stading_str);
         });
+        // $.ajax({
+        //     url: "https://xmlns.cricketnext.com/cktnxt/scorecard/standings/standing_4623.txt",
+        //     dataType: 'json',
+        //     type: 'GET',
+        //     success: function(result) {}
+        // }).complete(function(result) {
+        //     let teams = result.responseJSON.standings.stage1;
+        //     let stading_str = '<div class="tablerow"><div class="tablecol">TEAMS</div><div class="tablecol">MAT</div><div class="tablecol">WON</div><div class="tablecol">LOST</div><div class="tablecol">PTS</div></div>';
+        //     for(let i=0;i<teams.team.length;i++)
+        //     {
+        //         stading_str += '<div class="tablerow"><div class="tablecol">';
+        //         stading_str += teams.team[i].name;
+        //         stading_str += '</div><div class="tablecol">';
+        //         stading_str += teams.team[i].p;
+        //         stading_str += '</div><div class="tablecol">';
+        //         stading_str += teams.team[i].w;
+        //         stading_str += '</div><div class="tablecol">';
+        //         stading_str += teams.team[i].l;
+        //         stading_str += '</div><div class="tablecol">';
+        //         stading_str += teams.team[i].pts;
+        //         stading_str += '</div></div>';
+        //     }
+        //     $("#standingtable").html(stading_str);
+        // });
 
-        $.ajax({
-            url: "https://xmlns.cricketnext.com/cktnxt/scorecard/leaderboard/4165_2_stats.json",
-            dataType: 'json',
-            type: 'GET',
-            success: function(result) {}
-        }).complete(function(result) {
-            let players = result.responseJSON.leaderboard.slice(0, 5);
-            let orange_str = '<div class="tableroworage"><div class="tablecol">PLAYER</div><div class="tablecol">MAT</div><div class="tablecol">INS</div><div class="tablecol">NO</div><div class="tablecol">RUNS</div><div class="tablecol">HS</div></div>';
-            for(let i=0;i<players.length;i++)
-            {
-                orange_str += '<div class="tableroworage"><div class="tablecol">';
-                orange_str += players[i].player_name;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].matches_played;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].innings_played;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].not_outs;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].runs_scored;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].highest_score;
-                orange_str += '</div></div>';
-            }
-            $("#orangetable").html(orange_str);
-        });
+        // $.ajax({
+        //     url: "https://xmlns.cricketnext.com/cktnxt/scorecard/leaderboard/4165_2_stats.json",
+        //     dataType: 'json',
+        //     type: 'GET',
+        //     success: function(result) {}
+        // }).complete(function(result) {
+        //     let players = result.responseJSON.leaderboard.slice(0, 5);
+        //     let orange_str = '<div class="tableroworage"><div class="tablecol">PLAYER</div><div class="tablecol">MAT</div><div class="tablecol">INS</div><div class="tablecol">NO</div><div class="tablecol">RUNS</div><div class="tablecol">HS</div></div>';
+        //     for(let i=0;i<players.length;i++)
+        //     {
+        //         orange_str += '<div class="tableroworage"><div class="tablecol">';
+        //         orange_str += players[i].player_name;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].matches_played;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].innings_played;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].not_outs;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].runs_scored;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].highest_score;
+        //         orange_str += '</div></div>';
+        //     }
+        //     $("#orangetable").html(orange_str);
+        // });
 
-        $.ajax({
-            url: "https://xmlns.cricketnext.com/cktnxt/scorecard/leaderboard/4165_13_stats.json",
-            dataType: 'json',
-            type: 'GET',
-            success: function(result) {}
-        }).complete(function(result) {
-            let players = result.responseJSON.leaderboard.slice(0, 5);
-            let orange_str = '<div class="tableroworage"><div class="tablecol">PLAYER</div><div class="tablecol">MAT</div><div class="tablecol">WKS</div><div class="tablecol">RG</div><div class="tablecol">OV</div></div>';
-            for(let i=0;i<players.length;i++)
-            {
-                orange_str += '<div class="tableroworage"><div class="tablecol">';
-                orange_str += players[i].player_name;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].matches_played;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].wickets;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].runs_given;
-                orange_str += '</div><div class="tablecol">';
-                orange_str += players[i].overs;
-                orange_str += '</div></div>';
-            }
-            $("#purpletable").html(orange_str);
-        });
+        // $.ajax({
+        //     url: "https://xmlns.cricketnext.com/cktnxt/scorecard/leaderboard/4165_13_stats.json",
+        //     dataType: 'json',
+        //     type: 'GET',
+        //     success: function(result) {}
+        // }).complete(function(result) {
+        //     let players = result.responseJSON.leaderboard.slice(0, 5);
+        //     let orange_str = '<div class="tableroworage"><div class="tablecol">PLAYER</div><div class="tablecol">MAT</div><div class="tablecol">WKS</div><div class="tablecol">RG</div><div class="tablecol">OV</div></div>';
+        //     for(let i=0;i<players.length;i++)
+        //     {
+        //         orange_str += '<div class="tableroworage"><div class="tablecol">';
+        //         orange_str += players[i].player_name;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].matches_played;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].wickets;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].runs_given;
+        //         orange_str += '</div><div class="tablecol">';
+        //         orange_str += players[i].overs;
+        //         orange_str += '</div></div>';
+        //     }
+        //     $("#purpletable").html(orange_str);
+        // });
 
-        function getLiveScore()
-        {
-            $.ajax({
-                url: "http://xmlns.cricketnext.com/cktnxt/scorecard/teams/squad/2_squad.json",
-                dataType: 'json',
-                type: 'GET',
-                success: function(result) {}
-            }).complete(function(result) {
-                let squads = result.responseJSON.squads.teams.team;
-                let squads_str = '';
-                let profile_str = '';
-                for(let i=0;i<squads.length;i++)
-                {
-                    let activeflag = (i == 0) ? 'active':'';
-                    let activeplayer = (i != 0) ? 'activeTab':'';
+        // function getLiveScore()
+        // {
+        //     $.ajax({
+        //         url: "http://xmlns.cricketnext.com/cktnxt/scorecard/teams/squad/2_squad.json",
+        //         dataType: 'json',
+        //         type: 'GET',
+        //         success: function(result) {}
+        //     }).complete(function(result) {
+        //         let squads = result.responseJSON.squads.teams.team;
+        //         let squads_str = '';
+        //         let profile_str = '';
+        //         for(let i=0;i<squads.length;i++)
+        //         {
+        //             let activeflag = (i == 0) ? 'active':'';
+        //             let activeplayer = (i != 0) ? 'activeTab':'';
 
-                    if(i == 0)
-                    {
-                        activebtn = squads[i].id;
-                        activeclass = squads[i].short_name;
-                    }
+        //             if(i == 0)
+        //             {
+        //                 activebtn = squads[i].id;
+        //                 activeclass = squads[i].short_name;
+        //             }
 
-                    squads_str += '<button class="eachsquad '+activeflag+'" id="'+squads[i].id+'" onclick="navigatetab('+squads[i].id+',this,\''+squads[i].short_name+'\')">'+squads[i].short_name+'</button>';
-                    let playersData = squads[i].players.player;
-                    for(let j=0;j<playersData.length;j++)
-                    {
-                        profile_str += '<div class="swiper-slide slide '+squads[i].short_name+' '+activeplayer+'">';
-                        profile_str += '<div class="profilecard">';
-                        profile_str += '<div class="team">'+squads[i].name+'</div>';
-                        profile_str += '<div class="playerImg">';
-                        profile_str += '<img src="https://xmlns.cricketnext.com/cktnxt/scorecard/crk_player_images/players/128X128/'+playersData[j].id+'.png">';
-                        profile_str += '</div>';
-                        profile_str += '<div class="playerdetails">';
-                        profile_str += '<h3>'+playersData[j].name+'</h3>';
-                        profile_str += '<h6>'+playersData[j].skill_name+'</h6>';
-                        profile_str += '<p class="playerStyle">Batting: '+playersData[j].sport_specific_keys.batting_style+'</p>';
-                        profile_str += '<p class="playerStyle">Bowling: '+playersData[j].sport_specific_keys.bowling_style+'</p>';
-                        profile_str += '</div>';
-                        profile_str += '</div>';
-                        profile_str += '</div>';
-                    }
-                }
-                $("#squads").html(squads_str);
-                $("#profileplayercardid").html(profile_str);
+        //             squads_str += '<button class="eachsquad '+activeflag+'" id="'+squads[i].id+'" onclick="navigatetab('+squads[i].id+',this,\''+squads[i].short_name+'\')">'+squads[i].short_name+'</button>';
+        //             let playersData = squads[i].players.player;
+        //             for(let j=0;j<playersData.length;j++)
+        //             {
+        //                 profile_str += '<div class="swiper-slide slide '+squads[i].short_name+' '+activeplayer+'">';
+        //                 profile_str += '<div class="profilecard">';
+        //                 profile_str += '<div class="team">'+squads[i].name+'</div>';
+        //                 profile_str += '<div class="playerImg">';
+        //                 profile_str += '<img src="https://xmlns.cricketnext.com/cktnxt/scorecard/crk_player_images/players/128X128/'+playersData[j].id+'.png">';
+        //                 profile_str += '</div>';
+        //                 profile_str += '<div class="playerdetails">';
+        //                 profile_str += '<h3>'+playersData[j].name+'</h3>';
+        //                 profile_str += '<h6>'+playersData[j].skill_name+'</h6>';
+        //                 profile_str += '<p class="playerStyle">Batting: '+playersData[j].sport_specific_keys.batting_style+'</p>';
+        //                 profile_str += '<p class="playerStyle">Bowling: '+playersData[j].sport_specific_keys.bowling_style+'</p>';
+        //                 profile_str += '</div>';
+        //                 profile_str += '</div>';
+        //                 profile_str += '</div>';
+        //             }
+        //         }
+        //         $("#squads").html(squads_str);
+        //         $("#profileplayercardid").html(profile_str);
 
-                swiperplayer = new Swiper(".playerid", {
-                    grabCursor: !0,
-                    spaceBetween: 10,
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev"
-                    }
-                });
-            });
-        }        
-        getLiveScore();
+        //         swiperplayer = new Swiper(".playerid", {
+        //             grabCursor: !0,
+        //             spaceBetween: 10,
+        //             navigation: {
+        //                 nextEl: ".swiper-button-next",
+        //                 prevEl: ".swiper-button-prev"
+        //             }
+        //         });
+        //     });
+        // }        
+        // getLiveScore();
     });
     
     var activebtn = 0;
