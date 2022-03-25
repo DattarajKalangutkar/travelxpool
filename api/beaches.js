@@ -112,7 +112,7 @@ var beachesdata = [
     "name": "Butterfly Beach",
     "taluka":"Cancona",
     "desc": "Butterfly Beach is one of the least visited place in goa But famous for advanture lovers as one need to walk for 20-30 min. It is one of the smallest beach in length but very beautiful. One can visit this beach by taking boat service from nearby beach or by 20 min to 30 min walking track.",
-    "images": ["images/beaches/Butterfly_Beach.jpg","images/beaches/butterfly.jpg"],
+    "images": ["images/beaches/butterfly.jpg"],
     "location":"https://www.google.com/maps/dir/15.5538051,73.7647483/Majorda+Beach/@15.4324109,73.7060034,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfb6edeec5c283:0x5b9dac94fbc4ced9!2m2!1d73.9018114!2d15.3111553",
     "status": "1"
   },

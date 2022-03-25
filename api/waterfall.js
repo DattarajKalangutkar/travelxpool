@@ -4,7 +4,7 @@ var waterfalldata = [
     "name": "Dudhsagar Waterfall",
     "taluka":"Dharbandora",
     "desc": "One of the most famous waterfalls in Asia. Situated at the heart of Bhagwan Mahaveer Sanctuary and Mollem National Park with a beautiful landscape of Western Ghats. It is one of the famous tourist destinations of Goa. One can visit this place with the taxi services provided by the forest authority with the locals. If you like to take a long track then one can reach the waterfall by walking 14km along with the railway track or with the raw road. Taxi services are closed during the rainy season but can reach the place by walking along with railway track.The best time to visit the fall is in the rainy season just to see the waterfall.",
-    "images": ["images/waterfalls/dudhsagar.jpg","images/waterfalls/dudh.jpg"],
+    "images": ["images/waterfalls/dudh.jpg"],
     "location":"https://www.google.com/maps/dir//Dudhsagar+Waterfall/@15.3144266,74.2442668,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbfa618142b8b43:0xfd9448e7283b0225!2m2!1d74.3143073!2d15.3144375",
     "status": "1"
   },
