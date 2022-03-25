@@ -31,7 +31,7 @@ var beachesdata = [
     "name": "Cabo De Rama Beach",
     "taluka":"Cancona",
     "desc": "One of the famous beach of goa suituated in the south goa, This beach is covered by the coconut trees and huge rock cliff. This is one of the beautiful, less crowded and clean beach of goa. Water is very clean and good for swiming lover. Best time to visit this beach is in the evening to view beautiful sunset and to clicks picture. one can also visit the Cabo de Rama fort which is nearby to beach. This is a ideal place for family picnics and get toghether. ",
-    "images": ["images/beaches/cabderam.jpg"],
+    "images": ["images/beaches/cabderam.jpg","images/beaches/cabderam_1.jpeg"],
     "location":"https://www.google.com/maps/dir//cabo+de+rama+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4bfd44daf1e5:0x6678f36253fe7b44?sa=X&ved=2ahUKEwj3xIiX3YP2AhXes1YBHYb2DD8Q9Rd6BAgsEAQ",
     "status": "1"
   },
