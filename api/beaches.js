@@ -76,7 +76,7 @@ var beachesdata = [
     "name": "Morjim Beach",
     "taluka":"",
     "desc": "Morjim Beach for people looking for clam and cool place to spend your time. It is famous for its turtle migration.",
-    "images": ["images/beaches/morjim_beach.jpg"],
+    "images": ["images/beaches/morjim_1.jpeg","images/beaches/morjim_2.jpeg"],
     "location":"https://www.google.com/maps/dir/15.5538051,73.7647483/morjim+beach/@15.594201,73.6957465,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfeecadf09462f:0x8d0b22824d00b999!2m2!1d73.7214261!2d15.6343609",
     "status": "1"
   },
