@@ -22,13 +22,13 @@ var northTaluka = [
 		"id":"4",
 		"name":"Tiswadi",
 		"url":"",
-		"status":"1"
+		"status":"0"
 	},
 	{
 		"id":"5",
 		"name":"Ponda",
 		"url":"",
-		"status":"1"
+		"status":"0"
 	},
 	{
 		"id":"6",
@@ -36,7 +36,7 @@ var northTaluka = [
 		"url":"sattari.html",
 		"status":"1"
 	},
-];
+].filter((res)=>(res.status == "1"));
 
 var southTaluka = [
 	{
