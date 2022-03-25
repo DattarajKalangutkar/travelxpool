@@ -43,36 +43,36 @@ var southTaluka = [
 		"id":"1",
 		"name":"Mormugao",
 		"url":"",
-		"status":"1"
+		"status":"0"
 	},
 	{
 		"id":"2",
 		"name":"Salcette",
 		"url":"",
-		"status":"1"
+		"status":"0"
 	},
 	{
 		"id":"3",
 		"name":"Dharbandora",
 		"url":"",
-		"status":"1"
+		"status":"0"
 	},
 	{
 		"id":"4",
 		"name":"Quepem",
 		"url":"",
-		"status":"1"
+		"status":"0"
 	},
 	{
 		"id":"5",
 		"name":"Sanguem",
 		"url":"",
-		"status":"1"
+		"status":"0"
 	},
 	{
 		"id":"6",
 		"name":"Canacona",
 		"url":"",
-		"status":"1"
+		"status":"0"
 	},
-];
+].filter((res)=>(res.status == "1"));
