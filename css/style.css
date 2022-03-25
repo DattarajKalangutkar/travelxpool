@@ -1471,7 +1471,7 @@ section {
     }
 
     .category .box-container {
-        grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     }
 
     .category .box-container .box h3 {
