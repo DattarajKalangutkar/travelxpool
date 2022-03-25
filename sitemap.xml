@@ -37,4 +37,20 @@
 		<loc>https://wwww.travelxpool.com/detailpage.html/</loc>
 		<changefreq>daily</changefreq>
 	</url>
+	<url>
+		<loc>https://wwww.travelxpool.com/pernem.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>https://wwww.travelxpool.com/bardez.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>https://wwww.travelxpool.com/bicholim.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>https://wwww.travelxpool.com/sattari.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
 </urlset>

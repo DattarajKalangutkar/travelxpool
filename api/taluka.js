@@ -15,7 +15,7 @@ var northTaluka = [
 	{
 		"id":"3",
 		"name":"Bicholim",
-		"url":"",
+		"url":"bicholim.html",
 		"status":"1"
 	},
 	{
@@ -33,7 +33,7 @@ var northTaluka = [
 	{
 		"id":"6",
 		"name":"Sattari",
-		"url":"",
+		"url":"sattari.html",
 		"status":"1"
 	},
 ];
