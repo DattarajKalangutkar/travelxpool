@@ -3,7 +3,7 @@ var data = [
 		"id":"1",
 		"name":"Beach",
 		"desc":"Goa is know for its sand, sun and sea. check it out the best beaces in goa.",
-		"images":"images/beaches/calangute_beach_goa.png",
+		"images":"images/beaches/cabderam_1.jpeg",
 		"url":"beaches.html",
 		"status":"1"
 	},
@@ -35,7 +35,7 @@ var data = [
 		"id":"5",
 		"name":"hidden places",
 		"desc":"Goa is small states but lots of unexplored places.",
-		"images":"images/hidden_places/lakeNetravalli.jpg",
+		"images":"images/hidden_places/kator.jpg",
 		"url":"hiddenplaces.html",
 		"status":"1"
 	}
