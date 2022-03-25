@@ -238,8 +238,7 @@
     for(let i=0;i<northTaluka.length;i++)
     {
         str += '<div class="box">';
-        str += '<h3>'+northTaluka[i].name+'</h3>';
-        str += '<a href="'+northTaluka[i].url+'" class="btn" title="Read More">Read More</a>';
+        str += '<a href="'+northTaluka[i].url+'" class="btn" title="'+northTaluka[i].name+'">'+northTaluka[i].name+'</a>';
         str += '</div></div>';
     }
     document.getElementById('northTaluka').innerHTML = str;
