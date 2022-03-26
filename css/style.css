@@ -1447,6 +1447,17 @@ section {
     width: 100%;
 }
 
+.taluka .box-container .box .storyimages{
+    text-align: center;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.taluka .box-container .box .storyimages img{
+    width: 450px;
+    height: 350px;
+}
+
 
 
 
@@ -1492,6 +1503,15 @@ section {
 
     .taluka .box-container .box .rhs_section{
         width: 100%;
+    }
+
+    .taluka .box-container .box .storyimages{
+        text-align: center;
+    }
+
+    .taluka .box-container .box .storyimages img{
+        width: 300px;
+        height: 150px;
     }
 }
 
