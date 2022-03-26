@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="IPL 2022 get the latest news, Live Update">
+    <meta name="description" content="Get the Latest News of Live IPL 2022 Matches, Orange Cap, Purple Cap, Standing Table List.">
     <meta name="keywords" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPL 2022 | Travel Xpool</title>
+    <title>IPL 2022 | IPL LIVE MATCHES | LIVE SCORe</title>
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/swiper.css" />
@@ -58,50 +58,35 @@
 <section class="ipl" id="packages">
     <h1 class="heading">IPL 2022</h1>
     <div class="box-container">
-        <!-- <div class="box">
+        <div class="box">
             <div class="swiper image">
                 <div class="live"><h3>.<span id="liveStatus"></span></h3></div>
                 <div class="scoreboard">
                     <div class="firstteam">
-                        <h5 id="teamAname">Delhi</h5>
-                        <div class="showLive">
-                            <h2>266/10</h2>
-                            <p>(50.0) RR 5.32</p>
-                        </div>
-                    </div>
-                    <div class="secondteam">
-                        <h5 id="teamBname">Gujarat</h5>
-                        <div class="showLive">
-                            <h2>0/0</h2>
-                            <p>YET TO BAT</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="scoreboard">
-                    <div class="firstteam">
                         <h5 id="teamAname"></h5>
                         <div class="showLive">
-                            <h2></h2>
-                            <p></p>
+                            <h2 id="teamAscore"></h2>
+                            <p id="teamAovers"></p>
                         </div>
                     </div>
                     <div class="secondteam">
                         <h5 id="teamBname"></h5>
                         <div class="showLive">
-                            <h2></h2>
-                            <p></p>
+                            <h2 id="teamBscore"></h2>
+                            <p id="teamBovers"></p>
                         </div>
                     </div>
                 </div>
+                
                 <div class="winscore">
                     
                 </div>
             </div>
             <div class="content">
-                <h3></h3>
-                <p></p>
+                <h3 id="venue"></h3>
+                <p id="dateMatch"></p>
             </div>
-        </div> -->
+        </div>
 
 
         <div class="box">
@@ -169,45 +154,29 @@
     $(document).ready(function()
     {
         // //Live Data
-        // $.ajax({
-        //     url: "https://treacel.000webhostapp.com/liveMatch.php",
-        //     dataType: 'json',
-        //     type: 'GET',
-        //     success: function(result) {}
-        // }).complete(function(result) {
-        //     //Ipl matches
-        //     let matchesLive = result.responseJSON.matches.filter((res)=>(res.id == 4623));
-        //     console.log(result);
-        //     // var str = '';
-        //     // for(let i=0;i<matchesLive.length;i++)
-        //     // {
-        //     //     if(i%3 == 0)
-        //     //     {
-        //     //         str += '<div class="swiper-slide slide">'; 
-        //     //     }
-        //     //     for(let j=0;j<matchesLive[i].matches.length;j++)
-        //     //     {
-        //     //         str += '<div class="eachBlock">'; 
-        //     //         str += '<div class="scoreboardmatch">';
-        //     //         str += '<div class="firstteam">';
-        //     //         str += '<h2>'+matchesLive[i].matches[j].teama.name+'</h2>';
-        //     //         str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
-        //     //         str += '<h2>'+matchesLive[i].matches[j].teamb.name+'</h2>';
-        //     //         str += '</div></div>';
-        //     //         str += '<div class="matchdates">';
-        //     //         str += matchesLive[i].date;
-        //     //         str += '</div>';
-        //     //         str += '<div class="matchdates" style="margin-top:-10px;">';
-        //     //         str += matchesLive[i].matches[j].venue;
-        //     //         str += '</div></div>';   
-        //     //     }
-        //     //     if(i%3 == 2)
-        //     //     {
-        //     //         str += '</div>';
-        //     //     }
-        //     // }
-        //     // $("#upcomingmatches").html(str);
-        // });
+        setInterval(LiveMatchUpdate, 30 * 100);
+        function LiveMatchUpdate()
+        {
+            $.ajax({
+                url: "https://treacel.000webhostapp.com/liveMatch.php",
+                dataType: 'json',
+                type: 'GET',
+                success: function(result) {}
+            }).complete(function(result) {
+                //Ipl matches .matches.filter((res)=>(res.id == 4623))
+                let matchesLive = result.responseJSON;
+                console.log(matchesLive);
+                $("#teamAname").html(matchesLive.teama);
+                $("#teamAscore").html(matchesLive.scoreA);
+                $("#teamAovers").html(matchesLive.oversA);
+                $("#teamBname").html(matchesLive.teamb);
+                $("#teamBscore").html(matchesLive.scoreB);
+                $("#teamBovers").html(matchesLive.oversB);
+                $("#venue").html(matchesLive.venue);
+                $("#dateMatch").html(matchesLive.date);
+                $("#liveStatus").html(((matchesLive.isLive == 1) ? 'Live':'Upcoming'));
+            });
+        }
         // Upcoming Matches
         $.ajax({
             url: "https://treacel.000webhostapp.com/UpcomingMatch.php",
