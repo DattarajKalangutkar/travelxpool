@@ -53,4 +53,12 @@
 		<loc>https://wwww.travelxpool.com/sattari.html/</loc>
 		<changefreq>daily</changefreq>
 	</url>
+	<url>
+		<loc>https://wwww.travelxpool.com/ipl.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>https://wwww.travelxpool.com/aboutus.html/</loc>
+		<changefreq>daily</changefreq>
+	</url>
 </urlset>
