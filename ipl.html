@@ -165,7 +165,6 @@
             }).complete(function(result) {
                 //Ipl matches .matches.filter((res)=>(res.id == 4623))
                 let matchesLive = result.responseJSON;
-                console.log(matchesLive);
                 $("#teamAname").html(matchesLive.teama);
                 $("#teamAscore").html(matchesLive.scoreA);
                 $("#teamAovers").html(matchesLive.oversA);
