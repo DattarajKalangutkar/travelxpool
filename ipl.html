@@ -99,7 +99,7 @@
     
         <div class="box">
             <div class="content">
-                <h3 style="background: #ffa500db;;color: #eee;">Orange Cap 2021</h3>
+                <h3 style="background: #ffa500db;;color: #eee;">Orange Cap</h3>
                 <div class="scoretable" id="orangetable"></div>
             </div>
         </div>
@@ -107,7 +107,7 @@
             
         <div class="box">
             <div class="content">
-                <h3 style="background: #800080;color: #eee;">Purple Cap 2021</h3>
+                <h3 style="background: #800080;color: #eee;">Purple Cap</h3>
                 <div class="scoretable" id="purpletable"></div>
             </div>
         </div>
@@ -184,8 +184,7 @@
             success: function(result) {}
         }).complete(function(result) {
             //Ipl matches
-            let matchesLive = result.responseJSON.matches.filter((res)=>(res.id == 4623));
-            updateLiveScore(matchesLive.filter((res)=>(new Date(res.date).toLocaleDateString() == new Date().toLocaleDateString())));
+            let matchesLive = result.responseJSON.matches.filter((res)=>(res.id == "4623"));
             var str = '';
             for(let i=0;i<matchesLive.length;i++)
             {
@@ -249,11 +248,13 @@
             success: function(result) {}
         }).complete(function(result) {
             let players = result.responseJSON.leaderboard.slice(0, 5);
-            let orange_str = '<div class="tableroworage"><div class="tablecol">PLAYER</div><div class="tablecol">MAT</div><div class="tablecol">INS</div><div class="tablecol">NO</div><div class="tablecol">RUNS</div><div class="tablecol">HS</div></div>';
+            let orange_str = '<div class="tableroworage"><div class="tablecol">PLAYER</div><div class="tablecol">Team</div><div class="tablecol">MAT</div><div class="tablecol">INS</div><div class="tablecol">NO</div><div class="tablecol">RUNS</div><div class="tablecol">HS</div></div>';
             for(let i=0;i<players.length;i++)
             {
                 orange_str += '<div class="tableroworage"><div class="tablecol">';
                 orange_str += players[i].player_name;
+                orange_str += '</div><div class="tablecol">';
+                orange_str += players[i].team_short_name;
                 orange_str += '</div><div class="tablecol">';
                 orange_str += players[i].matches_played;
                 orange_str += '</div><div class="tablecol">';
@@ -276,11 +277,13 @@
             success: function(result) {}
         }).complete(function(result) {
             let players = result.responseJSON.leaderboard.slice(0, 5);
-            let orange_str = '<div class="tableroworage"><div class="tablecol">PLAYER</div><div class="tablecol">MAT</div><div class="tablecol">WKS</div><div class="tablecol">RG</div><div class="tablecol">OV</div></div>';
+            let orange_str = '<div class="tableroworage"><div class="tablecol">PLAYER</div><div class="tablecol">Team</div><div class="tablecol">MAT</div><div class="tablecol">WKS</div><div class="tablecol">RG</div><div class="tablecol">OV</div></div>';
             for(let i=0;i<players.length;i++)
             {
                 orange_str += '<div class="tableroworage"><div class="tablecol">';
                 orange_str += players[i].player_name;
+                orange_str += '</div><div class="tablecol">';
+                orange_str += players[i].team_short_name;
                 orange_str += '</div><div class="tablecol">';
                 orange_str += players[i].matches_played;
                 orange_str += '</div><div class="tablecol">';
