@@ -80,11 +80,11 @@
     {
         if(historicplacesData[i].status == '1')
         {
-            var url = 'detailpage.html?type='+type+'_'+beachesData[i].id;
-            if(beachesData[i].desc.split(' ').length > shortWord)
-                var descofarticles = displayShort(beachesData[i].desc.split(' '),shortWord,url);
+            var url = 'detailpage.html?type='+type+'_'+historicplacesData[i].id;
+            if(historicplacesData[i].desc.split(' ').length > shortWord)
+                var descofarticles = displayShort(historicplacesData[i].desc.split(' '),shortWord,url);
             else
-                var descofarticles = beachesData[i].desc;
+                var descofarticles = historicplacesData[i].desc;
 
             str += '<div class="box">';
             if(historicplacesData[i].images.length > 0)
