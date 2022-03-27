@@ -31,7 +31,7 @@ var historicdata = [
     "name": "Safa Masjid Ponda",
     "taluka":"",
     "desc": "Safa Mosque or Safa Shahouri Mosque is located at Ponda, Goa. It is a 16th century Islamic Monument consisting of garden and fountains. It is protected Monument by an ASI of National Importance in Goa.",
-    "images": ["images/hidden_places/rivonacave.jpg"],
+    "images": ["images/historic_places/SafaMasjidPondaGoa.jpg"],
     "location":"https://www.google.com/maps/dir//Safa+Masjid+Ponda/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbaec86860f71:0xdca460046435cfb8?sa=X&ved=2ahUKEwjFtISC34P2AhU7rlYBHdXfDfwQ9Rd6BAglEAU",
     "status": "1"
   },
