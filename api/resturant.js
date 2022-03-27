@@ -47,7 +47,7 @@ var resturantdata = [
   {
     "id": "6",
     "name": "The Fisherman’s Wharf",
-    "taluka":"",
+    "taluka":"Naika Waddo, Calangute, Goa",
     "desc": "The Fisherman’s Wharf is famous for their signature fusion Goan dishes. There are three outlate at Panaji, Calangute & Cavelossim.",
     "images": ["images/restaurants/fisherman_resturant_1.jpeg","images/restaurants/fisherman_resturant_2.jpeg"],
     "location":"https://www.google.com/maps/dir/15.5538051,73.7647483/The+Fisherman's+Wharf,+H.No.+2%2F35B+%26+2%2F35C,+Naika+Waddo,+Calangute,+Goa+403516/@15.5453471,73.7590854,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc12359f2f1d3:0x87cb280e2a74356!2m2!1d73.7664248!2d15.538489",
