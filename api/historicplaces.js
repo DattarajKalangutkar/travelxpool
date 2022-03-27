@@ -4,7 +4,7 @@ var historicdata = [
     "name": "Tambdi Surla Temple",
     "taluka":"",
     "desc": "Tambdi Surla is a 12th-century Shaivite temple in the Kadamba style dedicated to Lord Shiva and an active place of Hindu worship. It is an ASI protected Monument of National Importance in Goa.",
-    "images": ["images/historic_places/Tambdi_Surla.jpg"],
+    "images": ["images/historic_places/tambditemple.jpeg"],
     "location":"https://www.google.com/maps/dir//Tambdi+Surla+Temple/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbf084e06883729:0x492ac4c792d0417a?sa=X&ved=2ahUKEwi65taq3oP2AhVEk1YBHcakC-MQ9Rd6BAguEAM",
     "status": "1"
   },
