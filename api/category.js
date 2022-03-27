@@ -28,7 +28,7 @@ var data = [
 		"name":"Waterfall",
 		"desc":"Beauty of goa is in its nature. Explore the amazing waterfall of Goan beauty",
 		"images":"images/waterfalls/dudh.jpg",
-		"url":"waterfalls.html",
+		"url":"waterfall.html",
 		"status":"1"
 	},
 	{
