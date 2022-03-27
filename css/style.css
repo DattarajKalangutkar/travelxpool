@@ -114,6 +114,8 @@ section {
     color: #10221b;
 }
 
+
+
 .header {
     position: fixed;
     top: 0;
@@ -539,6 +541,12 @@ section {
     display: -ms-grid;
     display: grid;
     gap: 1.5rem;
+}
+
+.detailView .box-container .fullinfo{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #10221b;
 }
 
 .detailView .box-container .infoicon{

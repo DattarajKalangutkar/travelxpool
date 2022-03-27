@@ -82,7 +82,8 @@
             <div class="subinfo" id="detailplace"></div>
             <div class="subinfo" id="detailcat">Category : Beach</div>
         </div>
-        <p class="subheadling" id="detaildesc"></p> 
+        <div id="detaildesc">
+        </div>
         <div class="infoicon">
             <a href="#" class="btnicon" id="detaillocation" title="location" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
             <a href="#" class="btnicon" id="detailfacebook" title="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -139,8 +140,20 @@
         type = "hiddenplaces";
     }
 
-    document.getElementById('detailtitle').innerHTML = detaildata[0].name; 
-    document.getElementById('detaildesc').innerHTML = detaildata[0].desc; 
+    document.getElementById('detailtitle').innerHTML = detaildata[0].name;
+    var desstr = ''; 
+    if(detaildata[0].hasOwnProperty('full_desc'))
+    {
+        for(let i=0;i<detaildata[0].full_desc.length;i++)
+        {
+            desstr += "<p class='fullinfo'>"+detaildata[0].full_desc[i]+"</p>";
+        }
+    }
+    else
+    {
+        desstr += "<p class='fullinfo'>"+detaildata[0].desc+"</p>";
+    }
+    document.getElementById('detaildesc').innerHTML = desstr; 
     document.getElementById('detailplace').innerHTML = "Place : "+detaildata[0].taluka; 
     document.getElementById('detailcat').innerHTML = "Category : "+type.charAt(0).toUpperCase()+type.slice(1); 
     document.getElementById("detaillocation").href = detaildata[0].location;
