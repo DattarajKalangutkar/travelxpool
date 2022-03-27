@@ -49,7 +49,7 @@ var historicdata = [
     "name": "Aguad Fort",
     "taluka":"Candolim",
     "desc": "Aguad Fort is famous fort of goa. It is old Portuguese lighthouse.",
-    "images": ["images/historic_places/Aguada-Fort.jpg"],
+    "images": ["images/historic_places/aguad_1.jpeg","images/historic_places/aguad_2.jpeg","images/historic_places/aguad_3.jpeg","images/historic_places/aguad_4.jpeg","images/historic_places/aguad_5.jpeg"],
     "location":"https://www.google.com/maps/dir/15.4988419,73.9007086/Aguada+Fort/@15.5117965,73.764754,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfc175c68cbd6b:0xa3837630b3697b1c!2m2!1d73.7731561!2d15.4925631",
     "full_desc":[
       "Goa is considered to be a hub of tourism and natural beauty. A real calm & peaceful place to chill. Goa is the most visited place by tourists of India as well as from all over the world. Goan’s have highly succeeded in maintaining their authenticity & heritage.",
