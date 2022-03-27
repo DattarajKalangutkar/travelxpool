@@ -176,14 +176,24 @@
 <script src="js/script.js"></script>
 <script src="api/taluka.js" type="text/javascript"></script>
 <script type="text/javascript">
+    var url = new URL(window.location.href);
+    var url_data = url.pathname.split('/');
     var str = '';
     for(let i=0;i<northTaluka.length;i++)
     {
-        str += '<a href="'+northTaluka[i].url+'" class="btn" title="'+northTaluka[i].name+'"><h3>'+northTaluka[i].name+'</h3></a>';
+        if (url_data[url_data.length - 1] === northTaluka[i].url) {
+
+        } else {
+           str += '<a href="'+northTaluka[i].url+'" class="btn" title="'+northTaluka[i].name+'"><h3>'+northTaluka[i].name+'</h3></a>';
+        }
     }
     for(let i=0;i<southTaluka.length;i++)
     {
-        str += '<a href="'+southTaluka[i].url+'" class="btn" title="'+southTaluka[i].name+'"><h3>'+southTaluka[i].name+'</h3></a>';
+        if (url_data[url_data.length - 1] === southTaluka[i].url) {
+
+        } else {
+           str += '<a href="'+southTaluka[i].url+'" class="btn" title="'+southTaluka[i].name+'"><h3>'+southTaluka[i].name+'</h3></a>';
+        }
     }
     document.getElementById('talukaList').innerHTML = str;               
 </script>
