@@ -62,6 +62,7 @@
             <div class="swiper image">
                 <div class="live"><h3>.<span id="liveStatus"></span></h3></div>
                 <div class="scoreboard">
+                    <h5 id="matchStatus"></h5>
                     <div class="firstteam">
                         <h5 id="teamAname"></h5>
                         <div class="showLive">
@@ -78,7 +79,7 @@
                     </div>
                 </div>
                 
-                <div class="winscore">
+                <div class="winscore" id="matchresult">
                     
                 </div>
             </div>
@@ -174,6 +175,8 @@
                 $("#venue").html(matchesLive.venue);
                 $("#dateMatch").html(matchesLive.date);
                 $("#liveStatus").html(((matchesLive.isLive == 1) ? 'Live':'Upcoming'));
+                $("#matchresult").html(matchesLive.msg);
+                $("#matchStatus").html(matchesLive.match_status)
             });
         }
         // Upcoming Matches
