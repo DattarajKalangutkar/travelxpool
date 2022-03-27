@@ -19,7 +19,7 @@ var data = [
 		"id":"3",
 		"name":"Historic places",
 		"desc":"Strength of Goa is in the spritual places. Goa is famous for its temples and churches.",
-		"images":"images/historic_places/Tambdi_Surla.jpg",
+		"images":"images/historic_places/tambditemple.jpeg",
 		"url":"historicplaces.html",
 		"status":"1"
 	},
