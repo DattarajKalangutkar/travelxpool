@@ -80,7 +80,7 @@ var hiddendata = [
     "status": "1"
   },
   {
-    "id": "7",
+    "id": "8",
     "name": "Lower Aguad Fort",
     "taluka":"Aguada Fort Area, Candolim",
     "desc": "The complete but incomplete due to broken struture gives more beauty to the nature.To check more information kindly check on the checkout button",
