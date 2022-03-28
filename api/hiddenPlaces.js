@@ -24,7 +24,7 @@ var hiddendata = [
     "desc": "This Sanctuary is present in beautiful island of Chorao. You can spot a lot of migration birds here during early winter. Best place to visit this place is in the morning.",
     "images": ["images/hidden_places/salimalisanctury.jpg"],
     "location":"https://www.google.com/maps/dir//Dr.+Salim+Ali+Bird+Sanctuary/@15.5130358,73.8003749,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbfbf753f264d61:0xd327e1caf3767979!2m2!1d73.8704154!2d15.5130468",
-    "status": "1"
+    "status": "0"
   },
   {
     "id": "4",
@@ -33,7 +33,7 @@ var hiddendata = [
     "desc": "",
     "images": ["images/hidden_places/rivonacave.jpg"],
     "location":"https://www.google.com/maps/dir//Rivona+Caves+Goa/@15.164894,74.0413057,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbe53779d74e467:0xde347c4decf78cbb!2m2!1d74.1113462!2d15.1649048",
-    "status": "1"
+    "status": "0"
   },
   {
     "id": "5",
@@ -42,7 +42,7 @@ var hiddendata = [
     "desc": "",
     "images": ["images/hidden_places/kerispiceplantation.jpg"],
     "location":"https://www.google.com/maps/dir//Keri+Spice+Plantation/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbab93667b5d1:0x63aaf2d1eae29021?sa=X&ved=2ahUKEwjrrOGR3oP2AhXzlFYBHZA4C_EQ9Rd6BAgkEAQ",
-    "status": "1"
+    "status": "0"
   },
   {
     "id": "6",
@@ -56,6 +56,27 @@ var hiddendata = [
       "images/hidden_places/kator_3.jpg"
     ],
     "location":"https://www.google.com/maps/dir//JQ2H%2B449+Kator,+Bouta+Waddo,+Assagao,+Goa+403519/@15.6003798,73.7777284,93m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3bbfebb1286224c5:0x7791a3d4582a6166!2m2!1d73.7778723!2d15.6002924",
+    "status": "1"
+  },
+  {
+    "id": "7",
+    "name": "St. Lawrence Church Kuris",
+    "taluka":"Aguada Fort Area, Candolim",
+    "desc": "The Kuris with a wonderfull view of the surrounding situated at the hill top of aguada fort.",
+    "images": [
+      "images/hidden_places/kuris_1.jpeg",
+      "images/hidden_places/kuris_2.jpeg",
+      "images/hidden_places/kuris_3.jpeg",
+    ],
+    "full_desc":[
+      "As people say, a destination doesn't come with a specific time instead it can come by any time. In so same way when going roaming to find or searching any specific thing, with that you find the thing or places which you never meant to in our destination.",
+      "So the above statement Exactly relates to Goa's places. When searching or finding a very Particular Places, With that every others place which is beautiful comes in the eyes of the people which are very rare to others peoples eyes n also to their ears.",
+      "One such place is the Cross which Goan people called Kuris situated very nearby to the famous Aguad Fort. this Place is Very nearby To aguad fort or it is on the way to aguad Forts. Its mostly categories should be hidden Places because rather than Locals, no other hav catch the eyes of this beautiful Cross.",
+      "It is huge as expected from the Normal one. Which can be seen from far away from the road. But once you catch the eye of this 'Kuris' no one can ignore it without going and having a look at that structure.",
+      "During the Lockdown, the place is locked but still, anyone can take a full look at the structure at the entrance of the gate. The structure is placed at the center of the Place n both the Sides there is tres which give sugar to the lovely Place. It is basically a cemetery of the St Lawrence church, which is close to the church. This church is basically far away from the city as it is situated at the top of the hill with a fantastic natural view.",
+      "As it is far away from the city, it is not much crowded. From the word Cemetery, most people are scared to go the places and avoid but this structure nowhere looks haunted as it is a beautiful church with a peacefully in the surrounding, and the huge KURIS attracts the attention to the views as to visit the place."
+    ],
+    "location":"https://www.google.com/maps/dir//FQWJ%2B2VH+St.+Lawrence+Church+Cemetery,+Sinquerim,+Aguada,+Aguada+Fort+Area,+Candolim,+Goa+403515/@15.4950748,73.7817003,187m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3bbfc1ee39cf1e33:0x6aeea3aa137e02bf!2m2!1d73.7821995!2d15.4950765",
     "status": "1"
   },
 ];
