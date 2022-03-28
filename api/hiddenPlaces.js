@@ -95,7 +95,7 @@ var hiddendata = [
       "One such place is the place nearby the famous Aguad Fort in the siquerim area. To get to this place one needs to travel for around 45 min to get to the spot. The place is situated at the bank of river Mandovi or the Arabian Sea. Actually, August- September is the best time to visit when the full area is lush green but February to May is also the best place as the sound of beach water, the windy wind mesmerize into the view and get hypnotize with the View.",
       "The complete but incomplete broken fort gives extra beauty to the Spot. The place can be visited either from the Aguad fort or from the siquerim beach. The sea view you get from here is out of the world."
     ],
-    "location":"https://www.google.com/maps/dir//FQWJ%2B2VH+St.+Lawrence+Church+Cemetery,+Sinquerim,+Aguada,+Aguada+Fort+Area,+Candolim,+Goa+403515/@15.4950748,73.7817003,187m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3bbfc1ee39cf1e33:0x6aeea3aa137e02bf!2m2!1d73.7821995!2d15.4950765",
+    "location":"https://www.google.com/maps/dir//Lower+Aguada+fort+(repaired),+Unnamed+Rd,+Aguada+Fort+Area,+Candolim,+Goa+403515/@15.4915401,73.7674113,373m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3bbfc17ba8cb96f1:0x8c9a7c4bb9bff424!2m2!1d73.768243!2d15.4915401",
     "status": "1"
   },
 ];
