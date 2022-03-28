@@ -1137,6 +1137,12 @@ section {
 
 /* IPL 2022 */
 
+#matchStatus{
+    padding: 8px 0px 0px 0px;
+    margin-top: 9px;
+    font-size: 1.4rem;
+}
+
 .ipl {
     background: #eee;
 }
