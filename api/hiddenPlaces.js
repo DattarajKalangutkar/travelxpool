@@ -79,4 +79,23 @@ var hiddendata = [
     "location":"https://www.google.com/maps/dir//FQWJ%2B2VH+St.+Lawrence+Church+Cemetery,+Sinquerim,+Aguada,+Aguada+Fort+Area,+Candolim,+Goa+403515/@15.4950748,73.7817003,187m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3bbfc1ee39cf1e33:0x6aeea3aa137e02bf!2m2!1d73.7821995!2d15.4950765",
     "status": "1"
   },
+  {
+    "id": "7",
+    "name": "Lower Aguad Fort",
+    "taluka":"Aguada Fort Area, Candolim",
+    "desc": "The complete but incomplete due to broken struture gives more beauty to the nature.To check more information kindly check on the checkout button",
+    "images": [
+      "images/hidden_places/lower_fort_1.jpeg",
+      "images/hidden_places/lower_fort_2.jpeg",
+      "images/hidden_places/lower_fort_3.jpeg",
+    ],
+    "full_desc":[
+      "Technology has made a lifestyle easy not in terms of transport but also in social life. Famous Company like Google has made people search, find any unknown place around the world but not traveling to the places but rather searing at home. Google map is one such software that made most of the traveler's life easy. Navigation, direction, finding, or searching new places can be accomplished by google Maps.",
+      "So if anyone tried to use google map on goa map, people will get numerous hidden places which make the people have a visit as soon as possible. After visiting that people get into shocked saying 'many time Visited the nearby places, but never came across such place before'.",
+      "One such place is the place nearby the famous Aguad Fort in the siquerim area. To get to this place one needs to travel for around 45 min to get to the spot. The place is situated at the bank of river Mandovi or the Arabian Sea. Actually, August- September is the best time to visit when the full area is lush green but February to May is also the best place as the sound of beach water, the windy wind mesmerize into the view and get hypnotize with the View.",
+      "The complete but incomplete broken fort gives extra beauty to the Spot. The place can be visited either from the Aguad fort or from the siquerim beach. The sea view you get from here is out of the world."
+    ],
+    "location":"https://www.google.com/maps/dir//FQWJ%2B2VH+St.+Lawrence+Church+Cemetery,+Sinquerim,+Aguada,+Aguada+Fort+Area,+Candolim,+Goa+403515/@15.4950748,73.7817003,187m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3bbfc1ee39cf1e33:0x6aeea3aa137e02bf!2m2!1d73.7821995!2d15.4950765",
+    "status": "1"
+  },
 ];
