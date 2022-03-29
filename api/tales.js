@@ -10,5 +10,11 @@ var tales = [
 		"name":"Shigmo",
 		"url":"shigmo.html",
 		"status":"1"
+	},
+	{
+		"id":"3",
+		"name":"Mandodari Devi",
+		"url":"mandodari.html",
+		"status":"1"
 	}
 ].filter((res)=>(res.status == "1"));
