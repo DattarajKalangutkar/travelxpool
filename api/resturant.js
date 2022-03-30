@@ -4,7 +4,7 @@ var resturantdata = [
     "name": "Starlight",
     "taluka":"Salcette",
     "desc": "Starlight is one of the most famous restaurants in south goa at Assolna village situated at the bank of the River. One can enjoy the food with a cool view of the riverside. This place is around 27km from Margoa city on the way to Cabo de Rama beach. One can visit this place at least once to enjoy the delicious seafood and many more. This restaurant is famous for its seafood. You will get all the variety of fish dishes here.",
-    "images": ["images/restaurants/starlight_1.jpeg"],
+    "images": ["images/restaurants/starlight_1.jpeg","images/restaurants/starlight_2.jpeg"],
     "location":"https://www.google.com/maps/dir//star+light+assolna/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4cc6c78ba1dd:0x8b8ff44b279e2ba5?sa=X&ved=2ahUKEwi824ek34P2AhUisFYBHZDwAZkQ9Rd6BAgsEAQ",
     "status": "1"
   },
