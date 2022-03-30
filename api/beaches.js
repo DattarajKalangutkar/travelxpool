@@ -89,9 +89,15 @@ var beachesdata = [
   {
     "id": "8",
     "name": "Colva Beach",
-    "taluka":"",
+    "taluka":"Mardgao",
     "desc": "Colva Beach is one of the famous beach near madgoa city. Many people goes here with family to spend time.",
     "images": ["images/beaches/colva-beach.jpg"],
+    "full_desc":[
+      "Colva beach is the southernmost beautiful and very exciting beach for people in south Goa. Calangute beach is said to be the busiest on the north side, while way Colva is said to be busiest on the south side.",
+      "Colva beach is spread wide at about 2.4 kilometers surrounded by Bogmalo Beach to the north & Cabo de Rama beach to the south of it. People visit for the extraordinary water sports, to get the suntan, Nightlife to enjoy the night clubs and as the evening to spend the evening with their loved ones.",
+      "As Colva beach is famous for its overcrowded factor, people here are more or less active, happy, enthusiastic, and very excited throughout their visit to this beach. Here no one should neglect the sports activity carried by the people as they are very famous for the sports activity on Colva beach. One should try to experience the water sports activity. there are some water sports activities like banana boat rides, parasailing, jet ski ride, water scooter & boat ride. which every tourist will enjoy after experiencing.",
+      "As previously said nightlife is filled with excitement and very people visit this place, to enjoy the fullest. The bars and disco track attract thousands of people to enjoy the full night on the beach.From October till May is the best time for the beach to visit, as it has pleasant weather for the tourist to enjoy their time with family and friends and loved ones.",
+    ],
     "location":"https://www.google.com/maps/dir/15.5538051,73.7647483/colva+beach+goa/@15.4255253,73.7472516,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfb418862d72a3:0xb5de1b202cad0935!2m2!1d73.9119945!2d15.2805316",
     "status": "1"
   },
