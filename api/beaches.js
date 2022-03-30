@@ -13,7 +13,13 @@ var beachesdata = [
     "name": "Baga Beach",
     "taluka":"Bardez",
     "desc": "Baga Beach is another famous beach of goa, attached along with calangute beach many people visit here in large number.",
-    "images": ["images/beaches/baga_beach.png"],
+    "images": [
+      "images/beaches/baga_1.jpg",
+      "images/beaches/baga_2.jpg",
+      "images/beaches/baga_3.jpg",
+      "images/beaches/baga_4.jpg",
+      "images/beaches/baga_5.jpg"
+    ],
     "location":"https://www.google.com/maps/dir//Baga+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfea1cd8a1deff:0xba7066c0ee35c1e0?sa=X&ved=2ahUKEwjYxYT_3IP2AhXTrlYBHWcDC0AQ9Rd6BAgyEAQ",
     "status": "1"
   },
