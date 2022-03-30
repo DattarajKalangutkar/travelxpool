@@ -11,7 +11,7 @@ var data = [
 		"id":"2",
 		"name":"Restaurant",
 		"desc":"Goa cuisine is world famous for the its foods and drinks. explore the best resturents around.",
-		"images":"images/restaurants/starlight.jpg",
+		"images":"images/restaurants/fisherman_resturant_1.jpeg",
 		"url":"restaurant.html",
 		"status":"1"
 	},
