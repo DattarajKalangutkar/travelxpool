@@ -15,6 +15,13 @@ var beachesdata = [
       "images/beaches/calangute_8.jpg",
       "images/beaches/calangute_9.jpg",
     ],
+    "full_desc":[
+      "Calangute Beach, which is kind of common word when people talk about beaches from Goa. This beach is famous among visitors and the local people around the Goa state. As it is situated in the northern districts of Goa, people from the South travel a long way to visit this beach.",
+      "Calangute beach is said to be the busiest and nosiest beach.it is not just because it is famous, but the overnight parties, the shacks, the music the beauty, shopping attracts the people to make this nosiest. There are numerous sports activities which are carried out on this beach like parasailing, water surfing, banana ride, and jet-skiing. On these beaches, Dolphins can be seen with a large number which is also a key factor for the tourist to visit this place. There is a specially arranged boat which takes a ride for the tourist to view the amazing dancing and playing of the Dolphins.",
+      "Calangute beach is mostly 4 miles wide with a neighboring Baga beach to the right side which is also a famous beach and a kind of sister-brother bond with Calangute beach and to the left is Candolim beach. Calangute Beach is a perfect tourist retreat, filled with souvenir stalls, shacks, and other stalls selling everything from beer, trinkets to pawns.",
+      "As said, Calangute has a wide range of beautiful and famous bars and clubs like Souza Lobo, Tio Tilly's Bar and Kitchen, Carvalho's, Spice It, Cantare, Tonic - Hard Rock Hotel, Hipster which anyone can make their night great as the music here is extraordinary and also the food they serve is awesome.",
+      "Calangute beach is one such beach in which there is no specific time anyone can visit, it is kind of 24*7 beautiful. But as it is said, Christmas Time, or the time from October to December, Beach has its own beauty, the light, the sound of the clubs, the crowd on the beach adds a kind of beauty to nature. It is also good to visit on summer days, as people get sunbath in the beach heat."
+    ],
     "location":"https://www.google.com/maps/dir//calangute+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfea0148f4ed2b:0xcb592fad5d257d17?sa=X&ved=2ahUKEwiH-OnpmYH2AhXASWwGHTGcB9IQ9Rd6BAgzEAQ",
     "status": "1"
   },
@@ -91,9 +98,15 @@ var beachesdata = [
   {
     "id": "9",
     "name": "Morjim Beach",
-    "taluka":"",
+    "taluka":"Morjim,Goa",
     "desc": "Morjim Beach for people looking for clam and cool place to spend your time. It is famous for its turtle migration.",
     "images": ["images/beaches/morjim_1.jpeg","images/beaches/morjim_2.jpeg"],
+    "full_desc":[
+      "Morjim beach or little Russia is one of the most beautiful beaches on the north beaches list. It is said to be a quiet beach as there are any hardly people seen on this beach. As it said a little Russia, the majority of the people are Russian on this beach or more Russians travel to this beach. On the way to this beach, there can be seen many signboards or menus which are written in the Russian language. The key factor or can say the main attraction of the beach is the Turtle which is the Olive Ridley Turtles hatch on the beach.",
+      "As not many Crowded places, The morning vibes are very peaceful here, it is just the sounds of birds, the waves of the beach which make the mood relax. Here, people will see doing yoga for a peaceful mind in the early morning, others can be seen taking a morning walk or morning ride.",
+      "As morning site at the beach is a kind of natural beauty to the tourist and Morjim beach has a quality to satisfy the tourist as it has a beautiful view of the sunrise, then the hatching of the turtle towards the beach, then the bird watching the scene and many more on this beach.",
+      "Every beach has its own quality time to visit, so morjim has it same like the month from November to April is the best situated time for the beach to visit. Its pleasant weather and calm environment make the day perfect for the tourist.Morjim beach is said to be the picnic spot for most of the schools, as the entrance of the beaches are lots of trees shades which protect the tourists from the sun heat and at the evening once can see the beautiful sunset point.",
+    ],
     "location":"https://www.google.com/maps/dir/15.5538051,73.7647483/morjim+beach/@15.594201,73.6957465,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfeecadf09462f:0x8d0b22824d00b999!2m2!1d73.7214261!2d15.6343609",
     "status": "1"
   },
