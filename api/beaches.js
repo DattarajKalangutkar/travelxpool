@@ -4,7 +4,17 @@ var beachesdata = [
     "name": "Calangute Beach",
     "taluka":"Bardez",
     "desc": "Calangute beach is one of most famous place in goa to visit. Lots of famous resturent and pubs are present here.",
-    "images": ["images/beaches/calangute_beach_goa.png"],
+    "images": [
+      "images/beaches/calangute_1.jpg",
+      "images/beaches/calangute_2.jpg",
+      "images/beaches/calangute_3.jpg",
+      "images/beaches/calangute_4.jpg",
+      "images/beaches/calangute_5.jpg",
+      "images/beaches/calangute_6.jpg",
+      "images/beaches/calangute_7.jpg",
+      "images/beaches/calangute_8.jpg",
+      "images/beaches/calangute_9.jpg",
+    ],
     "location":"https://www.google.com/maps/dir//calangute+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfea0148f4ed2b:0xcb592fad5d257d17?sa=X&ved=2ahUKEwiH-OnpmYH2AhXASWwGHTGcB9IQ9Rd6BAgzEAQ",
     "status": "1"
   },
@@ -18,7 +28,8 @@ var beachesdata = [
       "images/beaches/baga_2.jpg",
       "images/beaches/baga_3.jpg",
       "images/beaches/baga_4.jpg",
-      "images/beaches/baga_5.jpg"
+      "images/beaches/baga_5.jpg",
+      "images/beaches/baga_6.jpg",
     ],
     "location":"https://www.google.com/maps/dir//Baga+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfea1cd8a1deff:0xba7066c0ee35c1e0?sa=X&ved=2ahUKEwjYxYT_3IP2AhXTrlYBHWcDC0AQ9Rd6BAgyEAQ",
     "status": "1"
