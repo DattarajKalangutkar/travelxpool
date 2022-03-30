@@ -5,6 +5,15 @@ var historicdata = [
     "taluka":"",
     "desc": "Tambdi Surla is a 12th-century Shaivite temple in the Kadamba style dedicated to Lord Shiva and an active place of Hindu worship. It is an ASI protected Monument of National Importance in Goa.",
     "images": ["images/historic_places/tambditemple.jpeg"],
+    "full_desc":[
+      "Mahadeva Temple of  Tambdi Surla is a 12th-century temple built by the Kadamba kingdom, dedicated to Lord Shiva. It was built from basalt stone curved by the craftsman. It is considered to be the only specimen of Kadamba architecture in basalt stone preserved and available in Goa.  It is an ASI-protected Monument of National Importance in Goa.",
+      "The temple has survived the destruction of the invaders due to its remote location in a deep forest at the foot of the Western Ghats which surround the site.  The temple is near a small village called Tambdi Surla of Dharbandora taluka, in the northeast region of the Bhagwan Mahaveer Sanctuary and Mollem National Park. The small river flows nearby to the temple which visiting people use to clean themselves before entering the temple.",
+      "The temple consists of garbhagriha, antarala, and a pillared Nandi mandapa. The four pillars, embellished with intricate carvings of elephants and chains support a stone ceiling decorated with finely carved Ashtoken lotus flowers.  The temple faces east so that the first rays of the rising sunshine on the deity.",
+      "There is a headless Nandi (bull, Shiva's vehicle) in the center of the mandap, surrounded by four matching columns. The symbol of the Kadamba kingdom, an elephant trampling a horse is carved on the base of one of the columns.  Around the temple,  Authority had built the temple campus boundary and well maintain a lawn garden has been built. The temple is small in structure compared to the other famous Goan temple.",
+      "The festival of Mahashivratri is celebrated by a large number of people gathering at the temple with local people residing in surrounding villages.  The temple is open for people from 8:30 am to 5:30 pm every day.",
+      "Another attraction near this place is the Tambdi Surla waterfall, which people visit mainly during the rainy season. Tambdi Surla Temple is a fine place to click photos for any occasion and most people visit this place for family picnics and outings. The environment in this area is very cool and calm and spiritually relaxing.",
+      "This is one of the most recommended places by goans to people who want to explore goa beyond just sand and beaches."
+    ],
     "location":"https://www.google.com/maps/dir//Tambdi+Surla+Temple/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbf084e06883729:0x492ac4c792d0417a?sa=X&ved=2ahUKEwi65taq3oP2AhVEk1YBHcakC-MQ9Rd6BAguEAM",
     "status": "1"
   },
