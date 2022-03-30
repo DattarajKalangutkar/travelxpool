@@ -64,11 +64,20 @@ var historicdata = [
     "status": "1"
   },
   {
-    "id": "6",
+    "id": "7",
     "name": "Nagueshi Temple",
-    "taluka":"",
+    "taluka":"Bandiwade, Donshiwado, Ponda",
     "desc": "Nagueshi Temple is one of the famous temple in goa. It an 15th Century Lord Shiva temple at Mangeshi, Goa.",
     "images": ["images/historic_places/Nagueshi-temple-ponda.jpg"],
+    "full_desc":[
+      "Shri Nageshi Temple is situated in Bandode village, Ponda, South Goa. This temple is an ancient Hindu temple dedicated to Lord Naguesh an incarnation form of Lord Shiva worshipped by Hindu Goans in India. ",
+      "The temple is surrounded by the wast natural greenery, mountains agricultural fields, etc., and is one of the oldest, historic temples of  Goa and with archaeological importance and also among well-known places to visit in goa.",
+      "The Nageshi Temple was built in 1413  under the rule of King Veer Pratap Devaraya of the mighty Vijaynagara Empire. The temple underwent an extensive renovation process in the days of Chatrapati Shahu the Maratha ruler of Satara. ",
+      "This beautiful temple stands where it was originally built  Unlike many other Hindu temples of Goa that were shifted out of the Velha Conquistas, the reason being the Antruj of Ponda Mahal was not under the Portuguese domain. ",
+      "The temple has recently banned the entry of foreigners into the temple citing objectionable dressing and conduct as the reason.Anguish Satrap is the most important festival celebrated at this temple in November. Also, the 8 days Kartik Poornima, Chaitra Poornima, and Mahashivratri are celebrated at this temple.",
+      "The time of the temple visit is  5:30 am to 8:30 pm.",
+      "The major attractions of the temple are the five-storied lamp tower or Deepstambha and the historic old water tank.  It is built in such a way that standing at a certain point around the tank one can view the reflection of the idol of Lord Nagesh and the lighted lamps in the inner sanctum. The Sabhamandap of Shri Nageshi temple has a gallery on both sides which contains exquisite wooden carvings depicting the scenes of the great Ramayana and Mahabharata on one side and the wooden images of Astadikpalaka and Gandharva on the other."
+    ],
     "location":"https://www.google.com/maps/dir/15.4900686,73.7830858/Nagueshi+Temple/@15.4602842,73.7387284,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfbaf5f1bc9df5:0x38f7fd83e319208a!2m2!1d73.9837414!2d15.4074688",
     "status": "1"
   },
