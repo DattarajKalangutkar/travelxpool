@@ -22,7 +22,13 @@ var waterfalldata = [
     "name": "Arvalem Waterfalls",
     "taluka":"Sanquelim",
     "desc": "One of the famous and most visited waterfalls in goa. Situated near Sanquelim city of goa. It is one of the short waterfalls in height. Near this fall you can visit and take blessings in the Rudreshwar temple.Famous Pandavs (Harvalem Caves) caves are very near to this place. This is an ideal area for school picnics and trips.This is also the spiritual importance place for Hindus as they ago there to perform the 11th-day ritual after the death of the family member.",
-    "images": ["images/waterfalls/harvalem.jpg"],
+    "images": ["images/waterfalls/harvalem_waterfall_1.jpg",
+      "images/waterfalls/harvalem_waterfall_3.jpg",
+      "images/waterfalls/harvalem_waterfall_4.jpg",
+      "images/waterfalls/harvalem_waterfall_5.jpg",
+      "images/waterfalls/harvalem_waterfall_6.jpg",
+      "images/waterfalls/harvalem_waterfall_7.jpg"
+    ],
     "location":"https://www.google.com/maps/dir//Arvalem+Waterfalls/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbd4c54c04655:0x623633fe068aab4b?sa=X&ved=2ahUKEwiL3KWW4IP2AhVaxzgGHf2hAEcQ9Rd6BAgOEAM",
     "status": "1"
   },

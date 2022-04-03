@@ -20,7 +20,12 @@ var historicdata = [
     "name": "Old Goa Church",
     "taluka":"Tiswadi",
     "desc": "The Basilica of Bom Jesus is a Roman Catholic basilica located at old goa in Goa state. It is both a pilgrimage centre and also the most iconic monument of all the churches and convents of Goa, recognised by UNESCO as a World Heritage Site.",
-    "images": ["images/historic_places/oldgoachurch.jpg"],
+    "images": ["images/historic_places/old_church_1.jpg",
+      "images/historic_places/old_church_2.jpg",
+      "images/historic_places/old_church_3.jpg",
+      "images/historic_places/old_church_4.jpg",
+      "images/historic_places/old_church_5.jpg"
+    ],
     "full_desc":[
         "Old Goa, which was the first capital city of Portuguese Goa is famous for its historic churches there are around 6 prominent churches which are as follows: The Basilica of Bom Jesus, Se Cathedral, Church of St. Francis of Assisi, Church of St. Cajetan, Catherine’s Chapel, Augustine Tower.",
         "<strong>The Basilica of Bom Jesus</strong> - It is one of the churches present in Old Goa, which is a Roman Catholic basilica in Goa state, recognized by UNESCO as a World Heritage Site. This church is one of the oldest in goa, construction work of which began in 1594 and consecrated in May 1605. This church is the resting place of St. Francis Xavier, whose mortal remain is still present in the Church.  The feast of  St. Francis Xavier took place on the 3rd of December every year and also the Body of St. Francis Xavier is kept for the public to see every 10 years.",
