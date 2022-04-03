@@ -40,7 +40,7 @@ var waterfalldata = [
     "name": "Netravali Waterfall",
     "taluka":"Sanguem",
     "desc": "Another waterfall in Goa that is a jewel in its crown, the Netravali Waterfall is Situated inside the Netravali Wildlife Sanctuary. This waterfall comprises two falls–the Savari and the Mainapi. One needs to take permission from the forest department to visit this place. Both waterfalls are far away from the main road and need to tracks for 30 to 40 minutes to reach these waterfalls. These waterfalls are ideal to visit all the months of the year. One can also visit the strawberry farms near these falls and enjoy the fresh strawberry from the farms.",
-    "images": ["images/waterfalls/netravali.jpg"],
+    "images": ["images/waterfalls/netravelli_1.jpg"],
     "location":"https://www.google.com/maps/dir//Netravali+Waterfall/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbef86db74560f5:0xc0d9f1fae04ca3e5?sa=X&ved=2ahUKEwib3I-34IP2AhXuxzgGHflpCTgQ9Rd6BAgLEAM",
     "status": "1"
   },

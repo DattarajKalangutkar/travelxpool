@@ -21,6 +21,15 @@ var historicdata = [
     "taluka":"Tiswadi",
     "desc": "The Basilica of Bom Jesus is a Roman Catholic basilica located at old goa in Goa state. It is both a pilgrimage centre and also the most iconic monument of all the churches and convents of Goa, recognised by UNESCO as a World Heritage Site.",
     "images": ["images/historic_places/oldgoachurch.jpg"],
+    "full_desc":[
+        "Old Goa, which was the first capital city of Portuguese Goa is famous for its historic churches there are around 6 prominent churches which are as follows: The Basilica of Bom Jesus, Se Cathedral, Church of St. Francis of Assisi, Church of St. Cajetan, Catherine’s Chapel, Augustine Tower.",
+        "<strong>The Basilica of Bom Jesus</strong> - It is one of the churches present in Old Goa, which is a Roman Catholic basilica in Goa state, recognized by UNESCO as a World Heritage Site. This church is one of the oldest in goa, construction work of which began in 1594 and consecrated in May 1605. This church is the resting place of St. Francis Xavier, whose mortal remain is still present in the Church.  The feast of  St. Francis Xavier took place on the 3rd of December every year and also the Body of St. Francis Xavier is kept for the public to see every 10 years.",
+        "<strong>Se Cathedral</strong> - Se Cathedral known as The Sé Catedral de Santa Catarina is one of India's oldest and biggest churches, constructed parallel to The Basilica of Bom Jesus church. Construction of the church started by Afonso de Albuquerque in 1562 in the reign of King Dom Sebastiao and was completed in 1619. The architecture of this church is in Portuguese-Manueline style. It is part of UNESCO as a World Heritage Site.",
+        "<strong>Church of St. Cajetan</strong> - It is one of the churches present in Old Goa.  it is also known as the Church of Divine Providence which was constructed in 1661 with Corinthian order Architecture.",
+        "<strong>Catherine’s Chapel</strong> - Catherine’s Chapel is one of the first structures built by the Portugues in goa with Baroque architectural style in the year 1510. It is part of UNESCO as a World Heritage Site of goa. This church is present in the  Se Cathedral church compound facing the Mandovi river.",
+        "<strong>Church of St. Augustine</strong> - Church of St. Augustine or Augustine Tower whichever the name you like the most, is a ruined church complex located in Old Goa. it is was constructed in the year 1602 by the Augustinian friars. This church was later abundant by the Portuguese in the year 1835. Negligence towards this church led to its collapse, starting from the collapse of the church vault in 1842 till 1938 when half of the last tower and most of the other parts had also collapsed.",
+        "Old Goa churches are visited by thousands and lakhs of tourists every year and this is one of the main tourist attractions of Goa.  This church is around 7km from Panjim city and 2km from Karmali railway station and around 27km from Goa International Airport, Dabolim. These churches are located on the bank of the Mandovi river.",
+    ],
     "location":"https://www.google.com/maps/dir//Old+Goa+Church/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbef2b99b0289:0x1e8056689f15a7b8?sa=X&ved=2ahUKEwjC88HD3oP2AhWfyDgGHY15CysQ9Rd6BAgNEAU",
     "status": "1"
   },
@@ -48,6 +57,11 @@ var historicdata = [
     "taluka":"",
     "desc": "Reis Magos is a fort located on the bank of the Mandovi River in Goa, opposite to the capital city of Panjim. The first church in Bardez.",
     "images": ["images/historic_places/ReisMagosFort.jpeg"],
+    "full_desc":[
+      "This is one of the oldest forts of Goa, situated on the bank of the Mandovi river, facing beautiful Panjim city. This place was originally the armed outpost of the Adil Shah of Bijapur in 1493 But when the Portuguese captured this place, they constructed a fort along with the church at this place in 1551.  this fort was used for many purposes from residence for viceroys, converted to a fortress, and serving as a prison until 1993.",
+      "The current Goa Government is maintaining and looking after this fort. It is used as a cultural center and is one of the tourist attractions in the area. since is situated on the bank of the Mandovi river with a view Arabian sea, the view from the top of the fort is very pleasant.  Many people visit this place to have a good photo-taking experience.",
+      "People can visit this place from 9:30 am to 5:00 Pm every day except on Monday when the fort is closed to the general public. An entry fee of 50 rupees per person is applicable to visit the fort."
+    ],
     "location":"https://www.google.com/maps/dir//Reis+Magos+Fort/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc0f0dc93e161:0x6b80a342a7a4c04b?sa=X&ved=2ahUKEwiv-c6L34P2AhUrr1YBHSkwDk8Q9Rd6BAgfEAQ",
     "status": "1"
   },
