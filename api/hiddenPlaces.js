@@ -2,7 +2,7 @@ var hiddendata = [
   {
     "id": "1",
     "name": "Arvalem Caves",
-    "taluka":"",
+    "taluka":"Bicholim",
     "desc": "The Arvalem Caves or the “Pandava Caves” located in the Sanqulim Goa, these caves are dated from 6th century. This are ancient rock caves.",
     "images": [
       "images/hidden_places/panda_cave_1.jpg",
