@@ -41,7 +41,7 @@ var historicdata = [
   {
     "id": "3",
     "name": "Shri Shantadurga Temple",
-    "taluka":"",
+    "taluka":"Ponda",
     "desc": "Shri Shantadurga Saunsthan is a temple located at the foothill of Kavalem village in Ponda Taluka, Goa, India.",
     "images": ["images/historic_places/Shantadurga_Temple_Kavlem_Main.jpg"],
     "full_desc":[
@@ -55,7 +55,7 @@ var historicdata = [
   {
     "id": "4",
     "name": "Safa Masjid Ponda",
-    "taluka":"",
+    "taluka":"Ponda",
     "desc": "Safa Mosque or Safa Shahouri Mosque is located at Ponda, Goa. It is a 16th century Islamic Monument consisting of garden and fountains. It is protected Monument by an ASI of National Importance in Goa.",
     "images": ["images/historic_places/SafaMasjidPondaGoa.jpg"],
     "full_desc":[
@@ -69,7 +69,7 @@ var historicdata = [
   {
     "id": "5",
     "name": "Reis Magos Fort",
-    "taluka":"",
+    "taluka":"Bardez",
     "desc": "Reis Magos is a fort located on the bank of the Mandovi River in Goa, opposite to the capital city of Panjim. The first church in Bardez.",
     "images": ["images/historic_places/ReisMagosFort.jpeg"],
     "full_desc":[
