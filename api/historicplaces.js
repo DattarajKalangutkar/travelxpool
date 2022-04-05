@@ -44,6 +44,11 @@ var historicdata = [
     "taluka":"",
     "desc": "Shri Shantadurga Saunsthan is a temple located at the foothill of Kavalem village in Ponda Taluka, Goa, India.",
     "images": ["images/historic_places/Shantadurga_Temple_Kavlem_Main.jpg"],
+    "full_desc":[
+      "One of the famous temples of goa Shri Shantadurga Temple is situated at Kavalem village of  Ponda Taluka, Goa. The Temple is dedicated to Goddess  Shantadurga, who mediates between Vishnu and Shiva, which is shown as holding two serpents, one in each hand, representing Vishnu and Shiva. legends as it says that once a battle between Shiva and Vishnu took place and was so fierce that the god Brahma prayed to Goddess Parvati to intervene, which she did in the form of Shantadurga. Shantadurga placed Vishnu on her right-hand side and Shiva on her left-hand side to settle the fight.",
+      "The goddess was transferred from Quelossim (Keloshi) in Salcette to Kavalem when the original temple was destroyed by the Portuguese in 1564. Initially, a small shrine with blocks of laterite mud was built and the deity was installed here and worship was continued thereafter. A later foundation stone was laid in 1730  to convert a small shrine into a beautiful time during the reign of Maratha ruler Chattrapati Shahu. The temple was completed in 1738. In a recent year, this temple was renovated in 1966.",
+      "The temple is surrounded by the natural beauty of the Kavalem village, Temple compound has a huge water tank, a Deepastambha(Light tower), and agrashalas (guest houses). This temple is visited by many people or devotees all over India as well as outside India."
+    ],
     "location":"https://www.google.com/maps/dir//Shree+Shantadurga+Mandir,+Kapileswari+-+Kavlem+Rd,+Donshiwado,+Ponda,+Goa+403401/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc056dbb98bad:0x7062e4b8d2679e31?sa=X&ved=2ahUKEwjTmIX03oP2AhVCsFYBHat4AIsQ48ADegQIHRAo",
     "status": "1"
   },
@@ -53,6 +58,11 @@ var historicdata = [
     "taluka":"",
     "desc": "Safa Mosque or Safa Shahouri Mosque is located at Ponda, Goa. It is a 16th century Islamic Monument consisting of garden and fountains. It is protected Monument by an ASI of National Importance in Goa.",
     "images": ["images/historic_places/SafaMasjidPondaGoa.jpg"],
+    "full_desc":[
+      "Safa Mosque also known as Safa Shahouri Mosque is a mosque in Ponda, Goa, India. It is a single chamber mosque with a terracotta tile roof built with the Indo-Islamic style of architecture.  The mosque is surrounded by a complex with gardens and a laterite stone masonry tank which is the like main attraction of this place. It is one of the ASI-protected monuments of National Importance in Goa.",
+      "According to the historian, It is a sixteenth-century Islamic Monument built around the year 1560 by the Bijapur ruler Ibrahim Adil Shah I or even before. It is one of the oldest and most prominent Islamic structures in goa. The mosque was damaged, burned, and was left in ruins by the Portuguese, During its rule over Goa. Mosque was partially reconstructed in the 1980s by the goa govt.",
+      "This mosque is visible from the main national highway and 1km from both ponda city bustand. Anyone can reach this play by any means of possible transport mode. The best time to visit this place is in the evening to sit quietly and enjoy the evening. There are no entry charges applicable to visit this place. anyone can visit this as they can visit another mosque."
+    ],
     "location":"https://www.google.com/maps/dir//Safa+Masjid+Ponda/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbaec86860f71:0xdca460046435cfb8?sa=X&ved=2ahUKEwjFtISC34P2AhU7rlYBHdXfDfwQ9Rd6BAglEAU",
     "status": "1"
   },
