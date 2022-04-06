@@ -12,7 +12,7 @@ var waterfalldata = [
     "id": "2",
     "name": "Charavane Waterfall",
     "taluka":"Sattari",
-    "desc": "Situated in the Cotigao Wildlife Sanctuary in south goa. It is one of the beautiful waterfalls flowing past a beautiful green forest. Best time to visit this place in the mansion season. One needs to track for a few minutes to reach the bottom of the fall. forest department permission is needed to visit this place.The water of the fall is very clean and cold.  One should need to visit this place if want to have the urban side of goa.",
+    "desc": "Charavane is one of the two cascading waterfalls in Goa (the other being Bamanbudo). It has multiple levels and you can stop at anyone to enjoy the waters.",
     "images": ["images/waterfalls/char_1.jpg","images/waterfalls/char_2.jpg","images/waterfalls/char_3.jpg"],
     "full_desc":[
       "Charavane is one of the two cascading waterfalls in Goa (the other being Bamanbudo). It has multiple levels and you can stop at anyone to enjoy the waters. It is predominantly a seasonal waterfall, which means you will have to visit in July, August, and maybe early September for the best experience.",
