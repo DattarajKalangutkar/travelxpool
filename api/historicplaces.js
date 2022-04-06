@@ -78,14 +78,19 @@ var historicdata = [
     "name": "Reis Magos Fort",
     "taluka":"Bardez",
     "desc": "Reis Magos is a fort located on the bank of the Mandovi River in Goa, opposite to the capital city of Panjim. The first church in Bardez.",
-    "images": ["images/historic_places/ReisMagosFort.jpeg"],
+    "images": ["images/historic_places/reis_fort_1.jpeg",
+      "images/historic_places/reis_fort_2.jpeg",
+      "images/historic_places/reis_fort_3.jpeg",
+      "images/historic_places/reis_fort_4.jpeg",
+      "images/historic_places/reis_fort_5.jpeg"
+    ],
     "full_desc":[
       "This is one of the oldest forts of Goa, situated on the bank of the Mandovi river, facing beautiful Panjim city. This place was originally the armed outpost of the Adil Shah of Bijapur in 1493 But when the Portuguese captured this place, they constructed a fort along with the church at this place in 1551.  this fort was used for many purposes from residence for viceroys, converted to a fortress, and serving as a prison until 1993.",
       "The current Goa Government is maintaining and looking after this fort. It is used as a cultural center and is one of the tourist attractions in the area. since is situated on the bank of the Mandovi river with a view Arabian sea, the view from the top of the fort is very pleasant.  Many people visit this place to have a good photo-taking experience.",
       "People can visit this place from 9:30 am to 5:00 Pm every day except on Monday when the fort is closed to the general public. An entry fee of 50 rupees per person is applicable to visit the fort."
     ],
     "location":"https://www.google.com/maps/dir//Reis+Magos+Fort/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc0f0dc93e161:0x6b80a342a7a4c04b?sa=X&ved=2ahUKEwiv-c6L34P2AhUrr1YBHSkwDk8Q9Rd6BAgfEAQ",
-    "status": "0"
+    "status": "1"
   },
   {
     "id": "6",

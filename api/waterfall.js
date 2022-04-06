@@ -10,10 +10,15 @@ var waterfalldata = [
   },
   {
     "id": "2",
-    "name": "Kuskem Waterfall",
-    "taluka":"Canacona",
+    "name": "Charavane Waterfall",
+    "taluka":"Sattari",
     "desc": "Situated in the Cotigao Wildlife Sanctuary in south goa. It is one of the beautiful waterfalls flowing past a beautiful green forest. Best time to visit this place in the mansion season. One needs to track for a few minutes to reach the bottom of the fall. forest department permission is needed to visit this place.The water of the fall is very clean and cold.  One should need to visit this place if want to have the urban side of goa.",
-    "images": ["images/waterfalls/kuskem.jpg"],
+    "images": ["images/waterfalls/char_1.jpg","images/waterfalls/char_2.jpg","images/waterfalls/char_3.jpg"],
+    "full_desc":[
+      "Charavane is one of the two cascading waterfalls in Goa (the other being Bamanbudo). It has multiple levels and you can stop at anyone to enjoy the waters. It is predominantly a seasonal waterfall, which means you will have to visit in July, August, and maybe early September for the best experience.",
+      "The rains bring a lot of water to these forests and there are streams formed everywhere even the villages turn lush green and the temperatures drop. For this waterfall to reach, it mostly needs a 45 min trek to reach the destination from the village point. The villager is a guide kind of person for the waterfalls, so they exactly instruct the way to the waterfall.",
+      "In so same way for this waterfall, they instruct a big gigantic mango tree to come in the way if the tree comes or gets in the way while trekking then it is understood that the trekker is on the right path get to see the beautiful waterfall. So basically to reach the waterfall trekker has to cross around 2 or 3 streams to get to the final waterfall."
+    ],
     "location":"https://www.google.com/maps/dir//Kuskem+Waterfall/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe59c7a1ffd5a1:0x36ffd5dc4fb284dc?sa=X&ved=2ahUKEwjXjOqI4IP2AhW4zDgGHR_IB40Q9Rd6BAgHEAM",
     "status": "1"
   },

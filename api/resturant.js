@@ -13,7 +13,12 @@ var resturantdata = [
     "name": "Ritz Classic Panjim",
     "taluka":"Tiswadi",
     "desc": "Ritz Classic Panjim is another famous restaurant in goa. It is a family bar and restaurant with a variety of food delicious. This is an ideal restaurant to visit with your family to enjoy food. The Goa fish thali is an attraction among the locals and a must-try for tourists. The service and ambiguity provided are very good.",
-    "images": ["images/restaurants/ritz.jpg"],
+    "images": [
+      "images/restaurants/ritz_1.jpeg",
+      "images/restaurants/ritz_2.jpeg",
+      "images/restaurants/ritz_3.jpeg",
+      "images/restaurants/ritz_4.jpeg"
+    ],
     "location":"https://www.google.com/maps/dir//Ritz+Classic+Panjim/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfc0892b7aac1b:0x711b75fe40723402?sa=X&ved=2ahUKEwia9uyu34P2AhXeqFYBHWaTCdIQ9Rd6BAgqEAQ",
     "status": "1"
   },

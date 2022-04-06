@@ -27,7 +27,12 @@ var hiddendata = [
     "name": "The Bubbling Lake of Netravalli",
     "taluka":"",
     "desc": "This is a serene place with small stepped pond in Sanguem. If you clap your hands near the pond, the water surface in the pond starts bubbling.",
-    "images": ["images/hidden_places/lakeNetravalli.jpg"],
+    "images": [
+      "images/hidden_places/budbudey_1.jpeg",
+      "images/hidden_places/budbudey_2.jpeg",
+      "images/hidden_places/budbudey_3.jpeg",
+      "images/hidden_places/budbudey_4.jpeg",
+    ],
     "location":"https://www.google.com/maps/dir//The+Bubbling+Lake+of+Netravali/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe5667f92e6f91:0x28b7d5932b00af36?sa=X&ved=2ahUKEwj1xLfV3YP2AhV1rlYBHdjUAsMQ9Rd6BAgcEAM",
     "status": "1"
   },
