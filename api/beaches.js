@@ -38,6 +38,13 @@ var beachesdata = [
       "images/beaches/baga_5.jpg",
       "images/beaches/baga_6.jpg",
     ],
+    "full_desc":[
+      "Baga Beach is one of the most famous and beautiful beach in North Goa. Baga beach is surrounded by Calangute and Anjuna Beach. Here anyone can find beautiful restaurants, clubs, bars, and most importantly, water sports, which is the main attraction reason for the beach.There are many watersports such as wakeboarding, parasailing, kite surfing, jet skiing, and windsurfing.",
+      "Baga beach is very close to Calangute beach as they share a sister-brother bond. As Calangute is famous for dolphin sites, same way Baga beach is also very famous for dolphins. Apart from sites, one can also take to island drive from the Baga beach. There are a lot of boats which guide or take a tour to the island from Baga beach.",
+      "Above things can be handled in the daytime, but the nightlife over on Baga beach is extraordinary, the beautiful bars or clubs with a piece of relaxing music attract people from over all the world. The famous Tito's lane with a piece of beautiful music, no one can escape from that.",
+      "Another can kind of attraction in Baga Beach is the snow park which is famous for its play area, sledding area, and ice bar. This park is indoor and anyone can take the fullest enjoyment all day. if anyone is about for shopping for Tibetan things, One can get the Baga beach road in which, one can get a natural and every elegant stuff of Tibetan in the Tibetan Market of the historic.",
+      "There is a special arrangement for the couples on Baga Beach, in which couples have a candlelit dinner on the sand of the beach, with a beautiful arrangement of the sites at night to spend a romantic night."
+    ],
     "location":"https://www.google.com/maps/dir//Baga+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfea1cd8a1deff:0xba7066c0ee35c1e0?sa=X&ved=2ahUKEwjYxYT_3IP2AhXTrlYBHWcDC0AQ9Rd6BAgyEAQ",
     "status": "1"
   },
