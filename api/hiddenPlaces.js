@@ -24,8 +24,8 @@ var hiddendata = [
   },
   {
     "id": "2",
-    "name": "The Bubbling Lake of Netravalli",
-    "taluka":"",
+    "name": "Budbudey Talley",
+    "taluka":"Sanguem",
     "desc": "This is a serene place with small stepped pond in Sanguem. If you clap your hands near the pond, the water surface in the pond starts bubbling.",
     "images": [
       "images/hidden_places/budbudey_1.jpeg",
