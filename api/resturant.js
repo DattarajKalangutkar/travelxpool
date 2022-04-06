@@ -31,7 +31,12 @@ var resturantdata = [
     "name": "Royal Treat Marcela",
     "taluka":"Ponda",
     "desc": "Royal Treat is a family restaurant at Marcela, Goa. It is one of the underrated but famous restaurants in the area and amongst regular visiting tourists in the nearby places. The Goan fish thali is one the famous here and must try. Foods are very delicious and get in good quantity. The rate is very reasonable and the service is also very good. Must visit if you’re in nearby to this place.",
-    "images": ["images/restaurants/royal_treat_restaurants.jfif"],
+    "images": ["images/restaurants/royal_treat_1.jpg",
+      "images/restaurants/royal_treat_2.jpg",
+      "images/restaurants/royal_treat_3.jpg",
+      "images/restaurants/royal_treat_4.jpg",
+      "images/restaurants/royal_treat_5.jpg"
+    ],
     "location":"https://www.google.com/maps/dir//Tambdi+Surla+Waterfall/@15.421868,74.1962086,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbf088abfdfa505:0xbea61dfa873fbc3!2m2!1d74.2662491!2d15.421879",
     "status": "1"
   },
