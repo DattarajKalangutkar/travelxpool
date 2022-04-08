@@ -24,7 +24,7 @@ var hiddendata = [
   },
   {
     "id": "2",
-    "name": "Budbudey Talley",
+    "name": "Bubble Lake",
     "taluka":"Sanguem",
     "desc": "This is a serene place with small stepped pond in Sanguem. If you clap your hands near the pond, the water surface in the pond starts bubbling.",
     "images": [
@@ -33,6 +33,11 @@ var hiddendata = [
       "images/hidden_places/budbudey_3.jpeg",
       "images/hidden_places/budbudey_4.jpeg",
     ],
+    "full_desc":[
+      "This beautiful land of Goa never ceases to surprise. Take the ‘Budbudyanchi Talli’ for instance at Netravali, Sanguem which is located 42 Km from the City of Margao and approximately 90 Km from the Capital city of Panjim. The lake has many names like Budbud, Budbudyachi Tali, Budbudi Tal and Bubble Lake.",
+      "This is a freshwater lake that dates back almost 300–400 years; this spot is hidden away from the popular tourist hotspots due to the dense forest area. The lake is the bathing tank of the old Hindu Gopinath Temple. It is an innocent enough temple tank until you come to its edge and clap. Mysterious bubbles erupt from the bottom of the lake to the surface of the water.",
+      "The bubbles are visible at different locations and with verifying intensity. There are also small tiger fish in the lake. This should be also noted that a 45-minute walk through the dense jungle from the lake, will lead you to the nearby waterfall at the village of Savare."
+    ]
     "location":"https://www.google.com/maps/dir//The+Bubbling+Lake+of+Netravali/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe5667f92e6f91:0x28b7d5932b00af36?sa=X&ved=2ahUKEwj1xLfV3YP2AhV1rlYBHdjUAsMQ9Rd6BAgcEAM",
     "status": "1"
   },

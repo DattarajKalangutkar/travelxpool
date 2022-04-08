@@ -54,6 +54,12 @@ var beachesdata = [
     "taluka":"Cancona",
     "desc": "Paloem Beach is suituated at south goa is known for its clam surrounding. Many people visit here to enjoy water sports and other activity. This beach is ideal for the sea surfing lover and sea swimmer who like to swim on high tides.",
     "images": ["images/beaches/paloem_beach.png"],
+    "full_desc":[
+      "In case you are looking for a peaceful holiday destination, Palolem beach can be the perfect spot. This mile-long unadulterated beach is excellent to spend some time admiring the natural beauty, witnessing the captivating sunsets, relishing some authentic Goan cuisine, learning yoga, indulging in water activities, and enjoying a comfortable stay at a stunning Palolem beach resort.",
+      "To put it simply, the beach has something for every type of Goa visitor. Palolem is a cozy beach of white sand facing a blue bay between two headlands. The little wooded islands on the northern headland look alluring. Tourists have of late discovered Palolem and so there are quite a few shacks selling seafood snacks, souvenirs, and clothes of the bright, informal kind. Panaji, the capital, is more than 70 km away.",
+      "In recent times, Palolem has become famous for its ‘Silent Noise’ parties. A unique concept that does away with loud blaring live music after the 10 pm ban. With your own set of earphones, you can dance away to different genres of music played by versatile DJs.Palolem is just 3 km away from Canacona Railway station, now on the Konkan Railway route.",
+      "You can hire taxis and auto-rickshaws to reach Palolem beach from Margao, 40 km away. There are regular buses from Margao to Palolem that drop you off at Canacona village. Two kilometers away from Palolem is Rajbag Beach which is isolated and stretches to the mouth of the Talpona River. And then on to Galgibaga Beach which is the second nesting site in Goa for turtles. Further south is Agonda Beach."
+    ]
     "location":"https://www.google.com/maps/dir//Palolem+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4551d05b02bb:0x1e1bc67d4b0fbbf5?sa=X&ved=2ahUKEwiZy92J3YP2AhUDklYBHRxdBJ0Q9Rd6BAg2EAQ",
     "status": "1"
   },
@@ -63,6 +69,11 @@ var beachesdata = [
     "taluka":"Cancona",
     "desc": "One of the famous beach of goa suituated in the south goa, This beach is covered by the coconut trees and huge rock cliff. This is one of the beautiful, less crowded and clean beach of goa. Water is very clean and good for swiming lover. Best time to visit this beach is in the evening to view beautiful sunset and to clicks picture. one can also visit the Cabo de Rama fort which is nearby to beach. This is a ideal place for family picnics and get toghether. ",
     "images": ["images/beaches/cabderam.jpg","images/beaches/cabderam_1.jpeg"],
+    "full_desc":[
+      "Cabo de Rama Beach, which is famously called Cab de Ram by the Goans, is a beautiful wild beach in the south of Goa. Locals consider the Beach to be one of the most beautiful places in the country. It is situated at a distance of 28 km. from Margao, 19 km from Agonda beach, and 2 km from Cabo de Rama Fort. The water in Cabo de Rama is blue with a rich green hue. In the north of the Beach a small river, which can easily be crossed in ford, starts its serene running.",
+      "A strip of palm groves stretched alongside the beach. The beach is quite hidden due to its remoteness from big cities. The sand here is light, fine, and pure. In some places, the stones stick out. Behind the beach elevates a steep rock with a flat top. Steep rough steps lead down to the beach. It is relatively safe to swim here but still, you must be very careful because it is possible to stumble into sharp reefs or get into strong currents.",
+      "Overlooking the beach to its south is the Portuguese Fort Cabo de Rama. From the top of the fortress, you will be able to view a spellbinding panorama of the Arabian Sea and Cabo de Rama Beach. Cabo de Rama Fort or beach can be reached via NH66 Highway by public transport, taxi, or a rented vehicle. The road ends near the Fort entrance, and from there one can walk to the fortress or beach."
+    ]
     "location":"https://www.google.com/maps/dir//cabo+de+rama+beach/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4bfd44daf1e5:0x6678f36253fe7b44?sa=X&ved=2ahUKEwj3xIiX3YP2AhXes1YBHYb2DD8Q9Rd6BAgsEAQ",
     "status": "1"
   },
@@ -156,6 +167,12 @@ var beachesdata = [
     "taluka":"Cancona",
     "desc": "Butterfly Beach is one of the least visited place in goa But famous for advanture lovers as one need to walk for 20-30 min. It is one of the smallest beach in length but very beautiful. One can visit this beach by taking boat service from nearby beach or by 20 min to 30 min walking track.",
     "images": ["images/beaches/butterfly.jpg"],
+    "full_desc":[
+      "The Coastline of Goa stretches to 160 kilometers and has a total of 48 beaches. We have all heard about the famous beaches such as Baga, Calangute, Anjuna, and Palolem. But there are other hidden gems like Butterfly Beach from South Goa.  The Butterfly Beach is called so because of the valley's shape, which is similar to that of a Butterfly.",
+      "The Butterfly Beach is located between the beautiful Palolem and Agonda beaches of South Goa. Well, that’s not the only reason behind the name of this beautiful beach.The Butterfly Beach of Goa is a delight to the eyes. It is one of the most captivating places in Goa with breathtakingly beautiful views and aquatic life. Apart from its’ exceptional shape, the beach is known for the acrobatics of the dolphins around the beach and millions of butterflies flying over the hilltop.",
+      "There are two ways to go to the beach. If you are in the mood for adventure, taking a two-hour trek from Palolem beach is the best option for you to reach Butterfly Beach. The travelers opting for this trek will have to find their way through brooks, steep climbs, fields, and forested areas. While another way is to take a ferry from Palolem beach or Agonda beach.",
+      "The best time to visit Butterfly beach is from November to March. One can enjoy the beach to its’ fullest as the weather is pleasant during these months. While Monsoon is not fit to visit due to rough sea. As the beach is surrounded by dense forest areas, it gets dark early here. Therefore, it is advised to leave before late evening to avoid any mishaps."
+    ]
     "location":"https://www.google.com/maps/dir/15.5538051,73.7647483/Majorda+Beach/@15.4324109,73.7060034,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfb6edeec5c283:0x5b9dac94fbc4ced9!2m2!1d73.9018114!2d15.3111553",
     "status": "1"
   },

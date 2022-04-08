@@ -50,7 +50,7 @@ var resturantdata = [
     "name": "Darya Dager",
     "taluka":"Tiswadi",
     "desc": "Darya Dager is a family bar and restaurant in old goa, famous for its seafood and other dishes. Many tourists visit this place who comes to visit the old goa churches. The service and ambiance of this place are very good. This restaurant usually gets full on the weekends, so need to check the availability of the table to dine.",
-    "images": ["images/restaurants/darya_deger_1.jpg","images/restaurants/darya_deger_2.jpg","images/restaurants/darya_deger_3.jpg"],
+    "images": ["images/restaurants/darya_deger_1.jpg","images/restaurants/darya_deger_2.jpg"],
     "location":"https://www.google.com/maps/dir//Darya+Dager/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbe897e5f8f7f:0xafe7767be8857468?sa=X&ved=2ahUKEwiw69Ho34P2AhWxwjgGHXEFCOwQ9Rd6BAgNEAQ",
     "status": "1"
   },
