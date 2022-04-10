@@ -52,6 +52,11 @@ var waterfalldata = [
     "taluka":"Sanguem",
     "desc": "Another waterfall in Goa that is a jewel in its crown, the Netravali Waterfall is Situated inside the Netravali Wildlife Sanctuary. This waterfall comprises two falls–the Savari and the Mainapi. One needs to take permission from the forest department to visit this place. Both waterfalls are far away from the main road and need to tracks for 30 to 40 minutes to reach these waterfalls. These waterfalls are ideal to visit all the months of the year. One can also visit the strawberry farms near these falls and enjoy the fresh strawberry from the farms.",
     "images": ["images/waterfalls/netravelli_1.jpg"],
+    "full_desc":[
+      "If you are a nature lover as well as adventurous this place is definitely for you. Located about 90 Km. from Capital Panjim this jewel is located in the deep forest. To reach here one needs to take a 45 minutes trek through the jungle, small rivulets, and sleepy villages.As the waterfall is relatively isolated, it is avoided by the masses, ensuring total tranquility.",
+      "To reach the waterfall one must go from Margao to Rivona via Quepem, Tiramol, and Zambaulim and then continue to Netravali and ask for ‘SAVARE’ Waterfalls.",
+      "It is always advisable to take a local as a guide One should take suitable precautions while taking children and elders to the waterfall due to the wild animals, deep and shallow water, and thick forest, while one must take precautions personally by not climbing the rocks near the waterfall due to slippery."
+    ],
     "location":"https://www.google.com/maps/dir//Netravali+Waterfall/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbef86db74560f5:0xc0d9f1fae04ca3e5?sa=X&ved=2ahUKEwib3I-34IP2AhXuxzgGHflpCTgQ9Rd6BAgLEAM",
     "status": "1"
   },
