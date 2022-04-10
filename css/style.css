@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
- * {
+*{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -10,6 +10,7 @@
     text-decoration: none;
     -webkit-transition: .2s linear;
     transition: .2s linear;
+    text-transform: capitalize;
 }
 
 .constitnameclass{
@@ -1471,6 +1472,30 @@ section {
 .taluka .box-container .box .storyimages img{
     width: 450px;
     height: 350px;
+}
+
+
+
+.pripolicy .box-container .box .full_section{
+    width: 100%;
+}
+
+.pripolicy .box-container .box  .full_section p {
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.pripolicy .box-container .box .full_section .talukatable{
+    font-size: 1.5rem;
+    color: #10221b;
+    line-height: 1.8;
+}
+
+.pripolicy .box-container .box .full_section .talukatable .title{
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 
