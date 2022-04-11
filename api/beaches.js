@@ -53,7 +53,7 @@ var beachesdata = [
     "name": "Paloem Beach",
     "taluka":"Cancona",
     "desc": "Paloem Beach is suituated at south goa is known for its clam surrounding. Many people visit here to enjoy water sports and other activity. This beach is ideal for the sea surfing lover and sea swimmer who like to swim on high tides.",
-    "images": ["images/beaches/paloem_beach.png"],
+    "images": ["images/beaches/calangute_7.jpg"],
     "full_desc":[
       "In case you are looking for a peaceful holiday destination, Palolem beach can be the perfect spot. This mile-long beach is excellent to spend some time admiring the natural beauty, witnessing the captivating sunsets, relishing some authentic Goan cuisine, learning yoga, indulging in water activities, and enjoying a comfortable stay at a stunning Palolem beach resort.",
       "To put it simply, the beach has something for every type of Goa visitor. Palolem is a cozy beach of white sand facing a blue bay between two headlands. The little wooded islands on the northern headland look alluring. Tourists have of late discovered Palolem and so there are quite a few shacks selling seafood snacks, souvenirs, and clothes of the bright, informal kind. Panaji, the capital, is more than 70 km away.",
@@ -80,9 +80,9 @@ var beachesdata = [
   {
     "id": "5",
     "name": "Colva Beach",
-    "taluka":"Mardgao",
+    "taluka":"Madgao",
     "desc": "Colva Beach is one of the famous beach near madgoa city. Many people goes here with family to spend time.",
-    "images": ["images/beaches/colva-beach.jpg"],
+    "images": ["images/beaches/colva.jpeg"],
     "full_desc":[
       "Colva beach is the southernmost beautiful and very exciting beach for people in south Goa. Calangute beach is said to be the busiest on the north side, while way Colva is said to be busiest on the south side.",
       "Colva beach is spread wide at about 2.4 kilometers surrounded by Bogmalo Beach to the north & Cabo de Rama beach to the south of it. People visit for the extraordinary water sports, to get the suntan, Nightlife to enjoy the night clubs and as the evening to spend the evening with their loved ones.",
