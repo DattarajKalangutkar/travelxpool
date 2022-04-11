@@ -144,11 +144,8 @@
 <section class="footer">
     <div class="box-container">
         <div class="box">
-            <h3>quick links</h3>
-            <a href="https://www.travelxpool.com/index.html#home">home</a>
-            <a href="https://www.travelxpool.com/aboutus.html">about us</a>
-            <a href="https://www.travelxpool.com/privacy_policy.html">Privacy Policy</a>
-            <a href="https://www.travelxpool.com/contact.html">contact</a>
+            <h3>Quick Links</h3>
+            <div class="footerlinks" id="footerlinks"></div>
         </div>
     </div>
     <div class="credit">All rights reserved. TravelXPool, 2022</div>
@@ -160,8 +157,10 @@
 <script src="js/script.js"></script>
 </body>
 </html>
-
+<script src="js/common_function.js"></script>
+<script src="api/footer.js" type="text/javascript"></script>
 <script>
+    document.getElementById("footerlinks").innerHTML = getFooterLink(footerData);
     var swiperplayer;
     var defaultImage = 'images/playerimages.png';
     $(document).ready(function()
