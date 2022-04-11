@@ -11,7 +11,7 @@ var beachesdata = [
       "images/beaches/calangute_4.jpg",
       "images/beaches/calangute_5.jpg",
       "images/beaches/calangute_6.jpg",
-      "images/beaches/calangute_7.jpg",
+      //"images/beaches/calangute_7.jpg",
       "images/beaches/calangute_8.jpg",
       "images/beaches/calangute_9.jpg",
     ],
