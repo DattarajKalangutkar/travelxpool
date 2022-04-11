@@ -23,13 +23,10 @@
 <body>
 <!-- header section starts  -->
 <header class="header">
-    <a href="index.html" class="logo"> <i class="fas fa-hiking"></i>travelXPool</a>
+    <a href="https://www.travelxpool.com/" title="TravelXPool" class="logo"><i class="fas fa-hiking"></i>TravelXPool</a>
     <nav class="navbar">
         <div id="nav-close" class="fas fa-times"></div>
-        <a href="index.html#home">home</a>
-        <a href="https://www.travelxpool.com/aboutus.html">about us</a>
-        <a href="index.html#packages">Explore</a></a>
-        <a href="contact.html">contact</a>
+        <div class="headerlink" id="headerlink"></div>
     </nav>
     <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -160,7 +157,6 @@
 <script src="js/common_function.js"></script>
 <script src="api/footer.js" type="text/javascript"></script>
 <script>
-    document.getElementById("footerlinks").innerHTML = getFooterLink(footerData);
     var swiperplayer;
     var defaultImage = 'images/playerimages.png';
     $(document).ready(function()

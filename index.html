@@ -24,14 +24,10 @@
 <body>
 <!-- header section starts  -->
 <header class="header">
-    <a href="https://www.travelxpool.com/" class="logo"> <i class="fas fa-hiking"></i>travelXPool</a>
+    <a href="https://www.travelxpool.com/" title="TravelXPool" class="logo"><i class="fas fa-hiking"></i>TravelXPool</a>
     <nav class="navbar">
         <div id="nav-close" class="fas fa-times"></div>
-        <a href="https://www.travelxpool.com/index.html#home">Home</a>
-        <a href="https://www.travelxpool.com/aboutus.html">About us</a>
-        <a href="https://www.travelxpool.com/index.html#packages">Explore</a>
-        <a href="https://www.travelxpool.com/ipl.html">IPL 2022</a>
-        <a href="https://www.travelxpool.com/contact.html">Contact</a>
+        <div class="headerlink" id="headerlink"></div>
     </nav>
     <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -221,7 +217,6 @@
 <script src="api/category.js" type="text/javascript"></script>
 <script src="api/taluka.js" type="text/javascript"></script>
 <script type="text/javascript">
-    document.getElementById("footerlinks").innerHTML = getFooterLink(footerData);
     document.getElementsByTagName('meta')["description"].content = "My new page description!!";
     var categoryData = data;
     var str = '';
