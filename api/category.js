@@ -17,7 +17,7 @@ var data = [
 	},
 	{
 		"id":"3",
-		"name":"Historic places",
+		"name":"Historic Places",
 		"desc":"Strength of Goa is in the spritual places. Goa is famous for its temples and churches.",
 		"images":"images/historic_places/tambditemple.jpeg",
 		"url":"historicplaces.html",
@@ -33,7 +33,7 @@ var data = [
 	},
 	{
 		"id":"5",
-		"name":"hidden places",
+		"name":"Hidden Places",
 		"desc":"Goa is small states but lots of unexplored places.",
 		"images":"images/hidden_places/kator.jpg",
 		"url":"hiddenplaces.html",
