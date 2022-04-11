@@ -43,33 +43,6 @@ var hiddendata = [
   },
   {
     "id": "3",
-    "name": "Dr. Salim Ali Bird Sanctuary",
-    "taluka":"",
-    "desc": "This Sanctuary is present in beautiful island of Chorao. You can spot a lot of migration birds here during early winter. Best place to visit this place is in the morning.",
-    "images": ["images/hidden_places/salimalisanctury.jpg"],
-    "location":"https://www.google.com/maps/dir//Dr.+Salim+Ali+Bird+Sanctuary/@15.5130358,73.8003749,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbfbf753f264d61:0xd327e1caf3767979!2m2!1d73.8704154!2d15.5130468",
-    "status": "0"
-  },
-  {
-    "id": "4",
-    "name": "Rivona Cave Goa",
-    "taluka":"",
-    "desc": "",
-    "images": ["images/hidden_places/rivonacave.jpg"],
-    "location":"https://www.google.com/maps/dir//Rivona+Caves+Goa/@15.164894,74.0413057,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbe53779d74e467:0xde347c4decf78cbb!2m2!1d74.1113462!2d15.1649048",
-    "status": "0"
-  },
-  {
-    "id": "5",
-    "name": "Keri Spice Plantation",
-    "taluka":"",
-    "desc": "",
-    "images": ["images/hidden_places/kerispiceplantation.jpg"],
-    "location":"https://www.google.com/maps/dir//Keri+Spice+Plantation/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbab93667b5d1:0x63aaf2d1eae29021?sa=X&ved=2ahUKEwjrrOGR3oP2AhXzlFYBHZA4C_EQ9Rd6BAgkEAQ",
-    "status": "0"
-  },
-  {
-    "id": "6",
     "name": "Kator",
     "taluka":"Bouta Waddo, Assagao",
     "desc": "The Place name is called as kator by Goan People. Its is a beautiful place to click selfies,photos and also for making reels.People visit this place as a evening trek.",
@@ -83,7 +56,7 @@ var hiddendata = [
     "status": "1"
   },
   {
-    "id": "7",
+    "id": "4",
     "name": "St. Lawrence Church Kuris",
     "taluka":"Aguada Fort Area, Candolim",
     "desc": "The Kuris with a wonderfull view of the surrounding situated at the hill top of aguada fort.",
@@ -104,7 +77,7 @@ var hiddendata = [
     "status": "1"
   },
   {
-    "id": "8",
+    "id": "5",
     "name": "Lower Aguad Fort",
     "taluka":"Aguada Fort Area, Candolim",
     "desc": "The complete but incomplete due to broken struture gives more beauty to the nature.To check more information kindly check on the checkout button",
