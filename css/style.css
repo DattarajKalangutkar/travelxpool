@@ -1105,7 +1105,7 @@ section {
     display: inline-block;
     font-size: 1.4rem;
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 1rem 0rem;
 }
 
 .footer .box-container .box a i {
