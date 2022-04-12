@@ -1617,6 +1617,7 @@ section {
     .header .navbar a {
         margin: 1rem 0;
         font-size: 3rem;
+        display: block;
     }
     .header .navbar #nav-close {
         display: block;
