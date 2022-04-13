@@ -19,6 +19,13 @@ var hiddendata = [
       "images/hidden_places/panda_cave_12.jpg",
       "images/hidden_places/panda_cave_13.jpg",
     ],
+    "full_desc":[
+      "If you are a History lover this is definitely for you. Located at Arvalem (Harvalem) in the taluka of Bicholim this is 29 km. from Panjim. These caves belong to the 6th – 7th Century and are popularly known as  ‘Pandayancha Orta.’",
+      "According to the mythology, the five Pandavas of the epic Mahabharat discovered refuge in these caves during their long exile. The caves are carved in the Buddhist cave style. The framework of the caves is simple yet still enchanting.",
+      "Facing the west there are three major caves and a residential chamber at the southern end of the cave.  The central caves consist of triple shrines chamber and each of the shrines consists has a linga with a different shaped tip.",
+      "Within walking distance, the Aralvem waterfall flows near the Rudreshwar Temple where the ancient Linga of Rudreshwar is worshiped.",
+      "The timings for the caves are from 09:00 AM to 01:00 PM and 02:00 PM to 05:00 PM and the place can be visited very easily by cabs, rent a bike/car, public transport, etc."
+    ],
     "location":"https://www.google.com/maps/dir//Arvalem+Caves/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbfbd4e173520a1:0xdcbc7f802ffbdbfc?sa=X&ved=2ahUKEwjgr7vM3YP2AhVrslYBHXl0CT8Q9Rd6BAgpEAM",
     "status": "1"
   },

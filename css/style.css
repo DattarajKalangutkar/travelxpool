@@ -1481,6 +1481,11 @@ section {
     width: 100%;
 }
 
+.pripolicy .box-container .box  .full_section h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
 .pripolicy .box-container .box  .full_section p {
     font-size: 1.5rem;
     color: #10221b;
