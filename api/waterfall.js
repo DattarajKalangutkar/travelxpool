@@ -44,7 +44,7 @@ var waterfalldata = [
     "desc": "One of the adventurous waterfalls in Goa is situated within the Bhagwan Mahavir Sanctuary, one needs to track for about 30min to reach this place from the Famous Tambdi Surla Mahadev temple which is a 13th century-old temple. One can take the help of the locals as a guide to reach this place or can join the local tourist who already knows the place. This place is in deep in the forest area and an ideal place to visit to get closer to nature and to spend some time away from the city noise.",
     "images": ["images/waterfalls/tambdisurla.jpg"],
     "location":"https://www.google.com/maps/dir//Tambdi+Surla+Waterfall/@15.421868,74.1962086,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x3bbf088abfdfa505:0xbea61dfa873fbc3!2m2!1d74.2662491!2d15.421879",
-    "status": "1"
+    "status": "0"
   },
   {
     "id": "5",
