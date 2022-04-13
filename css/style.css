@@ -1471,6 +1471,7 @@ section {
 .taluka .box-container .box .storyimages img{
     width: 450px;
     height: 350px;
+    object-fit: cover;
 }
 
 
