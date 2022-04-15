@@ -18,6 +18,26 @@ var footerData = [
 		"name":"Contact",
 		"url":"https://www.travelxpool.com/contact.html",
 		"status":"1"
+	},
+	{
+		"name":"Beaches",
+		"url":"https://www.travelxpool.com/beaches.html",
+		"status":"1"
+	},
+	{
+		"name":"Waterfalls",
+		"url":"https://www.travelxpool.com/waterfall.html",
+		"status":"1"
+	},
+	{
+		"name":"Historic",
+		"url":"https://www.travelxpool.com/historicplaces.html",
+		"status":"1"
+	},
+	{
+		"name":"Hidden Places",
+		"url":"https://www.travelxpool.com/hiddenplaces.html",
+		"status":"1"
 	}
 ];
 

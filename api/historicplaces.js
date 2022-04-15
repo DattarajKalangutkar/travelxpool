@@ -125,4 +125,32 @@ var historicdata = [
     "location":"https://www.google.com/maps/dir/15.4900686,73.7830858/Nagueshi+Temple/@15.4602842,73.7387284,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbfbaf5f1bc9df5:0x38f7fd83e319208a!2m2!1d73.9837414!2d15.4074688",
     "status": "1"
   },
+  {
+    "id": "8",
+    "name": "Shri Shantadurga fatarpekarin Temple",
+    "taluka":"Quepem",
+    "desc": "Fatarpa is just 55 km far from the state capital Panaji. Fatorpa is derived from the word fator which is stone. Ancient Temple Village is a glorious cultural heritage of Goa.",
+    "images": ["images/historic_places/fater_1.jpeg","images/historic_places/fater_2.jpeg"],
+    "full_desc":[
+      "Fatarpa is just 55 km far from the state capital Panaji. Fatorpa is derived from the word fator which is stone. Ancient Temple Village is a glorious cultural heritage of Goa. Here Saptakoteshwar Temple project is completed with a beautiful temple in front of Shantaduraga Temple. The Village Temple is surrounded by natural beauty.",
+      "Kshatriya of Narve Diwadi was fed up with the constant violence and attacks by the Muslim invaders. So During the period 1365-1370, Kshatriya's of Narve migrated to Fatorpa with all their deities. From that time onwards the temple of Shanta Durga is known as 'Shree Shantadurga Fatarpekarin'.Reconstruction of Shri Saptakoteshwar temple in stone. This should last for more than 1000 years.",
+      "Goa's Famous temples are Shree Shantadura Kunkolikarin, Shree Shantadurga Fatarpelarin, Shree Shantadurga Kiralkarin, Shree Betal, Shree Laxmi, and close to that shree shantagurga Ballikarin in Balli. There are more than six major temples besides more than 20 small math and temples found in and around this pilgrim village. Festivals such as Jatra, Sotriyo, Gulal, Shidyo, Gadde, Dasahara, and many other attracts thousands of devotees to Fatorpa. Majestics Temple village and eternal devotional pilgrimage center of Goa: Holy Fatarpa.",
+    ],
+    "location":"https://www.google.com/maps/dir//4XWR%2B6FR+Shri+Shantadurga+fatarpekarin+Temple,+Fatorpa,+Cuncolim,+Goa+403703/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bbe4daefabe6739:0x2b44f02785a5b2b3?sa=X&ved=2ahUKEwjQkMfCyJb3AhWEDN4KHbwkAgYQ48ADegQIGRAP",
+    "status": "1"
+  },
+  {
+    "id": "9",
+    "name": "Shree Shantadurga Kunkalikarin Temple",
+    "taluka":"Quepem",
+    "desc": "Shri Shantadurga Kunkalidarin Temple is located at Fatorpa of Quepem Taluka and one of Goa's oldest temples. The Temple complex is on the foothills of a mountain chain bordered by greenery on all sides. This temple is dedicated to Goddess Shri Shantadurga. Shanta means peace and calm, this is the manifestation of adi shakti or the eternal energy.",
+    "images": ["images/historic_places/kulkarin_1.jpeg"],
+    "full_desc":[
+      "Shri Shantadurga Kunkalidarin Temple is located at Fatorpa of Quepem Taluka and one of Goa's oldest temples. The Temple complex is on the foothills of a mountain chain bordered by greenery on all sides. This temple is dedicated to Goddess Shri Shantadurga. Shanta means peace and calm, this is the manifestation of adi shakti or the eternal energy.",
+      "Shree Shantadurga Kunkolikarin is originally from Cuncolim, Gramdevi of Kukkolkars. The Holy Hindu pilgrim center Fatorpa is the renowned Temple Village.This statue is made up of the five metals. she is standing on a path. She holds a Trishul Sudarshan chakra and an arrow in her hand. Originally from Cuncolim village in Salcette Taluka, the Goddess was removed to Fatorpa in the 16th Century during religious persecution by the Portuguese.",
+      "In 1583, locals fought the war against Portuguese rulers, and to protect their identity for swarajya and swadharma they shifted Goddess Kunkolikarin to Fatorpa. Temple has a big gold plated Kalash on the dome of garbhagruh. The Maratha emperor Chatrapati Shahu Maharaj reconstructed this temple in 1738 AD. The main chariot of the goddess is housed in Rath Gruh. The annual Zatra falls in the month of Pausha Shuddha Navami and attracts thousands of devotees and tourists worldwide.",
+    ],
+    "location":"https://www.google.com/maps/dir/15.5268106,73.9712488/faterpekar+temple/@15.3373495,73.9079809,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bbe4daefabe6739:0x2b44f02785a5b2b3!2m2!1d73.9911349!2d15.1455425",
+    "status": "1"
+  },
 ];
