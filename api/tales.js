@@ -22,5 +22,11 @@ var tales = [
 		"name":"Ranmale",
 		"url":"ranmale.html",
 		"status":"1"
+	},
+	{
+		"id":"5",
+		"name":"Seven sister of Goa",
+		"url":"sevensistertale.html",
+		"status":"1"
 	}
 ].filter((res)=>(res.status == "1"));
