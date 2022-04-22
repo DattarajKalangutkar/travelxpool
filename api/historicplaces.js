@@ -78,8 +78,7 @@ var historicdata = [
     "name": "Reis Magos Fort",
     "taluka":"Bardez",
     "desc": "Reis Magos is a fort located on the bank of the Mandovi River in Goa, opposite to the capital city of Panjim. The first church in Bardez.",
-    "images": ["images/historic_places/reis_fort_1.jpeg",
-      "images/historic_places/reis_fort_2.jpeg",
+    "images": ["images/historic_places/reis_fort_2.jpeg",
       "images/historic_places/reis_fort_3.jpeg",
       "images/historic_places/reis_fort_4.jpeg",
       "images/historic_places/reis_fort_5.jpeg"
