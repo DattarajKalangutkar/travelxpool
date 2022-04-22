@@ -59,11 +59,11 @@ var headerData = [
 		"url":"https://www.travelxpool.com/index.html#packages",
 		"status":"1"
 	},
-	{
-		"name":"IPL 2022",
-		"url":"https://www.travelxpool.com/ipl.html",
-		"status":"1"
-	},
+	// {
+	// 	"name":"IPL 2022",
+	// 	"url":"https://www.travelxpool.com/ipl.html",
+	// 	"status":"1"
+	// },
 	{
 		"name":"Contact",
 		"url":"https://www.travelxpool.com/contact.html",
