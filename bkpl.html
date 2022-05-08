@@ -56,7 +56,7 @@
 <section class="ipl" id="packages">
     <h1 class="heading">BKPL 2022</h1>
     <div class="box-container">
-        <div class="box">
+        <!-- <div class="box">
             <div class="swiper image">
                 <div class="live"><h3>.<span id="liveStatus"></span></h3></div>
                 <div style="width:100%">
@@ -85,7 +85,7 @@
                 <h3 id="venue"></h3>
                 <p id="dateMatch"></p>
             </div>
-        </div>
+        </div> -->
 
 
         <div class="box">
@@ -132,31 +132,31 @@
     var defaultImage = 'images/playerimages.png';
     $(document).ready(function()
     {
-        // //Live Data
-        setInterval(LiveMatchUpdate, 30 * 100);
-        function LiveMatchUpdate()
-        {
-            $.ajax({
-                url: "https://treacel.000webhostapp.com/liveMatch.php",
-                dataType: 'json',
-                type: 'GET',
-                success: function(result) {}
-            }).complete(function(result) {
-                //Ipl matches .matches.filter((res)=>(res.id == 4623))
-                let matchesLive = result.responseJSON;
-                $("#teamAname").html(matchesLive.teama);
-                $("#teamAscore").html(matchesLive.scoreA);
-                $("#teamAovers").html(matchesLive.oversA);
-                $("#teamBname").html(matchesLive.teamb);
-                $("#teamBscore").html(matchesLive.scoreB);
-                $("#teamBovers").html(matchesLive.oversB);
-                $("#venue").html(matchesLive.venue);
-                $("#dateMatch").html(matchesLive.date);
-                $("#liveStatus").html(((matchesLive.isLive == 1) ? 'Live':'Upcoming'));
-                $("#matchresult").html(matchesLive.msg);
-                $("#matchStatus").html(matchesLive.match_status)
-            });
-        }
+        // // //Live Data
+        // setInterval(LiveMatchUpdate, 30 * 100);
+        // function LiveMatchUpdate()
+        // {
+        //     $.ajax({
+        //         url: "https://treacel.000webhostapp.com/liveMatch.php",
+        //         dataType: 'json',
+        //         type: 'GET',
+        //         success: function(result) {}
+        //     }).complete(function(result) {
+        //         //Ipl matches .matches.filter((res)=>(res.id == 4623))
+        //         let matchesLive = result.responseJSON;
+        //         $("#teamAname").html(matchesLive.teama);
+        //         $("#teamAscore").html(matchesLive.scoreA);
+        //         $("#teamAovers").html(matchesLive.oversA);
+        //         $("#teamBname").html(matchesLive.teamb);
+        //         $("#teamBscore").html(matchesLive.scoreB);
+        //         $("#teamBovers").html(matchesLive.oversB);
+        //         $("#venue").html(matchesLive.venue);
+        //         $("#dateMatch").html(matchesLive.date);
+        //         $("#liveStatus").html(((matchesLive.isLive == 1) ? 'Live':'Upcoming'));
+        //         $("#matchresult").html(matchesLive.msg);
+        //         $("#matchStatus").html(matchesLive.match_status)
+        //     });
+        // }
         // Upcoming Matches
         $.ajax({
             url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches",
@@ -239,12 +239,6 @@
             $("#standingtable").html(stading_str);
         });
     });
-        
-
-        
-
-        
-
 </script>
 
 
