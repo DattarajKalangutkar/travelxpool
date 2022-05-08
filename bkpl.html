@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Get the Latest News of Live BKPL 2022 Matches,Standing Table List.">
+    <meta name="keywords" content="BKPL 2022">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BKPL 2022 | BKPL LIVE MATCHES | LIVE SCORE</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8040838615694201" crossorigin="anonymous"></script>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/swiper.css" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6TGNH0JXW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-V6TGNH0JXW');
+    </script>
+</head>
+<body>
+<!-- header section starts  -->
+<header class="header">
+    <a href="https://www.travelxpool.com/" title="TravelXPool" class="logo"><i class="fas fa-hiking"></i>TravelXPool</a>
+    <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <div class="headerlink" id="headerlink"></div>
+    </nav>
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <!-- <div id="search-btn" class="fas fa-search"></div> -->
+    </div>
+</header>
+<!-- header section ends -->
+<!-- search form  -->
+<div class="search-form">
+    <div id="close-search" class="fas fa-times"></div>
+    <form action="">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+</div>
+
+<div class="breadcrum">
+    <div class="content">
+        <a href="https://www.travelxpool.com/index.html" title="home">Home</a> 
+        <div class="arrow">>></div> 
+        <a href="https://www.travelxpool.com/ipl.html" id="valueid">BKPL 2022</a> 
+    </div>
+</div>
+
+<!-- packages section starts  -->
+<section class="ipl" id="packages">
+    <h1 class="heading">BKPL 2022</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="swiper image">
+                <div class="live"><h3>.<span id="liveStatus"></span></h3></div>
+                <div style="width:100%">
+                    <h5 id="matchStatus"></h5>
+                </div>
+                <div class="scoreboard">
+                    <div class="firstteam">
+                        <h5 id="teamAname"></h5>
+                        <div class="showLive">
+                            <h2 id="teamAscore"></h2>
+                            <p id="teamAovers"></p>
+                        </div>
+                    </div>
+                    <div><p> V/S </p> </div>
+                    <div class="secondteam">
+                        <h5 id="teamBname"></h5>
+                        <div class="showLive">
+                            <h2 id="teamBscore"></h2>
+                            <p id="teamBovers"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="winscore" id="matchresult"></div>
+                <h3 id="venue"></h3>
+                <p id="dateMatch"></p>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="content">
+                <h3>Standing Table</h3>
+                <div class="scoretable" id="standingtable"></div>
+            </div>
+        </div>
+
+    
+        
+        <div class="box">
+            <div class="content">
+                <h3>Matches</h3>
+                <div class="swiper dailypost1">
+                    <div class="swiper-wrapper" id="upcomingmatches">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <div class="footerlinks" id="footerlinks"></div>
+        </div>
+    </div>
+    <div class="credit">All rights reserved. TravelXPool, 2022</div>
+</section>
+<!-- packages section ends -->
+<script src="js/jquery.js"></script>
+<script src="js/swiper.js"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
+<script src="js/common_function.js"></script>
+<script src="api/footer.js" type="text/javascript"></script>
+<script>
+    var swiperplayer;
+    var defaultImage = 'images/playerimages.png';
+    $(document).ready(function()
+    {
+        // //Live Data
+        setInterval(LiveMatchUpdate, 30 * 100);
+        function LiveMatchUpdate()
+        {
+            $.ajax({
+                url: "https://treacel.000webhostapp.com/liveMatch.php",
+                dataType: 'json',
+                type: 'GET',
+                success: function(result) {}
+            }).complete(function(result) {
+                //Ipl matches .matches.filter((res)=>(res.id == 4623))
+                let matchesLive = result.responseJSON;
+                $("#teamAname").html(matchesLive.teama);
+                $("#teamAscore").html(matchesLive.scoreA);
+                $("#teamAovers").html(matchesLive.oversA);
+                $("#teamBname").html(matchesLive.teamb);
+                $("#teamBscore").html(matchesLive.scoreB);
+                $("#teamBovers").html(matchesLive.oversB);
+                $("#venue").html(matchesLive.venue);
+                $("#dateMatch").html(matchesLive.date);
+                $("#liveStatus").html(((matchesLive.isLive == 1) ? 'Live':'Upcoming'));
+                $("#matchresult").html(matchesLive.msg);
+                $("#matchStatus").html(matchesLive.match_status)
+            });
+        }
+        // Upcoming Matches
+        $.ajax({
+            url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches",
+            dataType: 'json',
+            type: 'GET',
+            success: function(result) {}
+        }).complete(function(result) {
+            //Ipl matches
+            let matchesLive = result.responseJSON.rows;
+            console.log(matchesLive);
+            var str = '';
+            for(let i=0;i<matchesLive.length;i++)
+            {
+                if(i%3 == 0)
+                {
+                    str += '<div class="swiper-slide slide">'; 
+                }
+                str += '<div class="eachBlock">'; 
+                str += '<div class="scoreboardmatch">';
+                str += '<div class="firstteam">';
+                str += '<h2>'+matchesLive[i].teamA+'</h2>';
+                str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
+                str += '<h2>'+matchesLive[i].teamB+'</h2>';
+                str += '</div></div>';
+                str += '<div class="matchdates">';
+                str += matchesLive[i].matchDate+" at "+matchesLive[i].matchTime;
+                str += '</div>';
+                str += '<div class="matchdates" style="margin-top:-10px;">';
+                str += matchesLive[i].matchVenue;
+                str += '</div></div>';
+                if(i%3 == 2)
+                {
+                    str += '</div>';
+                }
+            }
+            $("#upcomingmatches").html(str);
+        });
+
+        $.ajax({
+            url: "https://dattaraj.000webhostapp.com/bkpl/api/team/sample.php?modules=teams",
+            dataType: 'json',
+            type: 'GET',
+            success: function(result) {}
+        }).complete(function(result) {
+            let team = result.responseJSON.rows;
+            let stading_str = '<div class="tablerow"><div class="tablecol">TEAMS</div><div class="tablecol">MP</div><div class="tablecol">W</div><div class="tablecol">L</div><div class="tablecol">GF</div><div class="tablecol">GA</div><div class="tablecol">GD</div><div class="tablecol">YC</div><div class="tablecol">RC</div><div class="tablecol">Pts</div></div>';
+            for(let i=0;i<team.length;i++)
+            {
+                stading_str += '<div class="tablerow"><div class="tablecol">';
+                stading_str += team[i].teamName;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamMatchPlayed;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamWon;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamLost;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamGameFor;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamGameAgainst;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamGameDifference;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamYellow;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamRedCard;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamPoints;
+                stading_str += '</div></div>';
+            }
+            $("#standingtable").html(stading_str);
+        });
+    });
+        
+
+        
+
+        
+
+</script>
+
+
