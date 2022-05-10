@@ -207,7 +207,7 @@
             success: function(result) {}
         }).complete(function(result) {
             let team = result.responseJSON.rows;
-            let stading_str = '<div class="tablerow"><div class="tablecol">TEAMS</div><div class="tablecol">MP</div><div class="tablecol">W</div><div class="tablecol">L</div><div class="tablecol">GF</div><div class="tablecol">GA</div><div class="tablecol">GD</div><div class="tablecol">YC</div><div class="tablecol">RC</div><div class="tablecol">Pts</div></div>';
+            let stading_str = '<div class="tablerow"><div class="tablecol">TEAMS</div><div class="tablecol">MP</div><div class="tablecol">W</div><div class="tablecol">L</div><div class="tablecol">D</div><div class="tablecol">GF</div><div class="tablecol">GA</div><div class="tablecol">GD</div><div class="tablecol">YC</div><div class="tablecol">RC</div><div class="tablecol">Pts</div></div>';
             for(let i=0;i<team.length;i++)
             {
                 stading_str += '<div class="tablerow"><div class="tablecol">';
@@ -221,6 +221,9 @@
                 stading_str += '</div>';
                 stading_str += '<div class="tablecol">';
                 stading_str += team[i].teamLost;
+                stading_str += '</div>';
+                stading_str += '<div class="tablecol">';
+                stading_str += team[i].teamDraw;
                 stading_str += '</div>';
                 stading_str += '<div class="tablecol">';
                 stading_str += team[i].teamGameFor;
