@@ -95,8 +95,6 @@
             </div>
         </div>
 
-    
-        
         <div class="box">
             <div class="content">
                 <h3>Matches</h3>
@@ -153,9 +151,10 @@
                     $("#teamBname").html(matchesLive.teamB);
                     $("#teamBscore").html(matchesLive.ScoreB);
                     $("#venue").html(matchesLive.matchVenue);
-                    $("#dateMatch").html(matchesLive.matchDate);
+                    $("#dateMatch").html("Started : "+matchesLive.matchDate+" "+matchesLive.matchTime);
                     $("#liveStatus").html(((matchesLive.matchLive == 1) ? 'Live':'Upcoming'));
                     $("#matchresult").html(matchesLive.MatchResult);
+                    $("#matchStatus").html(matchesLive.matchesName);
                 }
                 else
                 {
@@ -207,40 +206,40 @@
             success: function(result) {}
         }).complete(function(result) {
             let team = result.responseJSON.rows;
-            let stading_str = '<div class="tablerow"><div class="tablecol">TEAMS</div><div class="tablecol">MP</div><div class="tablecol">W</div><div class="tablecol">L</div><div class="tablecol">D</div><div class="tablecol">GF</div><div class="tablecol">GA</div><div class="tablecol">GD</div><div class="tablecol">YC</div><div class="tablecol">RC</div><div class="tablecol">Pts</div></div>';
+            let stading_str = '<div class="tablerow"><div class="tablecol" style="width:30%;">TEAMS</div><div class="tablecol" style="width:5%;">MP</div><div class="tablecol" style="width:5%;">W</div><div class="tablecol" style="width:5%;">L</div><div class="tablecol" style="width:5%;">D</div><div class="tablecol" style="width:5%;">GF</div><div class="tablecol" style="width:5%;">GA</div><div class="tablecol" style="width:5%;">GD</div><div class="tablecol" style="width:5%;">YC</div><div class="tablecol" style="width:5%;">RC</div><div class="tablecol" style="width:5%;">Pts</div></div>';
             for(let i=0;i<team.length;i++)
             {
-                stading_str += '<div class="tablerow"><div class="tablecol">';
+                stading_str += '<div class="tablerow"><div class="tablecol" style="width:30%;">';
                 stading_str += team[i].teamName;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamMatchPlayed;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamWon;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamLost;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamDraw;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamGameFor;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamGameAgainst;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamGameDifference;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamYellow;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamRedCard;
                 stading_str += '</div>';
-                stading_str += '<div class="tablecol">';
+                stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamPoints;
                 stading_str += '</div></div>';
             }
