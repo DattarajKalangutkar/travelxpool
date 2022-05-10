@@ -38,7 +38,12 @@ var footerData = [
 		"name":"Hidden Places",
 		"url":"https://www.travelxpool.com/hiddenplaces.html",
 		"status":"1"
-	}
+	},
+	{
+		"name":"BKPL 2022",
+		"url":"https://www.travelxpool.com/bkpl.html",
+		"status":"1"
+	},
 ];
 
 document.getElementById("footerlinks").innerHTML = getFooterLink(footerData);
@@ -59,11 +64,11 @@ var headerData = [
 		"url":"https://www.travelxpool.com/index.html#packages",
 		"status":"1"
 	},
-	// {
-	// 	"name":"IPL 2022",
-	// 	"url":"https://www.travelxpool.com/ipl.html",
-	// 	"status":"1"
-	// },
+	{
+		"name":"BKPL 2022",
+		"url":"https://www.travelxpool.com/bkpl.html",
+		"status":"1"
+	},
 	{
 		"name":"Contact",
 		"url":"https://www.travelxpool.com/contact.html",
