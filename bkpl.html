@@ -87,7 +87,16 @@
             </div>
         </div>
 
-
+        <div class="box">
+            <div class="content">
+                <h3>Results</h3>
+                <div class="swiper dailypost1">
+                    <div class="swiper-wrapper" id="resultmatches">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="box">
             <div class="content">
                 <h3>Standing Table</h3>
@@ -105,6 +114,8 @@
                 </div>
             </div>
         </div>
+
+        
     </div>
 </section>
 <section class="footer">
@@ -141,24 +152,27 @@
                 success: function(result) {}
             }).complete(function(result) {
                 //Ipl matches .matches.filter((res)=>(res.id == 4623))
-                let matchesLives = result.responseJSON.rows;
-                if(matchesLives.length > 0)
+                if(result.responseJSON.hasOwnProperty('rows'))
                 {
-                    document.getElementById("liveScore").style.display="block";
-                    let matchesLive = matchesLives[0];
-                    $("#teamAname").html(matchesLive.teamA);
-                    $("#teamAscore").html(matchesLive.ScoreA);
-                    $("#teamBname").html(matchesLive.teamB);
-                    $("#teamBscore").html(matchesLive.ScoreB);
-                    $("#venue").html(matchesLive.matchVenue);
-                    $("#dateMatch").html("Started : "+matchesLive.matchDate+" "+matchesLive.matchTime);
-                    $("#liveStatus").html(((matchesLive.matchLive == 1) ? 'Live':'Upcoming'));
-                    $("#matchresult").html(matchesLive.MatchResult);
-                    $("#matchStatus").html(matchesLive.matchesName);
-                }
-                else
-                {
-                    document.getElementById("liveScore").style.display="none";
+                    let matchesLives = result.responseJSON.rows;
+                    if(matchesLives.length > 0)
+                    {
+                        document.getElementById("liveScore").style.display="block";
+                        let matchesLive = matchesLives[0];
+                        $("#teamAname").html(matchesLive.teamA);
+                        $("#teamAscore").html(matchesLive.ScoreA);
+                        $("#teamBname").html(matchesLive.teamB);
+                        $("#teamBscore").html(matchesLive.ScoreB);
+                        $("#venue").html(matchesLive.matchVenue);
+                        $("#dateMatch").html("Started : "+matchesLive.matchDate+" "+matchesLive.matchTime);
+                        $("#liveStatus").html(((matchesLive.matchLive == 1) ? 'Live':'Upcoming'));
+                        $("#matchresult").html(matchesLive.MatchResult);
+                        $("#matchStatus").html(matchesLive.matchesName);
+                    }
+                    else
+                    {
+                        document.getElementById("liveScore").style.display="none";
+                    }
                 }
             });
         }
@@ -244,6 +258,50 @@
                 stading_str += '</div></div>';
             }
             $("#standingtable").html(stading_str);
+        });
+
+        // Upcoming Matches
+        $.ajax({
+            url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=result",
+            dataType: 'json',
+            type: 'GET',
+            success: function(result) {}
+        }).complete(function(result) {
+            //Ipl matches
+            let matchesResult = result.responseJSON.rows;
+            console.log(matchesResult);
+            var str = '';
+            for(let i=0;i<matchesResult.length;i++)
+            {
+                if(i%3 == 0)
+                {
+                    str += '<div class="swiper-slide slide">'; 
+                }
+                str += '<div class="eachBlock">'; 
+                str += '<div class="matchdates" style="background-color: black;width: 36%;margin-left: 30%;border-radius: 29%;margin-top: -2%;">';
+                str += '<h2>'+matchesResult[i].matchesName+'</h2>';
+                str += '</div>';
+                str += '<div class="scoreboardmatch">';
+                str += '<div class="firstteam">';
+                str += '<h2>'+matchesResult[i].teamA+'</h2>';
+                str += '<h2 style="color:green;">'+matchesResult[i].ScoreA+'</h2>';
+                str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
+                str += '<h2>'+matchesResult[i].teamB+'</h2>';
+                str += '<h2 style="color:green;">'+matchesResult[i].ScoreB+'</h2>';
+                str += '</div></div>';
+                str += '<div class="matchdates">';
+                if(matchesResult[i].WonTeam != null)
+                    str += matchesResult[i].WonTeam+" has won the Match";
+                else
+                    str += "Match was Draw";
+                str += '</div>';
+                str += '</div>';
+                if(i%3 == 2)
+                {
+                    str += '</div>';
+                }
+            }
+            $("#resultmatches").html(str);
         });
     });
 </script>
