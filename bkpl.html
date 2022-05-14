@@ -54,9 +54,10 @@
 
 <!-- packages section starts  -->
 <section class="ipl" id="packages">
-    <h1 class="heading">BKPL 2022</h1>
+    <!-- <h1 class="heading">BKPL 2022</h1> -->
+    <h1 class="heading">Sorry for the inconvenience, The website had some technical issue, will get back soon at before 10.00pm.</h1>
     <div class="box-container">
-        <div class="box" id="liveScore" style="display:none;">
+        <div class="box" id="liveScores" style="display:none;">
             <div class="swiper image">
                 <div class="live"><h3>.<span id="liveStatus"></span></h3></div>
                 <div style="width:100%">
@@ -91,7 +92,7 @@
             <div class="content">
                 <h3>Results</h3>
                 <div class="swiper dailypost1">
-                    <div class="swiper-wrapper" id="resultmatches">
+                    <div class="swiper-wrapper" id="resultmatchess">
                         
                     </div>
                 </div>
@@ -100,7 +101,7 @@
         <div class="box">
             <div class="content">
                 <h3>Standing Table</h3>
-                <div class="scoretable" id="standingtable"></div>
+                <div class="scoretable" id="standingtables"></div>
             </div>
         </div>
 
@@ -108,7 +109,7 @@
             <div class="content">
                 <h3>Matches</h3>
                 <div class="swiper dailypost1">
-                    <div class="swiper-wrapper" id="upcomingmatches">
+                    <div class="swiper-wrapper" id="upcomingmatchess">
                         
                     </div>
                 </div>
@@ -142,170 +143,170 @@
     $(document).ready(function()
     {
         // // // //Live Data
-        setInterval(LiveMatchUpdate, 30 * 100);
-        function LiveMatchUpdate()
-        {
-            $.ajax({
-                url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=live",
-                dataType: 'json',
-                type: 'GET',
-                success: function(result) {}
-            }).complete(function(result) {
-                //Ipl matches .matches.filter((res)=>(res.id == 4623))
-                if(result.responseJSON.hasOwnProperty('rows'))
-                {
-                    let matchesLives = result.responseJSON.rows;
-                    if(matchesLives.length > 0)
-                    {
-                        document.getElementById("liveScore").style.display="block";
-                        let matchesLive = matchesLives[0];
-                        $("#teamAname").html(matchesLive.teamA);
-                        $("#teamAscore").html(matchesLive.ScoreA);
-                        $("#teamBname").html(matchesLive.teamB);
-                        $("#teamBscore").html(matchesLive.ScoreB);
-                        $("#venue").html(matchesLive.matchVenue);
-                        $("#dateMatch").html("Started : "+matchesLive.matchDate+" "+matchesLive.matchTime);
-                        $("#liveStatus").html(((matchesLive.matchLive == 1) ? 'Live':'Upcoming'));
-                        $("#matchresult").html(matchesLive.MatchResult);
-                        $("#matchStatus").html(matchesLive.matchesName);
-                    }
-                    else
-                    {
-                        document.getElementById("liveScore").style.display="none";
-                    }
-                }
-            });
-        }
-        // Upcoming Matches
-        $.ajax({
-            url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=all",
-            dataType: 'json',
-            type: 'GET',
-            success: function(result) {}
-        }).complete(function(result) {
-            //Ipl matches
-            let matchesLive = result.responseJSON.rows;
-            var str = '';
-            for(let i=0;i<matchesLive.length;i++)
-            {
-                if(i%3 == 0)
-                {
-                    str += '<div class="swiper-slide slide">'; 
-                }
-                str += '<div class="eachBlock">'; 
-                str += '<div class="matchdates" style="background-color: black;width: 36%;margin-left: 30%;border-radius: 29%;margin-top: -2%;">';
-                str += '<h2>'+matchesLive[i].matchesName+'</h2>';
-                str += '</div>';
-                str += '<div class="scoreboardmatch">';
-                str += '<div class="firstteam">';
-                str += '<h2>'+matchesLive[i].teamA+'</h2>';
-                str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
-                str += '<h2>'+matchesLive[i].teamB+'</h2>';
-                str += '</div></div>';
-                str += '<div class="matchdates">';
-                str += matchesLive[i].matchDate+" at "+matchesLive[i].matchTime;
-                str += '</div>';
-                str += '<div class="matchdates" style="margin-top:-10px;">';
-                str += matchesLive[i].matchVenue;
-                str += '</div></div>';
-                if(i%3 == 2)
-                {
-                    str += '</div>';
-                }
-            }
-            $("#upcomingmatches").html(str);
-        });
+        // setInterval(LiveMatchUpdate, 30 * 100);
+        // function LiveMatchUpdate()
+        // {
+        //     $.ajax({
+        //         url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=live",
+        //         dataType: 'json',
+        //         type: 'GET',
+        //         success: function(result) {}
+        //     }).complete(function(result) {
+        //         //Ipl matches .matches.filter((res)=>(res.id == 4623))
+        //         if(result.responseJSON.hasOwnProperty('rows'))
+        //         {
+        //             let matchesLives = result.responseJSON.rows;
+        //             if(matchesLives.length > 0)
+        //             {
+        //                 document.getElementById("liveScore").style.display="block";
+        //                 let matchesLive = matchesLives[0];
+        //                 $("#teamAname").html(matchesLive.teamA);
+        //                 $("#teamAscore").html(matchesLive.ScoreA);
+        //                 $("#teamBname").html(matchesLive.teamB);
+        //                 $("#teamBscore").html(matchesLive.ScoreB);
+        //                 $("#venue").html(matchesLive.matchVenue);
+        //                 $("#dateMatch").html("Started : "+matchesLive.matchDate+" "+matchesLive.matchTime);
+        //                 $("#liveStatus").html(((matchesLive.matchLive == 1) ? 'Live':'Upcoming'));
+        //                 $("#matchresult").html(matchesLive.MatchResult);
+        //                 $("#matchStatus").html(matchesLive.matchesName);
+        //             }
+        //             else
+        //             {
+        //                 document.getElementById("liveScore").style.display="none";
+        //             }
+        //         }
+        //     });
+        // }
+        // // Upcoming Matches
+        // $.ajax({
+        //     url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=all",
+        //     dataType: 'json',
+        //     type: 'GET',
+        //     success: function(result) {}
+        // }).complete(function(result) {
+        //     //Ipl matches
+        //     let matchesLive = result.responseJSON.rows;
+        //     var str = '';
+        //     for(let i=0;i<matchesLive.length;i++)
+        //     {
+        //         if(i%3 == 0)
+        //         {
+        //             str += '<div class="swiper-slide slide">'; 
+        //         }
+        //         str += '<div class="eachBlock">'; 
+        //         str += '<div class="matchdates" style="background-color: black;width: 36%;margin-left: 30%;border-radius: 29%;margin-top: -2%;">';
+        //         str += '<h2>'+matchesLive[i].matchesName+'</h2>';
+        //         str += '</div>';
+        //         str += '<div class="scoreboardmatch">';
+        //         str += '<div class="firstteam">';
+        //         str += '<h2>'+matchesLive[i].teamA+'</h2>';
+        //         str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
+        //         str += '<h2>'+matchesLive[i].teamB+'</h2>';
+        //         str += '</div></div>';
+        //         str += '<div class="matchdates">';
+        //         str += matchesLive[i].matchDate+" at "+matchesLive[i].matchTime;
+        //         str += '</div>';
+        //         str += '<div class="matchdates" style="margin-top:-10px;">';
+        //         str += matchesLive[i].matchVenue;
+        //         str += '</div></div>';
+        //         if(i%3 == 2)
+        //         {
+        //             str += '</div>';
+        //         }
+        //     }
+        //     $("#upcomingmatches").html(str);
+        // });
 
-        $.ajax({
-            url: "https://dattaraj.000webhostapp.com/bkpl/api/team/sample.php?modules=teams",
-            dataType: 'json',
-            type: 'GET',
-            success: function(result) {}
-        }).complete(function(result) {
-            let team = result.responseJSON.rows;
-            let stading_str = '<div class="tablerow"><div class="tablecol" style="width:30%;">TEAMS</div><div class="tablecol" style="width:5%;">MP</div><div class="tablecol" style="width:5%;">W</div><div class="tablecol" style="width:5%;">L</div><div class="tablecol" style="width:5%;">D</div><div class="tablecol" style="width:5%;">GF</div><div class="tablecol" style="width:5%;">GA</div><div class="tablecol" style="width:5%;">GD</div><div class="tablecol" style="width:5%;">YC</div><div class="tablecol" style="width:5%;">RC</div><div class="tablecol" style="width:5%;">Pts</div></div>';
-            for(let i=0;i<team.length;i++)
-            {
-                stading_str += '<div class="tablerow"><div class="tablecol" style="width:30%;">';
-                stading_str += team[i].teamName;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamMatchPlayed;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamWon;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamLost;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamDraw;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamGameFor;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamGameAgainst;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamGameDifference;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamYellow;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamRedCard;
-                stading_str += '</div>';
-                stading_str += '<div class="tablecol" style="width:5%;">';
-                stading_str += team[i].teamPoints;
-                stading_str += '</div></div>';
-            }
-            $("#standingtable").html(stading_str);
-        });
+        // $.ajax({
+        //     url: "https://dattaraj.000webhostapp.com/bkpl/api/team/sample.php?modules=teams",
+        //     dataType: 'json',
+        //     type: 'GET',
+        //     success: function(result) {}
+        // }).complete(function(result) {
+        //     let team = result.responseJSON.rows;
+        //     let stading_str = '<div class="tablerow"><div class="tablecol" style="width:30%;">TEAMS</div><div class="tablecol" style="width:5%;">MP</div><div class="tablecol" style="width:5%;">W</div><div class="tablecol" style="width:5%;">L</div><div class="tablecol" style="width:5%;">D</div><div class="tablecol" style="width:5%;">GF</div><div class="tablecol" style="width:5%;">GA</div><div class="tablecol" style="width:5%;">GD</div><div class="tablecol" style="width:5%;">YC</div><div class="tablecol" style="width:5%;">RC</div><div class="tablecol" style="width:5%;">Pts</div></div>';
+        //     for(let i=0;i<team.length;i++)
+        //     {
+        //         stading_str += '<div class="tablerow"><div class="tablecol" style="width:30%;">';
+        //         stading_str += team[i].teamName;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamMatchPlayed;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamWon;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamLost;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamDraw;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamGameFor;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamGameAgainst;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamGameDifference;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamYellow;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamRedCard;
+        //         stading_str += '</div>';
+        //         stading_str += '<div class="tablecol" style="width:5%;">';
+        //         stading_str += team[i].teamPoints;
+        //         stading_str += '</div></div>';
+        //     }
+        //     $("#standingtable").html(stading_str);
+        // });
 
-        // Upcoming Matches
-        $.ajax({
-            url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=result",
-            dataType: 'json',
-            type: 'GET',
-            success: function(result) {}
-        }).complete(function(result) {
-            //Ipl matches
-            let matchesResult = result.responseJSON.rows;
-            console.log(matchesResult);
-            var str = '';
-            for(let i=0;i<matchesResult.length;i++)
-            {
-                if(i%3 == 0)
-                {
-                    str += '<div class="swiper-slide slide">'; 
-                }
-                str += '<div class="eachBlock">'; 
-                str += '<div class="matchdates" style="background-color: black;width: 36%;margin-left: 30%;border-radius: 29%;margin-top: -2%;">';
-                str += '<h2>'+matchesResult[i].matchesName+'</h2>';
-                str += '</div>';
-                str += '<div class="scoreboardmatch">';
-                str += '<div class="firstteam">';
-                str += '<h2>'+matchesResult[i].teamA+'</h2>';
-                str += '<h2 style="color:green;">'+matchesResult[i].ScoreA+'</h2>';
-                str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
-                str += '<h2>'+matchesResult[i].teamB+'</h2>';
-                str += '<h2 style="color:green;">'+matchesResult[i].ScoreB+'</h2>';
-                str += '</div></div>';
-                str += '<div class="matchdates">';
-                if(matchesResult[i].WonTeam != null)
-                    str += matchesResult[i].WonTeam+" has won the Match";
-                else
-                    str += "Match was Draw";
-                str += '</div>';
-                str += '</div>';
-                if(i%3 == 2)
-                {
-                    str += '</div>';
-                }
-            }
-            $("#resultmatches").html(str);
-        });
+        // // Upcoming Matches
+        // $.ajax({
+        //     url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=result",
+        //     dataType: 'json',
+        //     type: 'GET',
+        //     success: function(result) {}
+        // }).complete(function(result) {
+        //     //Ipl matches
+        //     let matchesResult = result.responseJSON.rows;
+        //     console.log(matchesResult);
+        //     var str = '';
+        //     for(let i=0;i<matchesResult.length;i++)
+        //     {
+        //         if(i%3 == 0)
+        //         {
+        //             str += '<div class="swiper-slide slide">'; 
+        //         }
+        //         str += '<div class="eachBlock">'; 
+        //         str += '<div class="matchdates" style="background-color: black;width: 36%;margin-left: 30%;border-radius: 29%;margin-top: -2%;">';
+        //         str += '<h2>'+matchesResult[i].matchesName+'</h2>';
+        //         str += '</div>';
+        //         str += '<div class="scoreboardmatch">';
+        //         str += '<div class="firstteam">';
+        //         str += '<h2>'+matchesResult[i].teamA+'</h2>';
+        //         str += '<h2 style="color:green;">'+matchesResult[i].ScoreA+'</h2>';
+        //         str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
+        //         str += '<h2>'+matchesResult[i].teamB+'</h2>';
+        //         str += '<h2 style="color:green;">'+matchesResult[i].ScoreB+'</h2>';
+        //         str += '</div></div>';
+        //         str += '<div class="matchdates">';
+        //         if(matchesResult[i].WonTeam != null)
+        //             str += matchesResult[i].WonTeam+" has won the Match";
+        //         else
+        //             str += "Match was Draw";
+        //         str += '</div>';
+        //         str += '</div>';
+        //         if(i%3 == 2)
+        //         {
+        //             str += '</div>';
+        //         }
+        //     }
+        //     $("#resultmatches").html(str);
+        // });
     });
 </script>
 
