@@ -104,7 +104,7 @@
             </div>
         </div>
 
-        <div class="box">
+<!--         <div class="box">
             <div class="content">
                 <h3>Matches</h3>
                 <div class="swiper dailypost1">
@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         
     </div>
@@ -177,52 +177,46 @@
             });
         }
         // Upcoming Matches
-        $.ajax({
-            url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=all",
-            dataType: 'json',
-            type: 'GET',
-            success: function(result) {}
-        }).complete(function(result) {
-            //Ipl matches
-            let matchesLive = result.responseJSON.rows;
-            var str = '';
-            for(let i=0;i<matchesLive.length;i++)
-            {
-                if(i%3 == 0)
-                {
-                    str += '<div class="swiper-slide slide">'; 
-                }
-                str += '<div class="eachBlock">'; 
-                str += '<div class="matchdates" style="background-color: black;width: 36%;margin-left: 30%;border-radius: 29%;margin-top: -2%;">';
-                str += '<h2>'+matchesLive[i].matchesName+'</h2>';
-                str += '</div>';
-                str += '<div class="scoreboardmatch">';
-                str += '<div class="firstteam">';
-                str += '<h2>'+matchesLive[i].teamA+'</h2>';
-                str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
-                str += '<h2>'+matchesLive[i].teamB+'</h2>';
-                str += '</div></div>';
-                str += '<div class="matchdates">';
-                str += matchesLive[i].matchDate+" at "+matchesLive[i].matchTime;
-                str += '</div>';
-                str += '<div class="matchdates" style="margin-top:-10px;">';
-                str += matchesLive[i].matchVenue;
-                str += '</div></div>';
-                if(i%3 == 2)
-                {
-                    str += '</div>';
-                }
-            }
-            $("#upcomingmatches").html(str);
-        });
+        // $.ajax({
+        //     url: "https://dattaraj.000webhostapp.com/bkpl/api/team/matches.php?modules=matches&identifier=all",
+        //     dataType: 'json',
+        //     type: 'GET',
+        //     success: function(result) {}
+        // }).complete(function(result) {
+        //     //Ipl matches
+        //     let matchesLive = result.responseJSON.rows;
+        //     var str = '';
+        //     for(let i=0;i<matchesLive.length;i++)
+        //     {
+        //         if(i%3 == 0)
+        //         {
+        //             str += '<div class="swiper-slide slide">'; 
+        //         }
+        //         str += '<div class="eachBlock">'; 
+        //         str += '<div class="matchdates" style="background-color: black;width: 36%;margin-left: 30%;border-radius: 29%;margin-top: -2%;">';
+        //         str += '<h2>'+matchesLive[i].matchesName+'</h2>';
+        //         str += '</div>';
+        //         str += '<div class="scoreboardmatch">';
+        //         str += '<div class="firstteam">';
+        //         str += '<h2>'+matchesLive[i].teamA+'</h2>';
+        //         str += '</div><div class="firstteam"><p>V/S</p></div><div class="secondteam">';
+        //         str += '<h2>'+matchesLive[i].teamB+'</h2>';
+        //         str += '</div></div>';
+        //         str += '<div class="matchdates">';
+        //         str += matchesLive[i].matchDate+" at "+matchesLive[i].matchTime;
+        //         str += '</div>';
+        //         str += '<div class="matchdates" style="margin-top:-10px;">';
+        //         str += matchesLive[i].matchVenue;
+        //         str += '</div></div>';
+        //         if(i%3 == 2)
+        //         {
+        //             str += '</div>';
+        //         }
+        //     }
+        //     $("#upcomingmatches").html(str);
+        // });
 
-        $.ajax({
-            url: "https://dattaraj.000webhostapp.com/bkpl/api/team/sample.php?modules=teams",
-            dataType: 'json',
-            type: 'GET',
-            success: function(result) {}
-        }).complete(function(result) {
-            let team = result.responseJSON.rows;
+            let team = [{"id":"4","teamName":"Om Sai","teamPoints":"15","teamMatchPlayed":"8","teamWon":"4","teamLost":"1","teamDraw":"3","teamGameFor":"4","teamGameAgainst":"2","teamGameDifference":"2","teamYellow":"2","teamRedCard":"0","teamQualified":"1","createdDate":"2022-05-08 05:08:46","rescuerStatus":"1"},{"id":"7","teamName":"Jagdamba","teamPoints":"11","teamMatchPlayed":"8","teamWon":"2","teamLost":"1","teamDraw":"5","teamGameFor":"5","teamGameAgainst":"2","teamGameDifference":"3","teamYellow":"0","teamRedCard":"0","teamQualified":"1","createdDate":"2022-05-08 05:55:46","rescuerStatus":"1"},{"id":"3","teamName":"Aai Lairai","teamPoints":"11","teamMatchPlayed":"8","teamWon":"2","teamLost":"1","teamDraw":"5","teamGameFor":"4","teamGameAgainst":"2","teamGameDifference":"2","teamYellow":"1","teamRedCard":"0","teamQualified":"1","createdDate":"2022-05-08 05:57:45","rescuerStatus":"1"},{"id":"5","teamName":"Mallikarjun","teamPoints":"11","teamMatchPlayed":"8","teamWon":"2","teamLost":"1","teamDraw":"5","teamGameFor":"5","teamGameAgainst":"3","teamGameDifference":"2","teamYellow":"1","teamRedCard":"0","teamQualified":"1","createdDate":"2022-05-08 05:33:46","rescuerStatus":"1"},{"id":"9","teamName":"Man united","teamPoints":"11","teamMatchPlayed":"8","teamWon":"2","teamLost":"1","teamDraw":"5","teamGameFor":"6","teamGameAgainst":"5","teamGameDifference":"1","teamYellow":"1","teamRedCard":"1","teamQualified":"0","createdDate":"2022-05-08 05:31:47","rescuerStatus":"1"},{"id":"8","teamName":"Bhrama","teamPoints":"11","teamMatchPlayed":"8","teamWon":"2","teamLost":"1","teamDraw":"5","teamGameFor":"4","teamGameAgainst":"3","teamGameDifference":"1","teamYellow":"4","teamRedCard":"2","teamQualified":"0","createdDate":"2022-05-08 05:03:47","rescuerStatus":"1"},{"id":"1","teamName":"V Striker","teamPoints":"11","teamMatchPlayed":"8","teamWon":"3","teamLost":"3","teamDraw":"2","teamGameFor":"7","teamGameAgainst":"7","teamGameDifference":"0","teamYellow":"0","teamRedCard":"0","teamQualified":"0","createdDate":"2022-05-08 05:04:45","rescuerStatus":"1"},{"id":"6","teamName":"Ridh","teamPoints":"7","teamMatchPlayed":"8","teamWon":"1","teamLost":"3","teamDraw":"4","teamGameFor":"5","teamGameAgainst":"9","teamGameDifference":"-4","teamYellow":"2","teamRedCard":"0","teamQualified":"0","createdDate":"2022-05-08 05:43:46","rescuerStatus":"1"},{"id":"2","teamName":"Mandodari","teamPoints":"2","teamMatchPlayed":"8","teamWon":"0","teamLost":"6","teamDraw":"2","teamGameFor":"1","teamGameAgainst":"8","teamGameDifference":"-7","teamYellow":"2","teamRedCard":"0","teamQualified":"0","createdDate":"2022-05-08 05:42:45","rescuerStatus":"1"}];
             let stading_str = '<div class="tablerow"><div class="tablecol" style="width:30%;">TEAMS</div><div class="tablecol" style="width:5%;">MP</div><div class="tablecol" style="width:5%;">W</div><div class="tablecol" style="width:5%;">L</div><div class="tablecol" style="width:5%;">D</div><div class="tablecol" style="width:5%;">GF</div><div class="tablecol" style="width:5%;">GA</div><div class="tablecol" style="width:5%;">GD</div><div class="tablecol" style="width:5%;">YC</div><div class="tablecol" style="width:5%;">RC</div><div class="tablecol" style="width:5%;">Pts</div></div>';
             for(let i=0;i<team.length;i++)
             { 
@@ -268,7 +262,6 @@
                 stading_str += '</div></div>';
             }
             $("#standingtable").html(stading_str);
-        });
 
         // Upcoming Matches
         $.ajax({
