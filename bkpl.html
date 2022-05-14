@@ -226,11 +226,15 @@
             let stading_str = '<div class="tablerow"><div class="tablecol" style="width:30%;">TEAMS</div><div class="tablecol" style="width:5%;">MP</div><div class="tablecol" style="width:5%;">W</div><div class="tablecol" style="width:5%;">L</div><div class="tablecol" style="width:5%;">D</div><div class="tablecol" style="width:5%;">GF</div><div class="tablecol" style="width:5%;">GA</div><div class="tablecol" style="width:5%;">GD</div><div class="tablecol" style="width:5%;">YC</div><div class="tablecol" style="width:5%;">RC</div><div class="tablecol" style="width:5%;">Pts</div></div>';
             for(let i=0;i<team.length;i++)
             { 
-                if(team[i].teamQualified == '1')
+                if(team[i].teamQualified == '1'){
                     stading_str += '<div class="tablerow" style="background-color:#518cbf;"><div class="tablecol" style="width:30%;">';
-                else
+                    stading_str += "(Q) "+team[i].teamName;
+                }
+                else{
                     stading_str += '<div class="tablerow"><div class="tablecol" style="width:30%;">';
-                stading_str += team[i].teamName;
+                    stading_str += team[i].teamName;
+                }
+                
                 stading_str += '</div>';
                 stading_str += '<div class="tablecol" style="width:5%;">';
                 stading_str += team[i].teamMatchPlayed;
